@@ -1,0 +1,99 @@
+{
+  "chunk_analysis": [
+    {
+      "chunk_size": 256,
+      "num_chunks": 12885,
+      "accuracy": 80.0,
+      "avg_latency": 1.5538805961608886,
+      "index_time": 2.596174955368042
+    },
+    {
+      "chunk_size": 512,
+      "num_chunks": 6276,
+      "accuracy": 60.0,
+      "avg_latency": 1.6673869132995605,
+      "index_time": 1.6295287609100342
+    },
+    {
+      "chunk_size": 1024,
+      "num_chunks": 3235,
+      "accuracy": 80.0,
+      "avg_latency": 1.129295539855957,
+      "index_time": 1.7741057872772217
+    },
+    {
+      "chunk_size": 2048,
+      "num_chunks": 1775,
+      "accuracy": 80.0,
+      "avg_latency": 1.1261862754821776,
+      "index_time": 3.016148090362549
+    }
+  ],
+  "cost_analysis": [
+    {
+      "scale": 1000,
+      "index_cost": 0.015000000000000001,
+      "cost_per_query": 0.0020050000000000003,
+      "cost_1k_queries": 2.0050000000000003,
+      "cost_1m_queries": 2005.0000000000002
+    },
+    {
+      "scale": 10000,
+      "index_cost": 0.15,
+      "cost_per_query": 0.0020050000000000003,
+      "cost_1k_queries": 2.0050000000000003,
+      "cost_1m_queries": 2005.0000000000002
+    },
+    {
+      "scale": 100000,
+      "index_cost": 1.5,
+      "cost_per_query": 0.0020050000000000003,
+      "cost_1k_queries": 2.0050000000000003,
+      "cost_1m_queries": 2005.0000000000002
+    },
+    {
+      "scale": 1000000,
+      "index_cost": 15.0,
+      "cost_per_query": 0.0020050000000000003,
+      "cost_1k_queries": 2.0050000000000003,
+      "cost_1m_queries": 2005.0000000000002
+    }
+  ],
+  "latency_projection": [
+    {
+      "scale": 6447,
+      "chunks": 6447,
+      "flat_index_latency": 1.14,
+      "ivf_index_latency": 1.14,
+      "total_recommended": 1.94
+    },
+    {
+      "scale": 10000,
+      "chunks": 10000,
+      "flat_index_latency": 1.7682643089809211,
+      "ivf_index_latency": 1.1970522053255492,
+      "total_recommended": 1.9970522053255493
+    },
+    {
+      "scale": 100000,
+      "chunks": 100000,
+      "flat_index_latency": 17.68264308980921,
+      "ivf_index_latency": 1.4963152566569364,
+      "total_recommended": 2.2963152566569365
+    },
+    {
+      "scale": 1000000,
+      "chunks": 1000000,
+      "flat_index_latency": 176.82643089809213,
+      "ivf_index_latency": 1.7955783079883236,
+      "total_recommended": 2.5955783079883235
+    },
+    {
+      "scale": 10000000,
+      "chunks": 10000000,
+      "flat_index_latency": 1768.264308980921,
+      "ivf_index_latency": 2.094841359319711,
+      "total_recommended": 2.8948413593197113
+    }
+  ]
+}

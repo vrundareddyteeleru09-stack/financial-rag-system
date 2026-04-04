@@ -2,7 +2,7 @@
   "strategy1": {
     "strategy": "Strategy 1 \u2014 Pure Vector Search",
     "accuracy": 90.0,
-    "avg_latency": 1.1408328771591187,
+    "avg_latency": 1.3826271891593933,
     "correct": 18,
     "total": 20,
     "results": [
@@ -10,9 +10,9 @@
         "id": 1,
         "category": "financial_figures",
         "question": "What was Berkshire Hathaway's total revenue in 2024?",
-        "answer": "Based on the provided context, there is no information available regarding Berkshire Hathaway's total revenue in 2024. The documents only provide financial data up to the year 2023.",
+        "answer": "Based on the provided context, Berkshire Hathaway's total revenue in 2024 is not explicitly mentioned. The information provided only includes data for the years 2020, 2021, 2022, and 2023.",
         "passed": false,
-        "latency": 1.487745761871338
+        "latency": 2.063231945037842
       },
       {
         "id": 2,
@@ -20,7 +20,7 @@
         "question": "What are Berkshire Hathaway's main business segments?",
         "answer": "Berkshire Hathaway's main business segments are insurance businesses conducted on both a primary basis and a reinsurance basis, a freight rail transportation business, and a group of utility and energy generation and distribution.",
         "passed": true,
-        "latency": 1.0576848983764648
+        "latency": 1.1478350162506104
       },
       {
         "id": 3,
@@ -28,7 +28,7 @@
         "question": "Who is the CEO of Berkshire Hathaway?",
         "answer": "Warren E. Buffett is the CEO of Berkshire Hathaway.",
         "passed": true,
-        "latency": 0.7752361297607422
+        "latency": 0.900507926940918
       },
       {
         "id": 4,
@@ -36,7 +36,7 @@
         "question": "Where is Berkshire Hathaway headquartered?",
         "answer": "Berkshire Hathaway is headquartered in Omaha, Nebraska.",
         "passed": true,
-        "latency": 0.9473521709442139
+        "latency": 1.187896966934204
       },
       {
         "id": 5,
@@ -44,7 +44,7 @@
         "question": "What is BNSF?",
         "answer": "BNSF stands for Burlington Northern Santa Fe, which operates one of the largest railroad systems in North America.",
         "passed": true,
-        "latency": 0.8637540340423584
+        "latency": 0.8527328968048096
       },
       {
         "id": 6,
@@ -52,7 +52,7 @@
         "question": "What was Berkshire Hathaway's net earnings in 2024?",
         "answer": "Based on the provided context, Berkshire Hathaway's net earnings in 2024 were not explicitly mentioned. The information provided only includes data up to the year 2023.",
         "passed": false,
-        "latency": 1.5291099548339844
+        "latency": 1.5321400165557861
       },
       {
         "id": 7,
@@ -60,7 +60,7 @@
         "question": "What insurance companies does Berkshire own?",
         "answer": "Based on the provided context, Berkshire Hathaway owns the following insurance companies:\n1. GEICO\n2. Berkshire Hathaway Reinsurance Group\n3. General Re\n4. Berkshire Hathaway Homestate Companies\n5. Berkshire Hathaway Specialty\n6. Berkshire Hathaway GUARD Insurance Companies\n7. MedPro Group Inc.",
         "passed": true,
-        "latency": 1.4582111835479736
+        "latency": 1.436337947845459
       },
       {
         "id": 8,
@@ -68,7 +68,7 @@
         "question": "What is Berkshire Hathaway Energy?",
         "answer": "Berkshire Hathaway Energy is a global energy company with subsidiaries and affiliates that generate, transmit, store, distribute, and supply energy. It is comprised of regulated utility companies serving retail customers and interstate natural gas pipeline companies.",
         "passed": true,
-        "latency": 1.0310862064361572
+        "latency": 1.2284340858459473
       },
       {
         "id": 9,
@@ -76,7 +76,7 @@
         "question": "What cybersecurity risks does Berkshire mention?",
         "answer": "Berkshire mentions cybersecurity risks related to cyber-attacks on third-party service providers that could have a significant financial, operational, or reputational impact on Berkshire and its Business Groups. They also mention the importance of maintaining processes for identifying, assessing, and managing cybersecurity threats to deal with significant business risks.",
         "passed": true,
-        "latency": 1.1315488815307617
+        "latency": 2.6629250049591064
       },
       {
         "id": 10,
@@ -84,7 +84,7 @@
         "question": "What climate risks does Berkshire mention?",
         "answer": "Berkshire mentions the risk of failure to comply with new or existing regulations or reinterpretation of existing regulations relating to climate change, which could have a significant adverse effect on their financial results.",
         "passed": true,
-        "latency": 0.9626150131225586
+        "latency": 1.1308069229125977
       },
       {
         "id": 11,
@@ -92,7 +92,7 @@
         "question": "What is Berkshire's investment in Apple?",
         "answer": "Berkshire's investment in Apple includes owning 5.4% of Apple's shares, which increased from 5.2% after Apple continuously repurchased its shares.",
         "passed": true,
-        "latency": 0.9335670471191406
+        "latency": 1.1232500076293945
       },
       {
         "id": 12,
@@ -100,15 +100,15 @@
         "question": "How does Berkshire Hathaway make money from insurance?",
         "answer": "Berkshire Hathaway makes money from insurance through its insurance underwriting operations, which include groups such as GEICO, Berkshire Hathaway Primary Group, and Berkshire Hathaway Reinsurance Group. They generate revenue from underwriting premiums, investment income, and other sources within their insurance businesses.",
         "passed": true,
-        "latency": 1.0411579608917236
+        "latency": 1.3355040550231934
       },
       {
         "id": 13,
         "category": "financial_figures",
         "question": "What was GEICO's performance in 2024?",
-        "answer": "GEICO's performance in 2024 was described as delivering a major increase in earnings, led by Todd Combs reshaping the company in a major way, increasing efficiency, and bringing underwriting practices up to date. The improvement in 2024 was considered spectacular.",
+        "answer": "In 2024, GEICO delivered a major increase in earnings and experienced a significant improvement in performance, led by Todd Combs' efforts to reshape the company.",
         "passed": true,
-        "latency": 1.0503900051116943
+        "latency": 1.1486809253692627
       },
       {
         "id": 14,
@@ -116,15 +116,15 @@
         "question": "What are the main risks Berkshire faces in its energy business?",
         "answer": "The main risks Berkshire faces in its energy business include uncertainties related to financial surprises, potential changes in the utility industry that may impact attracting savings from American citizens, and the potential adverse effects of failing to comply with regulations or reinterpretations related to climate change.",
         "passed": true,
-        "latency": 1.1746430397033691
+        "latency": 1.3002560138702393
       },
       {
         "id": 15,
         "category": "strategy",
         "question": "What is Berkshire's approach to acquisitions?",
-        "answer": "Based on the provided context, Berkshire's approach to acquisitions involves looking at the financial records of companies and being amazed at the low prices of their stocks. They admire the capital deployment, managements, and attitude of the companies they are interested in acquiring. Berkshire also aims to have meaningful investments in businesses with durable qualities and seeks opportunities for partnerships with well-managed companies around the world.",
+        "answer": "Based on the provided context, Berkshire's approach to acquisitions involves looking at the financial records of companies and being amazed at the low prices of their stocks. They admire the capital deployment, managements, and attitude of the companies in respect to their investors. Berkshire also aims to have meaningful investments in businesses with durable qualities and seeks opportunities for partnerships with well-managed companies around the world.",
         "passed": true,
-        "latency": 1.4343819618225098
+        "latency": 1.229537010192871
       },
       {
         "id": 16,
@@ -132,7 +132,7 @@
         "question": "How many employees does Berkshire Hathaway have?",
         "answer": "Based on the provided context, Berkshire Hathaway employed approximately 372,000 people worldwide at the end of 2021.",
         "passed": true,
-        "latency": 1.2915079593658447
+        "latency": 1.639997959136963
       },
       {
         "id": 17,
@@ -140,7 +140,7 @@
         "question": "What is Berkshire's cash position?",
         "answer": "Berkshire Hathaway's cash position at the end of 2021 was $144 billion, with $120 billion held in U.S. Treasury bills.",
         "passed": true,
-        "latency": 0.8673560619354248
+        "latency": 1.7394921779632568
       },
       {
         "id": 18,
@@ -148,7 +148,7 @@
         "question": "What stock exchanges is Berkshire listed on?",
         "answer": "Berkshire's Class A and Class B common stock are listed for trading on the New York Stock Exchange.",
         "passed": true,
-        "latency": 1.2216742038726807
+        "latency": 0.9195189476013184
       },
       {
         "id": 19,
@@ -156,7 +156,7 @@
         "question": "What are the main competitive risks Berkshire faces?",
         "answer": "The main competitive risks Berkshire faces are related to the inability to recruit, train, and retain qualified and competent managers and personnel, which could negatively affect the operating results, financial condition, and liquidity of its subsidiaries and Berkshire as a whole. Additionally, investments being unusually concentrated in equity securities pose a risk as their fair values are subject to loss in value.",
         "passed": true,
-        "latency": 1.3287701606750488
+        "latency": 1.845700979232788
       },
       {
         "id": 20,
@@ -164,14 +164,14 @@
         "question": "What is Berkshire's book value per share?",
         "answer": "Based on the provided context, Berkshire's book value per share is not explicitly mentioned. The information provided mainly focuses on net earnings, earnings per share, total assets, and other financial metrics, but the book value per share is not directly stated.",
         "passed": true,
-        "latency": 1.2288649082183838
+        "latency": 1.2277569770812988
       }
     ]
   },
   "strategy2": {
     "strategy": "Strategy 2 \u2014 Metadata Filter 2024",
     "accuracy": 90.0,
-    "avg_latency": 0.9493733525276185,
+    "avg_latency": 1.0705423474311828,
     "correct": 18,
     "total": 20,
     "results": [
@@ -181,176 +181,7 @@
         "question": "What was Berkshire Hathaway's total revenue in 2024?",
         "answer": "Berkshire Hathaway's total revenue in 2024 was $321,643 million.",
         "passed": true,
-        "latency": 0.8624777793884277
-      },
-      {
-        "id": 2,
-        "category": "business_overview",
-        "question": "What are Berkshire Hathaway's main business segments?",
-        "answer": "Berkshire Hathaway's main business segments are insurance, freight rail transportation, utility and energy generation, and distribution, as well as manufacturing businesses categorized into industrial products, building products, and consumer products.",
-        "passed": true,
-        "latency": 1.5577831268310547
-      },
-      {
-        "id": 3,
-        "category": "company_info",
-        "question": "Who is the CEO of Berkshire Hathaway?",
-        "answer": "Warren E. Buffett is the CEO of Berkshire Hathaway.",
-        "passed": true,
-        "latency": 0.6526219844818115
-      },
-      {
-        "id": 4,
-        "category": "company_info",
-        "question": "Where is Berkshire Hathaway headquartered?",
-        "answer": "Berkshire Hathaway is headquartered in Omaha, Nebraska.",
-        "passed": true,
-        "latency": 0.547572135925293
-      },
-      {
-        "id": 5,
-        "category": "business_overview",
-        "question": "What is BNSF?",
-        "answer": "BNSF stands for Burlington Northern Santa Fe, which operates one of the largest railroad systems in North America.",
-        "passed": true,
-        "latency": 0.9092748165130615
-      },
-      {
-        "id": 6,
-        "category": "financial_figures",
-        "question": "What was Berkshire Hathaway's net earnings in 2024?",
-        "answer": "Berkshire Hathaway's net earnings in 2024 were $1.1 billion.",
-        "passed": true,
-        "latency": 0.6332471370697021
-      },
-      {
-        "id": 7,
-        "category": "business_overview",
-        "question": "What insurance companies does Berkshire own?",
-        "answer": "Berkshire Hathaway owns GEICO, Berkshire Hathaway Reinsurance Group, General Re, Berkshire Hathaway Direct, Berkshire Hathaway Homestate Companies, Berkshire Hathaway Specialty, GUARD Insurance Companies, and MedPro Group.",
-        "passed": true,
-        "latency": 0.9222447872161865
-      },
-      {
-        "id": 8,
-        "category": "business_overview",
-        "question": "What is Berkshire Hathaway Energy?",
-        "answer": "Berkshire Hathaway Energy is a holding company with subsidiaries that primarily operate within the energy industry.",
-        "passed": true,
-        "latency": 0.7154409885406494
-      },
-      {
-        "id": 9,
-        "category": "risk_factors",
-        "question": "What cybersecurity risks does Berkshire mention?",
-        "answer": "Berkshire mentions cybersecurity risks related to third-party service providers, cyber-attacks on service providers, financial, operational, and reputational impacts, and the need to maintain processes for identifying, assessing, and managing cybersecurity threats.",
-        "passed": true,
-        "latency": 0.9128611087799072
-      },
-      {
-        "id": 10,
-        "category": "risk_factors",
-        "question": "What climate risks does Berkshire mention?",
-        "answer": "Berkshire mentions risks related to greenhouse gas (GHG) emissions and climate-related policies that could impact their businesses, particularly BNSF and BHE, which represent more than 90% of Berkshire's direct emissions.",
-        "passed": true,
-        "latency": 0.9149699211120605
-      },
-      {
-        "id": 11,
-        "category": "investments",
-        "question": "What is Berkshire's investment in Apple?",
-        "answer": "Based on the provided context, there is no specific mention of Berkshire's investment in Apple.",
-        "passed": true,
-        "latency": 0.6198022365570068
-      },
-      {
-        "id": 12,
-        "category": "business_overview",
-        "question": "How does Berkshire Hathaway make money from insurance?",
-        "answer": "Berkshire Hathaway makes money from insurance by providing insurance and reinsurance of property and casualty risks as well as life and health risks worldwide through its numerous domestic and foreign-based insurance subsidiaries.",
-        "passed": false,
-        "latency": 1.0342810153961182
-      },
-      {
-        "id": 13,
-        "category": "financial_figures",
-        "question": "What was GEICO's performance in 2024?",
-        "answer": "GEICO's performance in 2024 was strong, with a major increase in earnings and a significant improvement in underwriting results. Todd Combs played a key role in reshaping GEICO and achieving spectacular improvements in 2024.",
-        "passed": true,
-        "latency": 1.5331082344055176
-      },
-      {
-        "id": 14,
-        "category": "risk_factors",
-        "question": "What are the main risks Berkshire faces in its energy business?",
-        "answer": "Based on the provided context, the main risks Berkshire faces in its energy business are not specified.",
-        "passed": false,
-        "latency": 1.1210951805114746
-      },
-      {
-        "id": 15,
-        "category": "strategy",
-        "question": "What is Berkshire's approach to acquisitions?",
-        "answer": "Based on the provided context, Berkshire's approach to acquisitions involves making purchases based on low stock prices, admiring the companies' capital deployment, managements, and attitude towards investors. Berkshire holds these acquisitions for the long term and supports their boards of directors. Additionally, Berkshire aims to keep its holdings in these companies below 10%.",
-        "passed": true,
-        "latency": 1.345308780670166
-      },
-      {
-        "id": 16,
-        "category": "company_info",
-        "question": "How many employees does Berkshire Hathaway have?",
-        "answer": "Berkshire Hathaway and its operating subsidiaries employed approximately 392,400 people worldwide at the end of 2024.",
-        "passed": true,
-        "latency": 0.9682097434997559
-      },
-      {
-        "id": 17,
-        "category": "financial_figures",
-        "question": "What is Berkshire's cash position?",
-        "answer": "Based on the provided context, Berkshire's cash position is described as having an extraordinary amount of cash, with the majority of the money remaining in equities.",
-        "passed": true,
-        "latency": 0.8479318618774414
-      },
-      {
-        "id": 18,
-        "category": "company_info",
-        "question": "What stock exchanges is Berkshire listed on?",
-        "answer": "Berkshire's Class A and Class B common stock are listed for trading on the New York Stock Exchange, trading symbols BRK.A and BRK.B, respectively.",
-        "passed": true,
-        "latency": 0.9175763130187988
-      },
-      {
-        "id": 19,
-        "category": "risk_factors",
-        "question": "What are the main competitive risks Berkshire faces?",
-        "answer": "The main competitive risks Berkshire faces are not specified in the provided context.",
-        "passed": true,
-        "latency": 1.1228909492492676
-      },
-      {
-        "id": 20,
-        "category": "financial_figures",
-        "question": "What is Berkshire's book value per share?",
-        "answer": "Based on the provided context, Berkshire's book value per share is $449,000.",
-        "passed": true,
-        "latency": 0.848768949508667
-      }
-    ]
-  },
-  "strategy3": {
-    "strategy": "Strategy 3 \u2014 Hybrid BM25 + Vector",
-    "accuracy": 90.0,
-    "avg_latency": 1.2803206086158752,
-    "correct": 18,
-    "total": 20,
-    "results": [
-      {
-        "id": 1,
-        "category": "financial_figures",
-        "question": "What was Berkshire Hathaway's total revenue in 2024?",
-        "answer": "Based on the provided context, Berkshire Hathaway's total revenue in 2024 is not explicitly mentioned. The information provided mainly focuses on various aspects of Berkshire's operations, earnings, and financial performance in different years, but the total revenue for 2024 is not directly stated.",
-        "passed": false,
-        "latency": 1.4438700675964355
+        "latency": 0.9752378463745117
       },
       {
         "id": 2,
@@ -358,7 +189,7 @@
         "question": "What are Berkshire Hathaway's main business segments?",
         "answer": "Berkshire Hathaway's main business segments are insurance, freight rail transportation, utility and energy generation, and distribution.",
         "passed": true,
-        "latency": 1.0237469673156738
+        "latency": 1.1261889934539795
       },
       {
         "id": 3,
@@ -366,7 +197,7 @@
         "question": "Who is the CEO of Berkshire Hathaway?",
         "answer": "Warren E. Buffett is the CEO of Berkshire Hathaway.",
         "passed": true,
-        "latency": 1.0681300163269043
+        "latency": 0.9507160186767578
       },
       {
         "id": 4,
@@ -374,7 +205,7 @@
         "question": "Where is Berkshire Hathaway headquartered?",
         "answer": "Berkshire Hathaway is headquartered in Omaha, Nebraska.",
         "passed": true,
-        "latency": 0.7618789672851562
+        "latency": 0.6867871284484863
       },
       {
         "id": 5,
@@ -382,7 +213,176 @@
         "question": "What is BNSF?",
         "answer": "BNSF stands for Burlington Northern Santa Fe, which operates one of the largest railroad systems in North America.",
         "passed": true,
-        "latency": 0.8332269191741943
+        "latency": 1.127331018447876
+      },
+      {
+        "id": 6,
+        "category": "financial_figures",
+        "question": "What was Berkshire Hathaway's net earnings in 2024?",
+        "answer": "Berkshire Hathaway's net earnings in 2024 were $1.1 billion.",
+        "passed": true,
+        "latency": 0.9494528770446777
+      },
+      {
+        "id": 7,
+        "category": "business_overview",
+        "question": "What insurance companies does Berkshire own?",
+        "answer": "Berkshire Hathaway owns GEICO, Berkshire Hathaway Reinsurance Group, General Re, Berkshire Hathaway Direct, Berkshire Hathaway Homestate Companies, Berkshire Hathaway Specialty, GUARD Insurance Companies, and MedPro Group.",
+        "passed": true,
+        "latency": 1.3268060684204102
+      },
+      {
+        "id": 8,
+        "category": "business_overview",
+        "question": "What is Berkshire Hathaway Energy?",
+        "answer": "Berkshire Hathaway Energy is a holding company with subsidiaries that primarily operate within the energy industry.",
+        "passed": true,
+        "latency": 0.7957601547241211
+      },
+      {
+        "id": 9,
+        "category": "risk_factors",
+        "question": "What cybersecurity risks does Berkshire mention?",
+        "answer": "Berkshire mentions cybersecurity risks related to third-party service providers, cyber-attacks on service providers, financial, operational, and reputational impacts, and the need to maintain processes for identifying, assessing, and managing cybersecurity threats.",
+        "passed": true,
+        "latency": 1.019043207168579
+      },
+      {
+        "id": 10,
+        "category": "risk_factors",
+        "question": "What climate risks does Berkshire mention?",
+        "answer": "Berkshire mentions risks related to greenhouse gas (GHG) emissions and climate-related policies that could impact their businesses, particularly BNSF and BHE, which represent more than 90% of Berkshire's direct emissions.",
+        "passed": true,
+        "latency": 1.0508508682250977
+      },
+      {
+        "id": 11,
+        "category": "investments",
+        "question": "What is Berkshire's investment in Apple?",
+        "answer": "Based on the provided context, there is no specific mention of Berkshire's investment in Apple.",
+        "passed": true,
+        "latency": 1.5138471126556396
+      },
+      {
+        "id": 12,
+        "category": "business_overview",
+        "question": "How does Berkshire Hathaway make money from insurance?",
+        "answer": "Berkshire Hathaway makes money from insurance by providing insurance and reinsurance of property and casualty risks as well as life and health risks worldwide through its numerous domestic and foreign-based insurance subsidiaries.",
+        "passed": false,
+        "latency": 1.1254849433898926
+      },
+      {
+        "id": 13,
+        "category": "financial_figures",
+        "question": "What was GEICO's performance in 2024?",
+        "answer": "In 2024, GEICO delivered a major increase in earnings and experienced a significant improvement in performance, with Todd Combs reshaping the company in a major way by increasing efficiency and updating underwriting practices. The improvement in 2024 was described as spectacular. Additionally, GEICO's loss ratio decreased to 71.8% in 2024 from 81.0% in 2023, reflecting higher average earned premiums per auto policy and lower claims frequencies.",
+        "passed": true,
+        "latency": 2.0485758781433105
+      },
+      {
+        "id": 14,
+        "category": "risk_factors",
+        "question": "What are the main risks Berkshire faces in its energy business?",
+        "answer": "Based on the provided context, the main risks Berkshire faces in its energy business are not specified.",
+        "passed": false,
+        "latency": 0.7151737213134766
+      },
+      {
+        "id": 15,
+        "category": "strategy",
+        "question": "What is Berkshire's approach to acquisitions?",
+        "answer": "Based on the provided context, Berkshire's approach to acquisitions involves making purchases based on low stock prices, admiring the companies' capital deployment, managements, and attitude towards investors. Berkshire holds these acquisitions for the long term and supports their boards of directors. They also aim to keep their holdings below 10%.",
+        "passed": true,
+        "latency": 1.2713470458984375
+      },
+      {
+        "id": 16,
+        "category": "company_info",
+        "question": "How many employees does Berkshire Hathaway have?",
+        "answer": "Berkshire Hathaway and its operating subsidiaries employed approximately 392,400 people worldwide at the end of 2024.",
+        "passed": true,
+        "latency": 1.1877539157867432
+      },
+      {
+        "id": 17,
+        "category": "financial_figures",
+        "question": "What is Berkshire's cash position?",
+        "answer": "Based on the provided context, Berkshire's cash position is described as having an extraordinary amount of cash, with the majority of the money remaining in equities.",
+        "passed": true,
+        "latency": 0.8166420459747314
+      },
+      {
+        "id": 18,
+        "category": "company_info",
+        "question": "What stock exchanges is Berkshire listed on?",
+        "answer": "Berkshire's Class A and Class B common stock are listed for trading on the New York Stock Exchange, trading symbols BRK.A and BRK.B, respectively.",
+        "passed": true,
+        "latency": 0.96933913230896
+      },
+      {
+        "id": 19,
+        "category": "risk_factors",
+        "question": "What are the main competitive risks Berkshire faces?",
+        "answer": "The main competitive risks Berkshire faces are not specified in the provided context.",
+        "passed": true,
+        "latency": 0.8757860660552979
+      },
+      {
+        "id": 20,
+        "category": "financial_figures",
+        "question": "What is Berkshire's book value per share?",
+        "answer": "Based on the provided context, Berkshire's book value per share is $449,368.",
+        "passed": true,
+        "latency": 0.8787229061126709
+      }
+    ]
+  },
+  "strategy3": {
+    "strategy": "Strategy 3 \u2014 Hybrid BM25 + Vector",
+    "accuracy": 90.0,
+    "avg_latency": 1.2070277214050293,
+    "correct": 18,
+    "total": 20,
+    "results": [
+      {
+        "id": 1,
+        "category": "financial_figures",
+        "question": "What was Berkshire Hathaway's total revenue in 2024?",
+        "answer": "Based on the provided context, Berkshire Hathaway's total revenue in 2024 was not explicitly mentioned. The information provided mainly focuses on various aspects of Berkshire's operations, earnings, and financial performance in different years such as 2019, 2020, 2021, 2022, and 2023.",
+        "passed": false,
+        "latency": 1.8513832092285156
+      },
+      {
+        "id": 2,
+        "category": "business_overview",
+        "question": "What are Berkshire Hathaway's main business segments?",
+        "answer": "Berkshire Hathaway's main business segments are insurance, freight rail transportation, utility, energy generation, and distribution.",
+        "passed": true,
+        "latency": 1.182934045791626
+      },
+      {
+        "id": 3,
+        "category": "company_info",
+        "question": "Who is the CEO of Berkshire Hathaway?",
+        "answer": "Warren E. Buffett is the CEO of Berkshire Hathaway.",
+        "passed": true,
+        "latency": 1.05787992477417
+      },
+      {
+        "id": 4,
+        "category": "company_info",
+        "question": "Where is Berkshire Hathaway headquartered?",
+        "answer": "Berkshire Hathaway is headquartered in Omaha, Nebraska.",
+        "passed": true,
+        "latency": 0.7983899116516113
+      },
+      {
+        "id": 5,
+        "category": "business_overview",
+        "question": "What is BNSF?",
+        "answer": "BNSF stands for Burlington Northern Santa Fe, which operates one of the largest railroad systems in North America.",
+        "passed": true,
+        "latency": 0.9202008247375488
       },
       {
         "id": 6,
@@ -390,7 +390,7 @@
         "question": "What was Berkshire Hathaway's net earnings in 2024?",
         "answer": "Based on the provided context, Berkshire Hathaway's net earnings in 2024 were a loss of $22,819 million.",
         "passed": false,
-        "latency": 1.0219509601593018
+        "latency": 0.9230260848999023
       },
       {
         "id": 7,
@@ -398,7 +398,7 @@
         "question": "What insurance companies does Berkshire own?",
         "answer": "Berkshire Hathaway owns several insurance companies, including GEICO, Berkshire Hathaway Reinsurance Group, General Re, Berkshire Hathaway Homestate Companies, Berkshire Hathaway Specialty, Berkshire Hathaway GUARD Insurance Companies, and MedPro Group Inc.",
         "passed": true,
-        "latency": 1.8424298763275146
+        "latency": 1.1255528926849365
       },
       {
         "id": 8,
@@ -406,7 +406,7 @@
         "question": "What is Berkshire Hathaway Energy?",
         "answer": "Based on the provided context, Berkshire Hathaway Energy is a global energy company with subsidiaries and affiliates that generate, transmit, store, distribute, and supply energy. It has domestic regulated energy interests comprised of utility companies serving retail customers and interstate natural gas pipeline companies.",
         "passed": true,
-        "latency": 1.230921983718872
+        "latency": 1.4337689876556396
       },
       {
         "id": 9,
@@ -414,15 +414,15 @@
         "question": "What cybersecurity risks does Berkshire mention?",
         "answer": "Berkshire mentions cybersecurity risks associated with third-party service providers, cyber-attacks on service providers, financial, operational, and reputational impacts from cyber-attacks, and the need to monitor and manage cybersecurity threats.",
         "passed": true,
-        "latency": 1.1242139339447021
+        "latency": 1.0440850257873535
       },
       {
         "id": 10,
         "category": "risk_factors",
         "question": "What climate risks does Berkshire mention?",
-        "answer": "Berkshire mentions climate change and the regulation of greenhouse gas emissions as potential risks that could impact their businesses. They highlight that climate change could cause or intensify hurricanes, floods, wildfires, and other extreme weather events, increasing physical risks to their operations.",
+        "answer": "Berkshire mentions climate change and the regulation of greenhouse gas emissions as potential risks that could impact their businesses. They highlight the potential for extreme weather events such as hurricanes, floods, wildfires, and storms to increase physical risks and impacts on their operations. Additionally, they mention the importance of complying with regulations related to climate change to avoid significant adverse effects on their financial results.",
         "passed": true,
-        "latency": 1.6402511596679688
+        "latency": 1.3240110874176025
       },
       {
         "id": 11,
@@ -430,7 +430,7 @@
         "question": "What is Berkshire's investment in Apple?",
         "answer": "Berkshire's investment in Apple includes owning 5.4% of Apple's shares, which was costless to Berkshire due to Apple continuously repurchasing its shares.",
         "passed": true,
-        "latency": 1.0232517719268799
+        "latency": 1.2170522212982178
       },
       {
         "id": 12,
@@ -438,7 +438,7 @@
         "question": "How does Berkshire Hathaway make money from insurance?",
         "answer": "Berkshire Hathaway makes money from insurance through the concept of \"float\" - money they hold and can invest but that does not belong to them. This float has grown significantly over the years and has cost them less than nothing so far. Additionally, Berkshire Hathaway's insurance underwriting operations generate significant amounts of up-front premiums along with estimated claims expected to be paid over very long time periods.",
         "passed": true,
-        "latency": 2.6629791259765625
+        "latency": 1.7401599884033203
       },
       {
         "id": 13,
@@ -446,7 +446,7 @@
         "question": "What was GEICO's performance in 2024?",
         "answer": "In 2024, GEICO's performance was strong as it delivered a major increase in earnings, led by the performance of GEICO. Todd Combs reshaped GEICO in a major way, increasing efficiency and bringing underwriting practices up to date. The improvement in 2024 was described as spectacular.",
         "passed": true,
-        "latency": 1.2452800273895264
+        "latency": 1.3300740718841553
       },
       {
         "id": 14,
@@ -454,15 +454,15 @@
         "question": "What are the main risks Berkshire faces in its energy business?",
         "answer": "The main risks Berkshire faces in its energy business are related to compliance with new or existing regulations or reinterpretation of existing regulations relating to climate change, which could have a significant adverse effect on their financial results.",
         "passed": true,
-        "latency": 1.317328929901123
+        "latency": 1.2293250560760498
       },
       {
         "id": 15,
         "category": "strategy",
         "question": "What is Berkshire's approach to acquisitions?",
-        "answer": "Berkshire's approach to acquisitions involves making purchases based on financial records and low stock prices of companies, with a focus on enhancing intrinsic value per share for continuing shareholders and leaving ample funds for future opportunities or problems. They also aim to partner with well-managed and respected companies globally, leveraging Berkshire's huge liquid resources for potential partnerships.",
+        "answer": "Berkshire's approach to acquisitions involves making purchases based on financial records and low stock prices, admiring the companies over time, meeting with their managements, and following their progress.",
         "passed": true,
-        "latency": 1.2220427989959717
+        "latency": 1.1269638538360596
       },
       {
         "id": 16,
@@ -470,39 +470,39 @@
         "question": "How many employees does Berkshire Hathaway have?",
         "answer": "Berkshire Hathaway and its consolidated subsidiaries employed approximately 372,000 people worldwide at the end of 2021.",
         "passed": true,
-        "latency": 0.8396811485290527
+        "latency": 1.0721020698547363
       },
       {
         "id": 17,
         "category": "financial_figures",
         "question": "What is Berkshire's cash position?",
-        "answer": "Based on the provided context, Berkshire's cash position includes $144 billion of cash and cash equivalents, with $120 billion held in U.S. Treasury bills.",
+        "answer": "Berkshire's cash position includes $144 billion of cash and cash equivalents, with $120 billion held in U.S. Treasury bills maturing in less than a year.",
         "passed": true,
-        "latency": 1.0824670791625977
+        "latency": 1.0924689769744873
       },
       {
         "id": 18,
         "category": "company_info",
         "question": "What stock exchanges is Berkshire listed on?",
-        "answer": "Berkshire Hathaway's Class A and Class B common stock are listed for trading on the New York Stock Exchange, with trading symbols BRK.A and BRK.B, respectively.",
+        "answer": "Berkshire's Class A and Class B common stock are listed for trading on the New York Stock Exchange, with trading symbols BRK.A and BRK.B, respectively.",
         "passed": true,
-        "latency": 0.9390439987182617
+        "latency": 1.1107869148254395
       },
       {
         "id": 19,
         "category": "risk_factors",
         "question": "What are the main competitive risks Berkshire faces?",
-        "answer": "The main competitive risks Berkshire faces are related to uncertainties in its business operations, as described in the risk factors section of its financial documents. These risks include general business risks, the need to recruit and retain qualified and competent managers and personnel, and the concentration of investments in equity securities which are subject to loss in value.",
+        "answer": "The main competitive risks Berkshire faces are related to uncertainties in its business operations, as described in the risk factors section of its financial documents. These risks include general business risks, the need to recruit and retain qualified managers and personnel, and the concentration of investments in equity securities that are subject to loss in value.",
         "passed": true,
-        "latency": 1.4707074165344238
+        "latency": 1.4339501857757568
       },
       {
         "id": 20,
         "category": "financial_figures",
         "question": "What is Berkshire's book value per share?",
-        "answer": "Based on the provided context, the book value per share of Berkshire is not explicitly mentioned. The information in the documents mainly discusses earnings, investments, intrinsic value, and shareholder equity, but does not directly provide the book value per share.",
+        "answer": "Based on the provided context, the book value per share of Berkshire is not explicitly mentioned. The information provided mainly focuses on earnings, investments, and financial conditions, but does not directly state the book value per share.",
         "passed": true,
-        "latency": 1.8130090236663818
+        "latency": 1.126439094543457
       }
     ]
   }
