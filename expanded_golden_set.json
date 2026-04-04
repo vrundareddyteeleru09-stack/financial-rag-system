@@ -1,0 +1,3650 @@
+[
+  {
+    "id": 21,
+    "question": "What was Berkshire Hathaway's total revenue in 2020?",
+    "category": "financial_figures",
+    "year": "2020",
+    "expected": "$245,510 million",
+    "needs_review": false
+  },
+  {
+    "id": 22,
+    "question": "What was Berkshire Hathaway's total revenue in 2021?",
+    "category": "financial_figures",
+    "year": "2021",
+    "expected": "$227,974 million",
+    "needs_review": false
+  },
+  {
+    "id": 23,
+    "question": "What was Berkshire Hathaway's total revenue in 2022?",
+    "category": "financial_figures",
+    "year": "2022",
+    "expected": "$311,184 million",
+    "needs_review": false
+  },
+  {
+    "id": 24,
+    "question": "What was Berkshire Hathaway's total revenue in 2023?",
+    "category": "financial_figures",
+    "year": "2023",
+    "expected": "$263,067 million",
+    "needs_review": false
+  },
+  {
+    "id": 25,
+    "question": "What was Berkshire Hathaway's total revenue in 2024?",
+    "category": "financial_figures",
+    "year": "2024",
+    "expected": "$321,643 million",
+    "needs_review": false
+  },
+  {
+    "id": 26,
+    "question": "What was Berkshire's net earnings in 2020?",
+    "category": "financial_figures",
+    "year": "2020",
+    "expected": "$42.5 billion",
+    "needs_review": false
+  },
+  {
+    "id": 27,
+    "question": "What was Berkshire's net earnings in 2021?",
+    "category": "financial_figures",
+    "year": "2021",
+    "expected": "$89,795 billion",
+    "needs_review": false
+  },
+  {
+    "id": 28,
+    "question": "What was Berkshire's net earnings in 2022?",
+    "category": "financial_figures",
+    "year": "2022",
+    "expected": "Net earnings: $ (22,819)",
+    "needs_review": false
+  },
+  {
+    "id": 29,
+    "question": "What was Berkshire's net earnings in 2023?",
+    "category": "financial_figures",
+    "year": "2023",
+    "expected": "$96.2 billion",
+    "needs_review": false
+  },
+  {
+    "id": 30,
+    "question": "What was Berkshire's net earnings in 2024?",
+    "category": "financial_figures",
+    "year": "2024",
+    "expected": "$89.0 billion",
+    "needs_review": false
+  },
+  {
+    "id": 31,
+    "question": "What was Berkshire's cash position in 2020?",
+    "category": "financial_figures",
+    "year": "2020",
+    "expected": "$44.7 billion",
+    "needs_review": false
+  },
+  {
+    "id": 32,
+    "question": "What was Berkshire's cash position in 2021?",
+    "category": "financial_figures",
+    "year": "2021",
+    "expected": "$143.9 billion",
+    "needs_review": false
+  },
+  {
+    "id": 33,
+    "question": "What was Berkshire's cash position in 2022?",
+    "category": "financial_figures",
+    "year": "2022",
+    "expected": "$125.0 billion",
+    "needs_review": false
+  },
+  {
+    "id": 34,
+    "question": "What was Berkshire's cash position in 2023?",
+    "category": "financial_figures",
+    "year": "2023",
+    "expected": "$30 billion",
+    "needs_review": false
+  },
+  {
+    "id": 35,
+    "question": "What was Berkshire's cash position in 2024?",
+    "category": "financial_figures",
+    "year": "2024",
+    "expected": "$27.2 billion",
+    "needs_review": false
+  },
+  {
+    "id": 36,
+    "question": "What was Berkshire's total assets in 2020?",
+    "category": "financial_figures",
+    "year": "2020",
+    "expected": "$467.372 billion",
+    "needs_review": false
+  },
+  {
+    "id": 37,
+    "question": "What was Berkshire's total assets in 2021?",
+    "category": "financial_figures",
+    "year": "2021",
+    "expected": "$817 billion",
+    "needs_review": false
+  },
+  {
+    "id": 38,
+    "question": "What was Berkshire's total assets in 2022?",
+    "category": "financial_figures",
+    "year": "2022",
+    "expected": "$35,590 billion",
+    "needs_review": false
+  },
+  {
+    "id": 39,
+    "question": "What was Berkshire's total assets in 2023?",
+    "category": "financial_figures",
+    "year": "2023",
+    "expected": "$561.3 billion",
+    "needs_review": false
+  },
+  {
+    "id": 40,
+    "question": "What was Berkshire's total assets in 2024?",
+    "category": "financial_figures",
+    "year": "2024",
+    "expected": "$649.4 billion",
+    "needs_review": false
+  },
+  {
+    "id": 41,
+    "question": "What was GEICO's revenue in 2020?",
+    "category": "financial_figures",
+    "year": "2020",
+    "expected": "$35,093 million",
+    "needs_review": false
+  },
+  {
+    "id": 42,
+    "question": "What was GEICO's revenue in 2021?",
+    "category": "financial_figures",
+    "year": "2021",
+    "expected": "$3.5 billion",
+    "needs_review": false
+  },
+  {
+    "id": 43,
+    "question": "What was GEICO's revenue in 2022?",
+    "category": "financial_figures",
+    "year": "2022",
+    "expected": "$33.7 billion",
+    "needs_review": false
+  },
+  {
+    "id": 44,
+    "question": "What was GEICO's revenue in 2023?",
+    "category": "financial_figures",
+    "year": "2023",
+    "expected": "$39,264 million",
+    "needs_review": false
+  },
+  {
+    "id": 45,
+    "question": "What was GEICO's revenue in 2024?",
+    "category": "financial_figures",
+    "year": "2024",
+    "expected": "$42,916 million",
+    "needs_review": false
+  },
+  {
+    "id": 46,
+    "question": "What was BNSF's revenue in 2020?",
+    "category": "financial_figures",
+    "year": "2020",
+    "expected": "$20,181 million",
+    "needs_review": false
+  },
+  {
+    "id": 47,
+    "question": "What was BNSF's revenue in 2021?",
+    "category": "financial_figures",
+    "year": "2021",
+    "expected": "$7.9 billion",
+    "needs_review": false
+  },
+  {
+    "id": 48,
+    "question": "What was BNSF's revenue in 2022?",
+    "category": "financial_figures",
+    "year": "2022",
+    "expected": "11.9% increase",
+    "needs_review": false
+  },
+  {
+    "id": 49,
+    "question": "What was BNSF's revenue in 2023?",
+    "category": "financial_figures",
+    "year": "2023",
+    "expected": "$9.2 billion",
+    "needs_review": false
+  },
+  {
+    "id": 50,
+    "question": "What was BNSF's revenue in 2024?",
+    "category": "financial_figures",
+    "year": "2024",
+    "expected": "$23,355 million",
+    "needs_review": false
+  },
+  {
+    "id": 51,
+    "question": "What was Berkshire's insurance float in 2020?",
+    "category": "financial_figures",
+    "year": "2020",
+    "expected": "$138 billion",
+    "needs_review": false
+  },
+  {
+    "id": 52,
+    "question": "What was Berkshire's insurance float in 2021?",
+    "category": "financial_figures",
+    "year": "2021",
+    "expected": "$147 billion",
+    "needs_review": false
+  },
+  {
+    "id": 53,
+    "question": "What was Berkshire's insurance float in 2022?",
+    "category": "financial_figures",
+    "year": "2022",
+    "expected": "$164 billion",
+    "needs_review": false
+  },
+  {
+    "id": 54,
+    "question": "What was Berkshire's insurance float in 2023?",
+    "category": "financial_figures",
+    "year": "2023",
+    "expected": "$303 billion",
+    "needs_review": false
+  },
+  {
+    "id": 55,
+    "question": "What was Berkshire's insurance float in 2024?",
+    "category": "financial_figures",
+    "year": "2024",
+    "expected": "$21.1 billion",
+    "needs_review": false
+  },
+  {
+    "id": 56,
+    "question": "What was Berkshire's operating earnings in 2020?",
+    "category": "financial_figures",
+    "year": "2020",
+    "expected": "$21.9 billion",
+    "needs_review": false
+  },
+  {
+    "id": 57,
+    "question": "What was Berkshire's operating earnings in 2021?",
+    "category": "financial_figures",
+    "year": "2021",
+    "expected": "$4,807 million",
+    "needs_review": false
+  },
+  {
+    "id": 58,
+    "question": "What was Berkshire's operating earnings in 2022?",
+    "category": "financial_figures",
+    "year": "2022",
+    "expected": "Operating earnings: $2.4 billion",
+    "needs_review": false
+  },
+  {
+    "id": 59,
+    "question": "What was Berkshire's operating earnings in 2023?",
+    "category": "financial_figures",
+    "year": "2023",
+    "expected": "$37.4 billion",
+    "needs_review": false
+  },
+  {
+    "id": 60,
+    "question": "What was Berkshire's operating earnings in 2024?",
+    "category": "financial_figures",
+    "year": "2024",
+    "expected": "$47.4 billion",
+    "needs_review": false
+  },
+  {
+    "id": 61,
+    "question": "What was Berkshire's book value per share in 2020?",
+    "category": "financial_figures",
+    "year": "2020",
+    "expected": "$287,031",
+    "needs_review": false
+  },
+  {
+    "id": 62,
+    "question": "What was Berkshire's book value per share in 2021?",
+    "category": "financial_figures",
+    "year": "2021",
+    "expected": "Book value per share: $281,208",
+    "needs_review": false
+  },
+  {
+    "id": 63,
+    "question": "What was Berkshire's book value per share in 2022?",
+    "category": "financial_figures",
+    "year": "2022",
+    "expected": "Minor gain",
+    "needs_review": false
+  },
+  {
+    "id": 64,
+    "question": "What was Berkshire's book value per share in 2023?",
+    "category": "financial_figures",
+    "year": "2023",
+    "expected": "$561.3 billion",
+    "needs_review": false
+  },
+  {
+    "id": 65,
+    "question": "What was Berkshire's book value per share in 2024?",
+    "category": "financial_figures",
+    "year": "2024",
+    "expected": "$649.4 billion",
+    "needs_review": false
+  },
+  {
+    "id": 66,
+    "question": "What was Berkshire's investment portfolio value in 2020?",
+    "category": "financial_figures",
+    "year": "2020",
+    "expected": "$301.6 billion",
+    "needs_review": false
+  },
+  {
+    "id": 67,
+    "question": "What was Berkshire's investment portfolio value in 2021?",
+    "category": "financial_figures",
+    "year": "2021",
+    "expected": "$367.2 billion",
+    "needs_review": false
+  },
+  {
+    "id": 68,
+    "question": "What was Berkshire's investment portfolio value in 2022?",
+    "category": "financial_figures",
+    "year": "2022",
+    "expected": "$22 billion",
+    "needs_review": false
+  },
+  {
+    "id": 69,
+    "question": "What was Berkshire's investment portfolio value in 2023?",
+    "category": "financial_figures",
+    "year": "2023",
+    "expected": "$561 billion",
+    "needs_review": false
+  },
+  {
+    "id": 70,
+    "question": "What was Berkshire's investment portfolio value in 2024?",
+    "category": "financial_figures",
+    "year": "2024",
+    "expected": "Publicly traded equity securities",
+    "needs_review": false
+  },
+  {
+    "id": 71,
+    "question": "What are Berkshire Hathaway's main business segments in 2020?",
+    "category": "business_overview",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 72,
+    "question": "What are Berkshire Hathaway's main business segments in 2021?",
+    "category": "business_overview",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 73,
+    "question": "What are Berkshire Hathaway's main business segments in 2022?",
+    "category": "business_overview",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 74,
+    "question": "What are Berkshire Hathaway's main business segments in 2023?",
+    "category": "business_overview",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 75,
+    "question": "What are Berkshire Hathaway's main business segments in 2024?",
+    "category": "business_overview",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 76,
+    "question": "How does Berkshire make money from insurance in 2020?",
+    "category": "business_overview",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 77,
+    "question": "How does Berkshire make money from insurance in 2021?",
+    "category": "business_overview",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 78,
+    "question": "How does Berkshire make money from insurance in 2022?",
+    "category": "business_overview",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 79,
+    "question": "How does Berkshire make money from insurance in 2023?",
+    "category": "business_overview",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 80,
+    "question": "How does Berkshire make money from insurance in 2024?",
+    "category": "business_overview",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 81,
+    "question": "What is BNSF and what does it do?",
+    "category": "business_overview",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 82,
+    "question": "What is Berkshire Hathaway Energy?",
+    "category": "business_overview",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 83,
+    "question": "How does Berkshire approach acquisitions?",
+    "category": "business_overview",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 84,
+    "question": "What is Berkshire's investment philosophy?",
+    "category": "business_overview",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 85,
+    "question": "What manufacturing businesses does Berkshire own?",
+    "category": "business_overview",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 86,
+    "question": "What retail businesses does Berkshire own?",
+    "category": "business_overview",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 87,
+    "question": "How does Berkshire's insurance float work?",
+    "category": "business_overview",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 88,
+    "question": "What is Berkshire's competitive advantage?",
+    "category": "business_overview",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 89,
+    "question": "What cybersecurity risks does Berkshire mention in 2020?",
+    "category": "risk_factors",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 90,
+    "question": "What cybersecurity risks does Berkshire mention in 2021?",
+    "category": "risk_factors",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 91,
+    "question": "What cybersecurity risks does Berkshire mention in 2022?",
+    "category": "risk_factors",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 92,
+    "question": "What cybersecurity risks does Berkshire mention in 2023?",
+    "category": "risk_factors",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 93,
+    "question": "What cybersecurity risks does Berkshire mention in 2024?",
+    "category": "risk_factors",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 94,
+    "question": "What climate risks does Berkshire face in 2020?",
+    "category": "risk_factors",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 95,
+    "question": "What climate risks does Berkshire face in 2021?",
+    "category": "risk_factors",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 96,
+    "question": "What climate risks does Berkshire face in 2022?",
+    "category": "risk_factors",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 97,
+    "question": "What climate risks does Berkshire face in 2023?",
+    "category": "risk_factors",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 98,
+    "question": "What climate risks does Berkshire face in 2024?",
+    "category": "risk_factors",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 99,
+    "question": "What regulatory risks does Berkshire mention in 2020?",
+    "category": "risk_factors",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 100,
+    "question": "What regulatory risks does Berkshire mention in 2021?",
+    "category": "risk_factors",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 101,
+    "question": "What regulatory risks does Berkshire mention in 2022?",
+    "category": "risk_factors",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 102,
+    "question": "What regulatory risks does Berkshire mention in 2023?",
+    "category": "risk_factors",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 103,
+    "question": "What regulatory risks does Berkshire mention in 2024?",
+    "category": "risk_factors",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 104,
+    "question": "What are the main risks to Berkshire's insurance business?",
+    "category": "risk_factors",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 105,
+    "question": "What are the main risks to BNSF railroad?",
+    "category": "risk_factors",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 106,
+    "question": "What geopolitical risks does Berkshire mention?",
+    "category": "risk_factors",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 107,
+    "question": "What interest rate risks does Berkshire face?",
+    "category": "risk_factors",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 108,
+    "question": "What competition risks does Berkshire mention?",
+    "category": "risk_factors",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 109,
+    "question": "What are the risks to Berkshire's energy business?",
+    "category": "risk_factors",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 110,
+    "question": "What are the risks to Berkshire's investment portfolio?",
+    "category": "risk_factors",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 111,
+    "question": "Who is the CEO of Berkshire Hathaway?",
+    "category": "company_info",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 112,
+    "question": "Where is Berkshire Hathaway headquartered?",
+    "category": "company_info",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 113,
+    "question": "How many employees does Berkshire Hathaway have in 2020?",
+    "category": "company_info",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 114,
+    "question": "How many employees does Berkshire Hathaway have in 2021?",
+    "category": "company_info",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 115,
+    "question": "How many employees does Berkshire Hathaway have in 2022?",
+    "category": "company_info",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 116,
+    "question": "How many employees does Berkshire Hathaway have in 2023?",
+    "category": "company_info",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 117,
+    "question": "How many employees does Berkshire Hathaway have in 2024?",
+    "category": "company_info",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 118,
+    "question": "What stock exchanges is Berkshire listed on?",
+    "category": "company_info",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 119,
+    "question": "Who is on Berkshire's board of directors?",
+    "category": "company_info",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 120,
+    "question": "What is Berkshire's stock ticker symbol?",
+    "category": "company_info",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 121,
+    "question": "When was Berkshire Hathaway founded?",
+    "category": "company_info",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 122,
+    "question": "Who is Warren Buffett?",
+    "category": "company_info",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 123,
+    "question": "What is Berkshire's corporate structure?",
+    "category": "company_info",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 124,
+    "question": "How many subsidiaries does Berkshire have?",
+    "category": "company_info",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 125,
+    "question": "What is Berkshire's approach to capital allocation?",
+    "category": "strategy",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 126,
+    "question": "How does Berkshire evaluate potential acquisitions?",
+    "category": "strategy",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 127,
+    "question": "What is Berkshire's dividend policy?",
+    "category": "strategy",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 128,
+    "question": "How does Berkshire approach share buybacks?",
+    "category": "strategy",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 129,
+    "question": "What is Berkshire's investment strategy?",
+    "category": "strategy",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 130,
+    "question": "How does Berkshire manage its subsidiaries?",
+    "category": "strategy",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 131,
+    "question": "What criteria does Berkshire use to hire managers?",
+    "category": "strategy",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 132,
+    "question": "How does Berkshire approach debt financing?",
+    "category": "strategy",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 133,
+    "question": "What is Berkshire's approach to ESG?",
+    "category": "strategy",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 134,
+    "question": "How does Berkshire think about long-term value creation?",
+    "category": "strategy",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 135,
+    "question": "What is Berkshire's largest stock holding in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 136,
+    "question": "What is Berkshire's largest stock holding in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 137,
+    "question": "What is Berkshire's largest stock holding in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 138,
+    "question": "What is Berkshire's largest stock holding in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 139,
+    "question": "What is Berkshire's largest stock holding in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 140,
+    "question": "What is Berkshire's investment in Apple in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 141,
+    "question": "What is Berkshire's investment in Apple in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 142,
+    "question": "What is Berkshire's investment in Apple in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 143,
+    "question": "What is Berkshire's investment in Apple in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 144,
+    "question": "What is Berkshire's investment in Apple in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 145,
+    "question": "What is Berkshire's investment in Bank of America in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 146,
+    "question": "What is Berkshire's investment in Bank of America in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 147,
+    "question": "What is Berkshire's investment in Bank of America in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 148,
+    "question": "What is Berkshire's investment in Bank of America in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 149,
+    "question": "What is Berkshire's investment in Bank of America in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 150,
+    "question": "What is Berkshire's investment in Coca Cola in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 151,
+    "question": "What is Berkshire's investment in Coca Cola in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 152,
+    "question": "What is Berkshire's investment in Coca Cola in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 153,
+    "question": "What is Berkshire's investment in Coca Cola in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 154,
+    "question": "What is Berkshire's investment in Coca Cola in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 155,
+    "question": "What is Berkshire's investment in American Express in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 156,
+    "question": "What is Berkshire's investment in American Express in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 157,
+    "question": "What is Berkshire's investment in American Express in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 158,
+    "question": "What is Berkshire's investment in American Express in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 159,
+    "question": "What is Berkshire's investment in American Express in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 160,
+    "question": "How much did Berkshire invest in stocks in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 161,
+    "question": "How much did Berkshire invest in stocks in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 162,
+    "question": "How much did Berkshire invest in stocks in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 163,
+    "question": "How much did Berkshire invest in stocks in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 164,
+    "question": "How much did Berkshire invest in stocks in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 165,
+    "question": "What stocks did Berkshire buy in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 166,
+    "question": "What stocks did Berkshire buy in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 167,
+    "question": "What stocks did Berkshire buy in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 168,
+    "question": "What stocks did Berkshire buy in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 169,
+    "question": "What stocks did Berkshire buy in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 170,
+    "question": "What stocks did Berkshire sell in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 171,
+    "question": "What stocks did Berkshire sell in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 172,
+    "question": "What stocks did Berkshire sell in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 173,
+    "question": "What stocks did Berkshire sell in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 174,
+    "question": "What stocks did Berkshire sell in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 175,
+    "question": "What is the total value of Berkshire's stock portfolio in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 176,
+    "question": "What is the total value of Berkshire's stock portfolio in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 177,
+    "question": "What is the total value of Berkshire's stock portfolio in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 178,
+    "question": "What is the total value of Berkshire's stock portfolio in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 179,
+    "question": "What is the total value of Berkshire's stock portfolio in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 180,
+    "question": "How does Berkshire select its stock investments?",
+    "category": "investments",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 181,
+    "question": "What is Berkshire's largest equity position in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 182,
+    "question": "What is Berkshire's largest equity position in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 183,
+    "question": "What is Berkshire's largest equity position in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 184,
+    "question": "What is Berkshire's largest equity position in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 185,
+    "question": "What is Berkshire's largest equity position in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 186,
+    "question": "How much cash does Berkshire hold for investments in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 187,
+    "question": "How much cash does Berkshire hold for investments in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 188,
+    "question": "How much cash does Berkshire hold for investments in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 189,
+    "question": "How much cash does Berkshire hold for investments in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 190,
+    "question": "How much cash does Berkshire hold for investments in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 191,
+    "question": "What is Berkshire's return on investment in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 192,
+    "question": "What is Berkshire's return on investment in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 193,
+    "question": "What is Berkshire's return on investment in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 194,
+    "question": "What is Berkshire's return on investment in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 195,
+    "question": "What is Berkshire's return on investment in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 196,
+    "question": "How does Berkshire think about stock market valuations?",
+    "category": "investments",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 197,
+    "question": "What new investments did Berkshire make in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 198,
+    "question": "What new investments did Berkshire make in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 199,
+    "question": "What new investments did Berkshire make in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 200,
+    "question": "What new investments did Berkshire make in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 201,
+    "question": "What new investments did Berkshire make in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 202,
+    "question": "Did Berkshire reduce any positions in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 203,
+    "question": "Did Berkshire reduce any positions in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 204,
+    "question": "Did Berkshire reduce any positions in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 205,
+    "question": "Did Berkshire reduce any positions in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 206,
+    "question": "Did Berkshire reduce any positions in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 207,
+    "question": "What is Berkshire's dividend income from investments in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 208,
+    "question": "What is Berkshire's dividend income from investments in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 209,
+    "question": "What is Berkshire's dividend income from investments in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 210,
+    "question": "What is Berkshire's dividend income from investments in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 211,
+    "question": "What is Berkshire's dividend income from investments in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 212,
+    "question": "How does Berkshire manage its investment portfolio?",
+    "category": "investments",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 213,
+    "question": "What percentage of Berkshire's portfolio is in financials in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 214,
+    "question": "What percentage of Berkshire's portfolio is in financials in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 215,
+    "question": "What percentage of Berkshire's portfolio is in financials in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 216,
+    "question": "What percentage of Berkshire's portfolio is in financials in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 217,
+    "question": "What percentage of Berkshire's portfolio is in financials in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 218,
+    "question": "What is Berkshire's unrealized gain on investments in 2020?",
+    "category": "investments",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 219,
+    "question": "What is Berkshire's unrealized gain on investments in 2021?",
+    "category": "investments",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 220,
+    "question": "What is Berkshire's unrealized gain on investments in 2022?",
+    "category": "investments",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 221,
+    "question": "What is Berkshire's unrealized gain on investments in 2023?",
+    "category": "investments",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 222,
+    "question": "What is Berkshire's unrealized gain on investments in 2024?",
+    "category": "investments",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 223,
+    "question": "How many claims did GEICO process in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 224,
+    "question": "How many claims did GEICO process in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 225,
+    "question": "How many claims did GEICO process in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 226,
+    "question": "How many claims did GEICO process in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 227,
+    "question": "How many claims did GEICO process in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 228,
+    "question": "What was BNSF's freight volume in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 229,
+    "question": "What was BNSF's freight volume in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 230,
+    "question": "What was BNSF's freight volume in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 231,
+    "question": "What was BNSF's freight volume in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 232,
+    "question": "What was BNSF's freight volume in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 233,
+    "question": "How many cars did Berkshire's auto dealerships sell in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 234,
+    "question": "How many cars did Berkshire's auto dealerships sell in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 235,
+    "question": "How many cars did Berkshire's auto dealerships sell in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 236,
+    "question": "How many cars did Berkshire's auto dealerships sell in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 237,
+    "question": "How many cars did Berkshire's auto dealerships sell in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 238,
+    "question": "What was Berkshire Energy's power generation capacity in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 239,
+    "question": "What was Berkshire Energy's power generation capacity in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 240,
+    "question": "What was Berkshire Energy's power generation capacity in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 241,
+    "question": "What was Berkshire Energy's power generation capacity in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 242,
+    "question": "What was Berkshire Energy's power generation capacity in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 243,
+    "question": "How did Berkshire's manufacturing businesses perform in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 244,
+    "question": "How did Berkshire's manufacturing businesses perform in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 245,
+    "question": "How did Berkshire's manufacturing businesses perform in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 246,
+    "question": "How did Berkshire's manufacturing businesses perform in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 247,
+    "question": "How did Berkshire's manufacturing businesses perform in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 248,
+    "question": "What was Berkshire's underwriting profit in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 249,
+    "question": "What was Berkshire's underwriting profit in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 250,
+    "question": "What was Berkshire's underwriting profit in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 251,
+    "question": "What was Berkshire's underwriting profit in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 252,
+    "question": "What was Berkshire's underwriting profit in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 253,
+    "question": "How much did Berkshire spend on capital expenditures in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 254,
+    "question": "How much did Berkshire spend on capital expenditures in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 255,
+    "question": "How much did Berkshire spend on capital expenditures in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 256,
+    "question": "How much did Berkshire spend on capital expenditures in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 257,
+    "question": "How much did Berkshire spend on capital expenditures in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 258,
+    "question": "What was Berkshire's insurance loss ratio in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 259,
+    "question": "What was Berkshire's insurance loss ratio in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 260,
+    "question": "What was Berkshire's insurance loss ratio in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 261,
+    "question": "What was Berkshire's insurance loss ratio in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 262,
+    "question": "What was Berkshire's insurance loss ratio in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 263,
+    "question": "How many insurance policies does GEICO have in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 264,
+    "question": "How many insurance policies does GEICO have in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 265,
+    "question": "How many insurance policies does GEICO have in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 266,
+    "question": "How many insurance policies does GEICO have in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 267,
+    "question": "How many insurance policies does GEICO have in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 268,
+    "question": "What was BNSF's operating ratio in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 269,
+    "question": "What was BNSF's operating ratio in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 270,
+    "question": "What was BNSF's operating ratio in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 271,
+    "question": "What was BNSF's operating ratio in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 272,
+    "question": "What was BNSF's operating ratio in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 273,
+    "question": "How did Berkshire's retail businesses perform in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 274,
+    "question": "How did Berkshire's retail businesses perform in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 275,
+    "question": "How did Berkshire's retail businesses perform in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 276,
+    "question": "How did Berkshire's retail businesses perform in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 277,
+    "question": "How did Berkshire's retail businesses perform in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 278,
+    "question": "What was Berkshire's return on equity in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 279,
+    "question": "What was Berkshire's return on equity in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 280,
+    "question": "What was Berkshire's return on equity in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 281,
+    "question": "What was Berkshire's return on equity in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 282,
+    "question": "What was Berkshire's return on equity in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 283,
+    "question": "How much did Berkshire pay in taxes in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 284,
+    "question": "How much did Berkshire pay in taxes in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 285,
+    "question": "How much did Berkshire pay in taxes in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 286,
+    "question": "How much did Berkshire pay in taxes in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 287,
+    "question": "How much did Berkshire pay in taxes in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 288,
+    "question": "What was Berkshire's free cash flow in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 289,
+    "question": "What was Berkshire's free cash flow in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 290,
+    "question": "What was Berkshire's free cash flow in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 291,
+    "question": "What was Berkshire's free cash flow in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 292,
+    "question": "What was Berkshire's free cash flow in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 293,
+    "question": "How did Berkshire's service businesses perform in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 294,
+    "question": "How did Berkshire's service businesses perform in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 295,
+    "question": "How did Berkshire's service businesses perform in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 296,
+    "question": "How did Berkshire's service businesses perform in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 297,
+    "question": "How did Berkshire's service businesses perform in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 298,
+    "question": "What was the combined ratio for Berkshire's insurance in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 299,
+    "question": "What was the combined ratio for Berkshire's insurance in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 300,
+    "question": "What was the combined ratio for Berkshire's insurance in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 301,
+    "question": "What was the combined ratio for Berkshire's insurance in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 302,
+    "question": "What was the combined ratio for Berkshire's insurance in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 303,
+    "question": "How much did Berkshire spend on acquisitions in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 304,
+    "question": "How much did Berkshire spend on acquisitions in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 305,
+    "question": "How much did Berkshire spend on acquisitions in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 306,
+    "question": "How much did Berkshire spend on acquisitions in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 307,
+    "question": "How much did Berkshire spend on acquisitions in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 308,
+    "question": "What was Berkshire's depreciation expense in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 309,
+    "question": "What was Berkshire's depreciation expense in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 310,
+    "question": "What was Berkshire's depreciation expense in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 311,
+    "question": "What was Berkshire's depreciation expense in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 312,
+    "question": "What was Berkshire's depreciation expense in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 313,
+    "question": "How many properties does Berkshire own in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 314,
+    "question": "How many properties does Berkshire own in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 315,
+    "question": "How many properties does Berkshire own in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 316,
+    "question": "How many properties does Berkshire own in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 317,
+    "question": "How many properties does Berkshire own in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 318,
+    "question": "What was Berkshire's inventory level in 2020?",
+    "category": "operations",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 319,
+    "question": "What was Berkshire's inventory level in 2021?",
+    "category": "operations",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 320,
+    "question": "What was Berkshire's inventory level in 2022?",
+    "category": "operations",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 321,
+    "question": "What was Berkshire's inventory level in 2023?",
+    "category": "operations",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 322,
+    "question": "What was Berkshire's inventory level in 2024?",
+    "category": "operations",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 323,
+    "question": "What is GEICO's market share in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 324,
+    "question": "What is GEICO's market share in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 325,
+    "question": "What is GEICO's market share in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 326,
+    "question": "What is GEICO's market share in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 327,
+    "question": "What is GEICO's market share in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 328,
+    "question": "How does BNSF compare to other railroads in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 329,
+    "question": "How does BNSF compare to other railroads in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 330,
+    "question": "How does BNSF compare to other railroads in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 331,
+    "question": "How does BNSF compare to other railroads in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 332,
+    "question": "How does BNSF compare to other railroads in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 333,
+    "question": "What is Berkshire's competitive position in insurance in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 334,
+    "question": "What is Berkshire's competitive position in insurance in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 335,
+    "question": "What is Berkshire's competitive position in insurance in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 336,
+    "question": "What is Berkshire's competitive position in insurance in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 337,
+    "question": "What is Berkshire's competitive position in insurance in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 338,
+    "question": "How does Berkshire Energy compare to other utilities in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 339,
+    "question": "How does Berkshire Energy compare to other utilities in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 340,
+    "question": "How does Berkshire Energy compare to other utilities in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 341,
+    "question": "How does Berkshire Energy compare to other utilities in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 342,
+    "question": "How does Berkshire Energy compare to other utilities in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 343,
+    "question": "What is Berkshire's brand value in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 344,
+    "question": "What is Berkshire's brand value in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 345,
+    "question": "What is Berkshire's brand value in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 346,
+    "question": "What is Berkshire's brand value in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 347,
+    "question": "What is Berkshire's brand value in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 348,
+    "question": "How does Berkshire's size compare to competitors in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 349,
+    "question": "How does Berkshire's size compare to competitors in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 350,
+    "question": "How does Berkshire's size compare to competitors in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 351,
+    "question": "How does Berkshire's size compare to competitors in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 352,
+    "question": "How does Berkshire's size compare to competitors in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 353,
+    "question": "What market segments does Berkshire dominate in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 354,
+    "question": "What market segments does Berkshire dominate in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 355,
+    "question": "What market segments does Berkshire dominate in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 356,
+    "question": "What market segments does Berkshire dominate in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 357,
+    "question": "What market segments does Berkshire dominate in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 358,
+    "question": "How does Berkshire's float compare to competitors in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 359,
+    "question": "How does Berkshire's float compare to competitors in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 360,
+    "question": "How does Berkshire's float compare to competitors in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 361,
+    "question": "How does Berkshire's float compare to competitors in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 362,
+    "question": "How does Berkshire's float compare to competitors in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 363,
+    "question": "What is Berkshire's pricing power in insurance in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 364,
+    "question": "What is Berkshire's pricing power in insurance in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 365,
+    "question": "What is Berkshire's pricing power in insurance in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 366,
+    "question": "What is Berkshire's pricing power in insurance in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 367,
+    "question": "What is Berkshire's pricing power in insurance in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 368,
+    "question": "How does BNSF's efficiency compare to competitors in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 369,
+    "question": "How does BNSF's efficiency compare to competitors in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 370,
+    "question": "How does BNSF's efficiency compare to competitors in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 371,
+    "question": "How does BNSF's efficiency compare to competitors in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 372,
+    "question": "How does BNSF's efficiency compare to competitors in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 373,
+    "question": "What barriers to entry does Berkshire have in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 374,
+    "question": "What barriers to entry does Berkshire have in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 375,
+    "question": "What barriers to entry does Berkshire have in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 376,
+    "question": "What barriers to entry does Berkshire have in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 377,
+    "question": "What barriers to entry does Berkshire have in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 378,
+    "question": "How does Berkshire's investment returns compare to S&P 500 in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 379,
+    "question": "How does Berkshire's investment returns compare to S&P 500 in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 380,
+    "question": "How does Berkshire's investment returns compare to S&P 500 in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 381,
+    "question": "How does Berkshire's investment returns compare to S&P 500 in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 382,
+    "question": "How does Berkshire's investment returns compare to S&P 500 in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 383,
+    "question": "What is Berkshire's market capitalization in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 384,
+    "question": "What is Berkshire's market capitalization in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 385,
+    "question": "What is Berkshire's market capitalization in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 386,
+    "question": "What is Berkshire's market capitalization in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 387,
+    "question": "What is Berkshire's market capitalization in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 388,
+    "question": "How does Berkshire's cash generation compare to peers in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 389,
+    "question": "How does Berkshire's cash generation compare to peers in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 390,
+    "question": "How does Berkshire's cash generation compare to peers in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 391,
+    "question": "How does Berkshire's cash generation compare to peers in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 392,
+    "question": "How does Berkshire's cash generation compare to peers in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 393,
+    "question": "What makes Berkshire unique compared to other conglomerates in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 394,
+    "question": "What makes Berkshire unique compared to other conglomerates in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 395,
+    "question": "What makes Berkshire unique compared to other conglomerates in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 396,
+    "question": "What makes Berkshire unique compared to other conglomerates in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 397,
+    "question": "What makes Berkshire unique compared to other conglomerates in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 398,
+    "question": "How does Berkshire's underwriting discipline compare to peers?",
+    "category": "market_position",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 399,
+    "question": "What is Berkshire's credit rating in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 400,
+    "question": "What is Berkshire's credit rating in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 401,
+    "question": "What is Berkshire's credit rating in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 402,
+    "question": "What is Berkshire's credit rating in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 403,
+    "question": "What is Berkshire's credit rating in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 404,
+    "question": "How does Berkshire's capital structure compare to peers in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 405,
+    "question": "How does Berkshire's capital structure compare to peers in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 406,
+    "question": "How does Berkshire's capital structure compare to peers in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 407,
+    "question": "How does Berkshire's capital structure compare to peers in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 408,
+    "question": "How does Berkshire's capital structure compare to peers in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 409,
+    "question": "What strategic advantages does Berkshire have in 2020?",
+    "category": "market_position",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 410,
+    "question": "What strategic advantages does Berkshire have in 2021?",
+    "category": "market_position",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 411,
+    "question": "What strategic advantages does Berkshire have in 2022?",
+    "category": "market_position",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 412,
+    "question": "What strategic advantages does Berkshire have in 2023?",
+    "category": "market_position",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 413,
+    "question": "What strategic advantages does Berkshire have in 2024?",
+    "category": "market_position",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 414,
+    "question": "How does Berkshire's management compare to other companies?",
+    "category": "market_position",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 415,
+    "question": "What is Berkshire's approach to climate change in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 416,
+    "question": "What is Berkshire's approach to climate change in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 417,
+    "question": "What is Berkshire's approach to climate change in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 418,
+    "question": "What is Berkshire's approach to climate change in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 419,
+    "question": "What is Berkshire's approach to climate change in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 420,
+    "question": "What renewable energy investments does Berkshire have in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 421,
+    "question": "What renewable energy investments does Berkshire have in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 422,
+    "question": "What renewable energy investments does Berkshire have in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 423,
+    "question": "What renewable energy investments does Berkshire have in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 424,
+    "question": "What renewable energy investments does Berkshire have in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 425,
+    "question": "How does Berkshire approach corporate governance in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 426,
+    "question": "How does Berkshire approach corporate governance in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 427,
+    "question": "How does Berkshire approach corporate governance in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 428,
+    "question": "How does Berkshire approach corporate governance in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 429,
+    "question": "How does Berkshire approach corporate governance in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 430,
+    "question": "What is Berkshire's diversity and inclusion policy in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 431,
+    "question": "What is Berkshire's diversity and inclusion policy in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 432,
+    "question": "What is Berkshire's diversity and inclusion policy in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 433,
+    "question": "What is Berkshire's diversity and inclusion policy in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 434,
+    "question": "What is Berkshire's diversity and inclusion policy in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 435,
+    "question": "How does Berkshire approach environmental sustainability in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 436,
+    "question": "How does Berkshire approach environmental sustainability in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 437,
+    "question": "How does Berkshire approach environmental sustainability in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 438,
+    "question": "How does Berkshire approach environmental sustainability in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 439,
+    "question": "How does Berkshire approach environmental sustainability in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 440,
+    "question": "What is Berkshire's executive compensation structure in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 441,
+    "question": "What is Berkshire's executive compensation structure in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 442,
+    "question": "What is Berkshire's executive compensation structure in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 443,
+    "question": "What is Berkshire's executive compensation structure in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 444,
+    "question": "What is Berkshire's executive compensation structure in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 445,
+    "question": "How does Berkshire approach social responsibility in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 446,
+    "question": "How does Berkshire approach social responsibility in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 447,
+    "question": "How does Berkshire approach social responsibility in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 448,
+    "question": "How does Berkshire approach social responsibility in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 449,
+    "question": "How does Berkshire approach social responsibility in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 450,
+    "question": "What is Berkshire's approach to board oversight in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 451,
+    "question": "What is Berkshire's approach to board oversight in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 452,
+    "question": "What is Berkshire's approach to board oversight in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 453,
+    "question": "What is Berkshire's approach to board oversight in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 454,
+    "question": "What is Berkshire's approach to board oversight in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 455,
+    "question": "How much does Berkshire invest in renewable energy in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 456,
+    "question": "How much does Berkshire invest in renewable energy in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 457,
+    "question": "How much does Berkshire invest in renewable energy in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 458,
+    "question": "How much does Berkshire invest in renewable energy in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 459,
+    "question": "How much does Berkshire invest in renewable energy in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 460,
+    "question": "What is Berkshire's carbon footprint in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 461,
+    "question": "What is Berkshire's carbon footprint in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 462,
+    "question": "What is Berkshire's carbon footprint in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 463,
+    "question": "What is Berkshire's carbon footprint in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 464,
+    "question": "What is Berkshire's carbon footprint in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 465,
+    "question": "How does Berkshire approach data privacy in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 466,
+    "question": "How does Berkshire approach data privacy in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 467,
+    "question": "How does Berkshire approach data privacy in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 468,
+    "question": "How does Berkshire approach data privacy in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 469,
+    "question": "How does Berkshire approach data privacy in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 470,
+    "question": "What is Berkshire's approach to employee welfare in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 471,
+    "question": "What is Berkshire's approach to employee welfare in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 472,
+    "question": "What is Berkshire's approach to employee welfare in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 473,
+    "question": "What is Berkshire's approach to employee welfare in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 474,
+    "question": "What is Berkshire's approach to employee welfare in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 475,
+    "question": "How does Berkshire handle conflicts of interest in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 476,
+    "question": "How does Berkshire handle conflicts of interest in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 477,
+    "question": "How does Berkshire handle conflicts of interest in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 478,
+    "question": "How does Berkshire handle conflicts of interest in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 479,
+    "question": "How does Berkshire handle conflicts of interest in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 480,
+    "question": "What is Berkshire's whistleblower policy in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 481,
+    "question": "What is Berkshire's whistleblower policy in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 482,
+    "question": "What is Berkshire's whistleblower policy in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 483,
+    "question": "What is Berkshire's whistleblower policy in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 484,
+    "question": "What is Berkshire's whistleblower policy in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 485,
+    "question": "How does Berkshire approach anti-corruption in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 486,
+    "question": "How does Berkshire approach anti-corruption in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 487,
+    "question": "How does Berkshire approach anti-corruption in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 488,
+    "question": "How does Berkshire approach anti-corruption in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 489,
+    "question": "How does Berkshire approach anti-corruption in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 490,
+    "question": "What is Berkshire's approach to supply chain ethics in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 491,
+    "question": "What is Berkshire's approach to supply chain ethics in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 492,
+    "question": "What is Berkshire's approach to supply chain ethics in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 493,
+    "question": "What is Berkshire's approach to supply chain ethics in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 494,
+    "question": "What is Berkshire's approach to supply chain ethics in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 495,
+    "question": "How does Berkshire measure ESG performance in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 496,
+    "question": "How does Berkshire measure ESG performance in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 497,
+    "question": "How does Berkshire measure ESG performance in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 498,
+    "question": "How does Berkshire measure ESG performance in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 499,
+    "question": "How does Berkshire measure ESG performance in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 500,
+    "question": "What sustainability goals has Berkshire set for 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 501,
+    "question": "What sustainability goals has Berkshire set for 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 502,
+    "question": "What sustainability goals has Berkshire set for 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 503,
+    "question": "What sustainability goals has Berkshire set for 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 504,
+    "question": "What sustainability goals has Berkshire set for 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 505,
+    "question": "How does Berkshire report on ESG metrics in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 506,
+    "question": "How does Berkshire report on ESG metrics in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 507,
+    "question": "How does Berkshire report on ESG metrics in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 508,
+    "question": "How does Berkshire report on ESG metrics in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 509,
+    "question": "How does Berkshire report on ESG metrics in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 510,
+    "question": "What is Berkshire's approach to stakeholder engagement in 2020?",
+    "category": "esg_governance",
+    "year": "2020",
+    "expected": ""
+  },
+  {
+    "id": 511,
+    "question": "What is Berkshire's approach to stakeholder engagement in 2021?",
+    "category": "esg_governance",
+    "year": "2021",
+    "expected": ""
+  },
+  {
+    "id": 512,
+    "question": "What is Berkshire's approach to stakeholder engagement in 2022?",
+    "category": "esg_governance",
+    "year": "2022",
+    "expected": ""
+  },
+  {
+    "id": 513,
+    "question": "What is Berkshire's approach to stakeholder engagement in 2023?",
+    "category": "esg_governance",
+    "year": "2023",
+    "expected": ""
+  },
+  {
+    "id": 514,
+    "question": "What is Berkshire's approach to stakeholder engagement in 2024?",
+    "category": "esg_governance",
+    "year": "2024",
+    "expected": ""
+  },
+  {
+    "id": 515,
+    "question": "How has Berkshire's revenue grown from 2020 to 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 516,
+    "question": "How has Berkshire's float grown over the past 5 years?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 517,
+    "question": "What was Berkshire's best performing year between 2020 and 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 518,
+    "question": "How has GEICO's performance changed from 2020 to 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 519,
+    "question": "How has BNSF's performance changed from 2020 to 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 520,
+    "question": "What major acquisitions did Berkshire make between 2020 and 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 521,
+    "question": "How has Berkshire's cash position changed from 2020 to 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 522,
+    "question": "How has Berkshire's book value grown from 2020 to 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 523,
+    "question": "What was Berkshire's compound annual growth rate from 2020 to 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 524,
+    "question": "How has Berkshire's employee count changed from 2020 to 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 525,
+    "question": "How did COVID-19 impact Berkshire's business in 2020?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 526,
+    "question": "How did Berkshire recover from COVID-19 impacts by 2021?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 527,
+    "question": "What were Berkshire's biggest challenges between 2020 and 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 528,
+    "question": "How has Berkshire's investment portfolio changed from 2020 to 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 529,
+    "question": "What were Berkshire's biggest successes between 2020 and 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 530,
+    "question": "How has Berkshire's operating earnings trended from 2020 to 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 531,
+    "question": "What strategic shifts did Berkshire make between 2020 and 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 532,
+    "question": "How has Berkshire's insurance business evolved from 2020 to 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 533,
+    "question": "What lessons did Berkshire learn from 2020 to 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  },
+  {
+    "id": 534,
+    "question": "How has Berkshire's competitive position changed from 2020 to 2024?",
+    "category": "historical",
+    "year": "any",
+    "expected": ""
+  }
+]
