@@ -1,0 +1,16 @@
+[
+  {
+    "embedding": "FinBERT (Financial Domain)",
+    "accuracy": 42.857142857142854,
+    "avg_latency": 1.266012532370431,
+    "index_time": 308.2705478668213,
+    "float_fixed": false
+  },
+  {
+    "embedding": "General BERT (Baseline)",
+    "accuracy": 57.14285714285714,
+    "avg_latency": 0.9328508036477225,
+    "index_time": 54.57751178741455,
+    "float_fixed": true
+  }
+]
