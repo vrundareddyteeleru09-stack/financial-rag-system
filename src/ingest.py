@@ -13,7 +13,20 @@ def load_and_chunk_documents(data_folder: str):
         if filename.endswith(".pdf"):
             print(f"Loading: {filename}")
             loader = PyPDFLoader(os.path.join(data_folder, filename))
-            documents.extend(loader.load())
+            docs = loader.load()
+            
+            # Add year metadata from filename
+            year = None
+            for y in ["2020", "2021", "2022", "2023", "2024"]:
+                if y in filename:
+                    year = y
+                    break
+            
+            for doc in docs:
+                doc.metadata["year"] = year
+                doc.metadata["source_file"] = filename
+            
+            documents.extend(docs)
     
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=500,

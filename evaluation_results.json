@@ -1,21 +1,21 @@
 {
-  "accuracy": 95.0,
-  "correct": 19,
+  "accuracy": 90.0,
+  "correct": 18,
   "total": 20,
   "results": [
     {
       "id": 1,
       "category": "financial_figures",
       "question": "What was Berkshire Hathaway's total revenue in 2024?",
-      "answer": "Berkshire Hathaway's total revenue in 2024 was $321,643 million.",
+      "answer": "Based on the provided context, Berkshire Hathaway's total revenue in 2024 was not explicitly mentioned. The information provided only includes data up to the year 2023.",
       "expected_keywords": "321,643",
-      "passed": true
+      "passed": false
     },
     {
       "id": 2,
       "category": "business_overview",
       "question": "What are Berkshire Hathaway's main business segments?",
-      "answer": "Berkshire Hathaway's main business segments are insurance, manufacturing, and energy generation and distribution.",
+      "answer": "Berkshire Hathaway's main business segments are insurance, freight rail transportation, utility and energy generation, and distribution.",
       "expected_keywords": "insurance, freight rail, utility, energy",
       "passed": true
     },
@@ -39,7 +39,7 @@
       "id": 5,
       "category": "business_overview",
       "question": "What is BNSF?",
-      "answer": "BNSF stands for Burlington Northern Santa Fe, which operates one of the largest railroad systems in North America with over 32,500 route miles of track in 28 states and three Canadian provinces.",
+      "answer": "BNSF stands for Burlington Northern Santa Fe, which operates one of the largest railroad systems in North America.",
       "expected_keywords": "freight rail, railroad, railway",
       "passed": true
     },
@@ -47,15 +47,15 @@
       "id": 6,
       "category": "financial_figures",
       "question": "What was Berkshire Hathaway's net earnings in 2024?",
-      "answer": "Berkshire Hathaway's net earnings in 2024 were $47.4 billion.",
+      "answer": "Based on the provided context, Berkshire Hathaway's net earnings in 2024 were not explicitly mentioned.",
       "expected_keywords": "billion",
-      "passed": true
+      "passed": false
     },
     {
       "id": 7,
       "category": "business_overview",
       "question": "What insurance companies does Berkshire own?",
-      "answer": "Berkshire owns GEICO, Berkshire Hathaway Reinsurance Group, General Re, Berkshire Hathaway Direct, Berkshire Hathaway Homestate Companies, Berkshire Hathaway Specialty, GUARD Insurance Companies, and MedPro Group.",
+      "answer": "Based on the provided context, Berkshire Hathaway owns the following insurance companies:\n- GEICO\n- Berkshire Hathaway Reinsurance Group\n- General Re\n- Berkshire Hathaway Homestate Companies\n- Berkshire Hathaway Specialty\n- Berkshire Hathaway GUARD Insurance Companies\n- MedPro Group Inc.",
       "expected_keywords": "GEICO",
       "passed": true
     },
@@ -63,7 +63,7 @@
       "id": 8,
       "category": "business_overview",
       "question": "What is Berkshire Hathaway Energy?",
-      "answer": "Berkshire Hathaway Energy is a holding company with subsidiaries primarily operating within the energy industry, including domestic regulated utility interests and natural gas pipelines.",
+      "answer": "Berkshire Hathaway Energy is a global energy company with subsidiaries and affiliates that generate, transmit, store, distribute, and supply energy. It has domestic regulated energy interests comprised of utility companies and natural gas pipeline companies.",
       "expected_keywords": "energy, utility, electricity",
       "passed": true
     },
@@ -71,7 +71,7 @@
       "id": 9,
       "category": "risk_factors",
       "question": "What cybersecurity risks does Berkshire mention?",
-      "answer": "Berkshire mentions cybersecurity risks related to third-party service providers, cyber-attacks on service providers, financial, operational, and reputational impacts, and the need to continuously monitor risks associated with service providers.",
+      "answer": "Berkshire mentions cybersecurity risks related to cyber-attacks on third-party service providers that could have a significant financial, operational, or reputational impact on Berkshire and its Business Groups. They also mention the importance of maintaining processes for identifying, assessing, and managing cybersecurity threats to deal with significant business risks.",
       "expected_keywords": "cyber, security, data breach",
       "passed": true
     },
@@ -79,7 +79,7 @@
       "id": 10,
       "category": "risk_factors",
       "question": "What climate risks does Berkshire mention?",
-      "answer": "Berkshire mentions risks related to GHG and climate-related policies that could influence the transition to a lower GHG-emitting economy and potentially impact costs for their businesses to comply with those policies.",
+      "answer": "Berkshire mentions the risk of failure to comply with new or existing regulations or reinterpretation of existing regulations relating to climate change, which could have a significant adverse effect on their financial results.",
       "expected_keywords": "climate, weather, catastrophe, flood, hurricane",
       "passed": true
     },
@@ -87,7 +87,7 @@
       "id": 11,
       "category": "investments",
       "question": "What is Berkshire's investment in Apple?",
-      "answer": "Based on the provided context, there is no specific mention of Berkshire's investment in Apple.",
+      "answer": "Berkshire's investment in Apple is 5.4% of the company.",
       "expected_keywords": "Apple",
       "passed": true
     },
@@ -95,15 +95,15 @@
       "id": 12,
       "category": "business_overview",
       "question": "How does Berkshire Hathaway make money from insurance?",
-      "answer": "Berkshire Hathaway makes money from insurance by providing insurance and reinsurance of property and casualty risks as well as life and health risks worldwide through its numerous domestic and foreign-based insurance subsidiaries.",
+      "answer": "Berkshire Hathaway makes money from insurance through its insurance underwriting operations, which include groups such as GEICO, Berkshire Hathaway Primary Group, and Berkshire Hathaway Reinsurance Group. They generate revenue from underwriting premiums and investment income.",
       "expected_keywords": "float, premium, underwriting",
-      "passed": false
+      "passed": true
     },
     {
       "id": 13,
       "category": "financial_figures",
       "question": "What was GEICO's performance in 2024?",
-      "answer": "GEICO's performance in 2024 was strong, with a major increase in earnings and a significant improvement in underwriting results. Todd Combs played a key role in reshaping GEICO, leading to a spectacular improvement in 2024. Losses and loss adjustment expenses decreased, the loss ratio improved, and underwriting expenses remained stable. Premiums written and earned also increased compared to previous years.",
+      "answer": "GEICO's performance in 2024 was described as delivering a major increase in earnings, led by Todd Combs reshaping the company in a major way. Todd Combs worked tirelessly to increase efficiency, bring underwriting practices up to date, and reshape GEICO, resulting in a spectacular improvement in 2024.",
       "expected_keywords": "GEICO",
       "passed": true
     },
@@ -111,7 +111,7 @@
       "id": 14,
       "category": "risk_factors",
       "question": "What are the main risks Berkshire faces in its energy business?",
-      "answer": "The main risks Berkshire faces in its energy business include cyber-attacks on third-party service providers, which could have significant financial, operational, or reputational impacts, as well as potential impacts from greenhouse gas and climate-related policies that could influence compliance costs for businesses like BHE.",
+      "answer": "The main risks Berkshire faces in its energy business include uncertainties related to financial surprises, potential changes in the utility industry that may impact attracting savings from American citizens, and the failure to comply with regulations or reinterpretations relating to climate change which could have a significant adverse effect on financial results.",
       "expected_keywords": "regulatory, climate, utility",
       "passed": true
     },
@@ -119,7 +119,7 @@
       "id": 15,
       "category": "strategy",
       "question": "What is Berkshire's approach to acquisitions?",
-      "answer": "Berkshire's approach to acquisitions involves making purchases based on low stock prices, admiring the companies' capital deployment, managements, and attitude towards investors. They also focus on long-term investments, increasing dividends when appropriate, repurchasing shares sensibly, and keeping holdings below 10%.",
+      "answer": "Berkshire's approach to acquisitions involves looking at the financial records of companies and being amazed at the low prices of their stocks. They admire the capital deployment, managements, and attitude of the companies in respect to their investors. Additionally, Berkshire's goal is to make purchases that enhance the intrinsic value per share for continuing shareholders and leave the company with ample funds for any opportunities or problems it might encounter.",
       "expected_keywords": "acquisition, purchase, buy",
       "passed": true
     },
@@ -127,7 +127,7 @@
       "id": 16,
       "category": "company_info",
       "question": "How many employees does Berkshire Hathaway have?",
-      "answer": "Berkshire Hathaway and its operating subsidiaries employed approximately 392,400 people worldwide at the end of 2024.",
+      "answer": "Berkshire Hathaway and its consolidated subsidiaries employed approximately 372,000 people worldwide at the end of 2021.",
       "expected_keywords": "people",
       "passed": true
     },
@@ -135,7 +135,7 @@
       "id": 17,
       "category": "financial_figures",
       "question": "What is Berkshire's cash position?",
-      "answer": "Based on the provided context, Berkshire's cash position includes cash and cash equivalents of $6,337 million and short-term investments in U.S. Treasury Bills of $89,705 million as of December 31, 2024.",
+      "answer": "Berkshire's cash position includes cash, cash equivalents, and U.S. Treasury Bills totaling $144 billion, with $120 billion held in U.S. Treasury bills maturing in less than a year.",
       "expected_keywords": "billion, cash",
       "passed": true
     },
@@ -151,7 +151,7 @@
       "id": 19,
       "category": "risk_factors",
       "question": "What are the main competitive risks Berkshire faces?",
-      "answer": "The main competitive risks Berkshire faces include labor disruptions or strikes at subsidiaries, customers, or within supply chains, as well as the potential impact of cyber-attacks on third-party service providers.",
+      "answer": "The main competitive risks Berkshire faces are related to the inability to recruit, retain, and train qualified and competent managers and personnel, which could negatively affect the operating results, financial condition, and liquidity of its subsidiaries and Berkshire as a whole. Additionally, their investments being unusually concentrated in equity securities pose a risk as fair values are subject to loss in value.",
       "expected_keywords": "competition, competitive",
       "passed": true
     },
@@ -159,7 +159,7 @@
       "id": 20,
       "category": "financial_figures",
       "question": "What is Berkshire's book value per share?",
-      "answer": "Based on the provided context, Berkshire's book value per share is $449,000.",
+      "answer": "Based on the provided context, Berkshire's book value per share cannot be determined as the necessary information to calculate it is not included in the text snippets. Book value per share is typically calculated by dividing the total shareholders' equity by the total number of outstanding shares. The text snippets only provide information on net earnings, earnings per share, and total assets, but not the total shareholders' equity needed to calculate the book value per share.",
       "expected_keywords": "book value",
       "passed": true
     }
