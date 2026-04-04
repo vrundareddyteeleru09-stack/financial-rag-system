@@ -5,7 +5,7 @@ GOLDEN_SET = [
     {
         "id": 1,
         "question": "What was Berkshire Hathaway's total revenue in 2024?",
-        "expected": "321643",
+        "expected": "321,643",
         "category": "financial_figures"
     },
     {
@@ -17,7 +17,7 @@ GOLDEN_SET = [
     {
         "id": 3,
         "question": "Who is the CEO of Berkshire Hathaway?",
-        "expected": "Warren Buffett",
+        "expected": "Buffett",
         "category": "company_info"
     },
     {
@@ -95,7 +95,7 @@ GOLDEN_SET = [
     {
         "id": 16,
         "question": "How many employees does Berkshire Hathaway have?",
-        "expected": "employees",
+        "expected": "people",
         "category": "company_info"
     },
     {

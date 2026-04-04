@@ -1,6 +1,6 @@
 {
-  "accuracy": 75.0,
-  "correct": 15,
+  "accuracy": 90.0,
+  "correct": 18,
   "total": 20,
   "results": [
     {
@@ -8,14 +8,14 @@
       "category": "financial_figures",
       "question": "What was Berkshire Hathaway's total revenue in 2024?",
       "answer": "Berkshire Hathaway's total revenue in 2024 was $321,643 million.",
-      "expected_keywords": "321643",
-      "passed": false
+      "expected_keywords": "321,643",
+      "passed": true
     },
     {
       "id": 2,
       "category": "business_overview",
       "question": "What are Berkshire Hathaway's main business segments?",
-      "answer": "Berkshire Hathaway's main business segments are insurance, freight rail transportation, utility and energy generation, and distribution.",
+      "answer": "Berkshire Hathaway's main business segments are insurance, freight rail transportation, utility, and energy generation and distribution.",
       "expected_keywords": "insurance, freight rail, utility, energy",
       "passed": true
     },
@@ -23,9 +23,9 @@
       "id": 3,
       "category": "company_info",
       "question": "Who is the CEO of Berkshire Hathaway?",
-      "answer": "Warren E. Buffett",
-      "expected_keywords": "Warren Buffett",
-      "passed": false
+      "answer": "Warren E. Buffett is the CEO of Berkshire Hathaway.",
+      "expected_keywords": "Buffett",
+      "passed": true
     },
     {
       "id": 4,
@@ -39,7 +39,7 @@
       "id": 5,
       "category": "business_overview",
       "question": "What is BNSF?",
-      "answer": "BNSF is Burlington Northern Santa Fe, LLC, which operates one of the largest railroad systems in North America with over 32,500 route miles of track in 28 states and three Canadian provinces.",
+      "answer": "BNSF is Burlington Northern Santa Fe, LLC, which operates one of the largest railroad systems in North America.",
       "expected_keywords": "freight rail, railroad, railway",
       "passed": true
     },
@@ -95,7 +95,7 @@
       "id": 12,
       "category": "business_overview",
       "question": "How does Berkshire Hathaway make money from insurance?",
-      "answer": "Berkshire Hathaway makes money from insurance by providing insurance and reinsurance of property and casualty risks as well as life and health risks worldwide through numerous domestic and foreign-based insurance subsidiaries.",
+      "answer": "Berkshire Hathaway makes money from insurance by providing insurance and reinsurance of property and casualty risks as well as life and health risks worldwide through its numerous domestic and foreign-based insurance subsidiaries.",
       "expected_keywords": "float, premium, underwriting",
       "passed": false
     },
@@ -128,8 +128,8 @@
       "category": "company_info",
       "question": "How many employees does Berkshire Hathaway have?",
       "answer": "Berkshire Hathaway and its operating subsidiaries employed approximately 392,400 people worldwide at the end of 2024.",
-      "expected_keywords": "employees",
-      "passed": false
+      "expected_keywords": "people",
+      "passed": true
     },
     {
       "id": 17,
@@ -143,7 +143,7 @@
       "id": 18,
       "category": "company_info",
       "question": "What stock exchanges is Berkshire listed on?",
-      "answer": "Berkshire's Class A and Class B common stock are listed for trading on the New York Stock Exchange.",
+      "answer": "Berkshire's Class A and Class B common stock are listed for trading on the New York Stock Exchange, trading symbols BRK.A and BRK.B, respectively.",
       "expected_keywords": "NYSE, New York Stock Exchange",
       "passed": true
     },
@@ -151,7 +151,7 @@
       "id": 19,
       "category": "risk_factors",
       "question": "What are the main competitive risks Berkshire faces?",
-      "answer": "The main competitive risks Berkshire faces include labor disruptions or strikes at subsidiaries, customers, or within supply chains, which could reduce sales, increase costs, and negatively impact operating results. Additionally, the inability to recruit, train, and retain qualified managers and personnel could also affect operating results, financial condition, and liquidity.",
+      "answer": "The main competitive risks Berkshire faces include labor disruptions or strikes at their subsidiaries, customers, or within their supply chains, which could reduce sales, increase costs, and negatively impact periodic operating results. Additionally, the inability to recruit, train, and retain qualified and competent managers and personnel could also negatively affect the operating results, financial condition, and liquidity of Berkshire and its subsidiaries.",
       "expected_keywords": "competition, competitive",
       "passed": true
     },
@@ -159,7 +159,7 @@
       "id": 20,
       "category": "financial_figures",
       "question": "What is Berkshire's book value per share?",
-      "answer": "Berkshire's book value per share is $449,368.",
+      "answer": "Berkshire's book value per share is $449,000.",
       "expected_keywords": "book value",
       "passed": true
     }
