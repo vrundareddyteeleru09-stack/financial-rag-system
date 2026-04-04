@@ -94,3 +94,35 @@ def get_strategy3_retriever(k=6):
         vector_retriever=vector,
         k=k
     )
+def get_year_aware_retriever(question: str, k: int = 6):
+    """
+    Automatically detects year in question and filters retrieval.
+    Falls back to pure vector search if no year detected.
+    """
+    import re
+    
+    # Detect year in question
+    years = ["2020", "2021", "2022", "2023", "2024"]
+    detected_year = None
+    for year in years:
+        if year in question:
+            detected_year = year
+            break
+    
+    embeddings = OpenAIEmbeddings()
+    vector_store = FAISS.load_local(
+        VECTOR_STORE_PATH,
+        embeddings,
+        allow_dangerous_deserialization=True
+    )
+    
+    if detected_year:
+        # Filter to specific year
+        search_kwargs = {"k": k, "filter": {"year": detected_year}}
+        print(f"[Year-Aware] Detected year: {detected_year} — filtering retrieval")
+    else:
+        # No year detected — use full corpus
+        search_kwargs = {"k": k}
+        print(f"[Year-Aware] No year detected — using full corpus")
+    
+    return vector_store.as_retriever(search_kwargs=search_kwargs)

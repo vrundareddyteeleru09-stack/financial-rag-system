@@ -10,11 +10,15 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_community.callbacks import get_openai_callback
-from retriever import get_strategy1_retriever, get_strategy2_retriever, get_strategy3_retriever
+from retriever import (
+    get_strategy1_retriever,
+    get_strategy2_retriever,
+    get_strategy3_retriever,
+    get_year_aware_retriever
+)
 
 load_dotenv()
 
-# Real OpenAI pricing gpt-3.5-turbo
 INPUT_COST_PER_1K  = 0.0005
 OUTPUT_COST_PER_1K = 0.0015
 
@@ -36,7 +40,6 @@ Question: {question}
         {"context": retriever, "question": RunnablePassthrough()}
         | prompt | llm | StrOutputParser()
     )
-
     results = []
     correct = 0
     total_latency = 0
@@ -57,25 +60,19 @@ Question: {question}
             output_tokens = cb.completion_tokens
         latency = time.time() - start
         total_latency += latency
-
-        # Real cost
         cost = (input_tokens / 1000) * INPUT_COST_PER_1K + \
                (output_tokens / 1000) * OUTPUT_COST_PER_1K
         total_cost += cost
         total_input_tokens  += input_tokens
         total_output_tokens += output_tokens
-
-        # Correctness
         expected_keywords = [k.strip().lower() for k in q["expected"].split(",")]
         passed = any(kw in answer.lower() for kw in expected_keywords)
         if passed:
             correct += 1
-
         status = "✅" if passed else "❌"
         print(f"{status} Q{q['id']} [{q['category']}]: "
               f"{q['question'][:45]}... "
               f"[in={input_tokens} out={output_tokens} ${cost:.4f}]")
-
         results.append({
             "id": q["id"],
             "category": q["category"],
@@ -90,13 +87,12 @@ Question: {question}
         })
 
     total = len(questions)
-    accuracy   = (correct / total) * 100
+    accuracy    = (correct / total) * 100
     avg_latency = total_latency / total
     avg_cost    = total_cost / total
     avg_input   = total_input_tokens / total
     avg_output  = total_output_tokens / total
 
-    # Per category
     categories = {}
     for r in results:
         cat = r["category"]
@@ -115,6 +111,103 @@ Question: {question}
 
     return {
         "strategy": name,
+        "accuracy": accuracy,
+        "avg_latency": avg_latency,
+        "avg_cost": avg_cost,
+        "total_cost": total_cost,
+        "avg_input_tokens": avg_input,
+        "avg_output_tokens": avg_output,
+        "correct": correct,
+        "total": total,
+        "categories": categories,
+        "results": results
+    }
+
+def run_strategy4_year_aware(questions):
+    """Strategy 4 — Year-Aware Retrieval (dynamic per question)"""
+    llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
+    prompt = ChatPromptTemplate.from_template("""
+Answer the question based only on the following context:
+{context}
+Question: {question}
+""")
+    results = []
+    correct = 0
+    total_latency = 0
+    total_cost = 0
+    total_input_tokens = 0
+    total_output_tokens = 0
+
+    print(f"\n{'='*60}")
+    print(f"Strategy: Strategy 4 — Year-Aware Retrieval")
+    print(f"Questions: {len(questions)}")
+    print(f"{'='*60}")
+
+    for q in questions:
+        # Build a fresh year-aware retriever per question
+        retriever = get_year_aware_retriever(q["question"], k=6)
+        chain = (
+            {"context": retriever, "question": RunnablePassthrough()}
+            | prompt | llm | StrOutputParser()
+        )
+        start = time.time()
+        with get_openai_callback() as cb:
+            answer = chain.invoke(q["question"])
+            input_tokens  = cb.prompt_tokens
+            output_tokens = cb.completion_tokens
+        latency = time.time() - start
+        total_latency += latency
+        cost = (input_tokens / 1000) * INPUT_COST_PER_1K + \
+               (output_tokens / 1000) * OUTPUT_COST_PER_1K
+        total_cost += cost
+        total_input_tokens  += input_tokens
+        total_output_tokens += output_tokens
+        expected_keywords = [k.strip().lower() for k in q["expected"].split(",")]
+        passed = any(kw in answer.lower() for kw in expected_keywords)
+        if passed:
+            correct += 1
+        status = "✅" if passed else "❌"
+        print(f"{status} Q{q['id']} [{q['category']}]: "
+              f"{q['question'][:45]}... "
+              f"[in={input_tokens} out={output_tokens} ${cost:.4f}]")
+        results.append({
+            "id": q["id"],
+            "category": q["category"],
+            "question": q["question"],
+            "answer": answer,
+            "expected": q["expected"],
+            "passed": passed,
+            "latency": latency,
+            "cost": cost,
+            "input_tokens": input_tokens,
+            "output_tokens": output_tokens
+        })
+
+    total = len(questions)
+    accuracy    = (correct / total) * 100
+    avg_latency = total_latency / total
+    avg_cost    = total_cost / total
+    avg_input   = total_input_tokens / total
+    avg_output  = total_output_tokens / total
+
+    categories = {}
+    for r in results:
+        cat = r["category"]
+        if cat not in categories:
+            categories[cat] = {"correct": 0, "total": 0}
+        categories[cat]["total"] += 1
+        if r["passed"]:
+            categories[cat]["correct"] += 1
+
+    print(f"\nAccuracy:          {accuracy:.1f}%")
+    print(f"Avg Latency:       {avg_latency:.2f}s")
+    print(f"Avg Input Tokens:  {avg_input:.0f}")
+    print(f"Avg Output Tokens: {avg_output:.0f}")
+    print(f"Avg Cost/Query:    ${avg_cost:.5f}")
+    print(f"Total Cost:        ${total_cost:.4f}")
+
+    return {
+        "strategy": "Strategy 4 — Year-Aware",
         "accuracy": accuracy,
         "avg_latency": avg_latency,
         "avg_cost": avg_cost,
@@ -148,14 +241,12 @@ def print_results_table(all_results):
     all_cats = set()
     for r in all_results:
         all_cats.update(r["categories"].keys())
-
     print(f"{'Category':<25}", end="")
     for r in all_results:
         short = r["strategy"][:12]
         print(f" {short:>12}", end="")
     print()
     print("-"*75)
-
     for cat in sorted(all_cats):
         print(f"{cat:<25}", end="")
         for r in all_results:
@@ -169,7 +260,7 @@ def print_results_table(all_results):
 
 def run_full_benchmark():
     print("="*60)
-    print("FULL BENCHMARK — 3 STRATEGIES vs GROUND TRUTH")
+    print("FULL BENCHMARK — 4 STRATEGIES vs GROUND TRUTH")
     print("="*60)
 
     questions = load_ground_truth()
@@ -183,15 +274,21 @@ def run_full_benchmark():
                       get_strategy2_retriever(year_filter="2024", k=6), questions)
     s3 = run_strategy("Strategy 3 — Hybrid BM25",
                       get_strategy3_retriever(k=6), questions)
+    s4 = run_strategy4_year_aware(questions)
 
-    all_results = [s1, s2, s3]
+    all_results = [s1, s2, s3, s4]
     print_results_table(all_results)
 
     with open("full_benchmark_results.json", "w") as f:
-        json.dump({"strategy1": s1, "strategy2": s2, "strategy3": s3}, f, indent=2)
+        json.dump({
+            "strategy1": s1,
+            "strategy2": s2,
+            "strategy3": s3,
+            "strategy4": s4
+        }, f, indent=2)
 
     print(f"\n✅ Results saved to full_benchmark_results.json")
-    
+    print("This is your paper's core result table.")
 
 if __name__ == "__main__":
     run_full_benchmark()

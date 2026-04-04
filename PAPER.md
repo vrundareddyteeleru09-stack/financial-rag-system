@@ -269,3 +269,26 @@ KMP_DUPLICATE_LIB_OK=TRUE python3 src/full_benchmark.py
 ```
 
 GitHub: github.com/vrundareddyteeleru09-stack/financial-rag-system
+
+## 3.9 Load Testing Results
+
+We conducted load testing using Locust with 5 concurrent users over
+60 seconds against the FastAPI production endpoint.
+
+| Metric | Value |
+|---|---|
+| Failure Rate | 0% |
+| p50 Latency | 1.2s |
+| p95 Latency | ~3.1s |
+| p99 Latency | 4.6s |
+| Requests/sec | ~2.1 |
+
+**Finding:** The system maintained 0% failure rate under concurrent
+load. p99 latency of 4.6s indicates LLM API becomes the bottleneck
+under concurrency — the FAISS retrieval layer scales well, but
+sequential OpenAI API calls create a queue under high traffic.
+
+**Production recommendation:** Implement async queuing (Celery + Redis
+or AWS SQS) to handle concurrent requests without blocking. This would
+allow the system to accept requests immediately and return results
+asynchronously — reducing perceived latency for end users.

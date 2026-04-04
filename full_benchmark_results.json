@@ -1,17 +1,17 @@
 {
   "strategy1": {
     "strategy": "Strategy 1 \u2014 Pure Vector",
-    "accuracy": 44.0,
-    "avg_latency": 0.9322034931182861,
-    "avg_cost": 0.0008610099999999999,
-    "total_cost": 0.0430505,
+    "accuracy": 48.0,
+    "avg_latency": 1.0331035947799683,
+    "avg_cost": 0.00086119,
+    "total_cost": 0.0430595,
     "avg_input_tokens": 1662.2,
-    "avg_output_tokens": 19.94,
-    "correct": 22,
+    "avg_output_tokens": 20.06,
+    "correct": 24,
     "total": 50,
     "categories": {
       "financial_figures": {
-        "correct": 22,
+        "correct": 24,
         "total": 50
       }
     },
@@ -23,7 +23,7 @@
         "answer": "Berkshire Hathaway's total revenue in 2020 was $245,510.",
         "expected": "$245,510 million",
         "passed": true,
-        "latency": 1.4893171787261963,
+        "latency": 1.381890058517456,
         "cost": 0.000885,
         "input_tokens": 1716,
         "output_tokens": 18
@@ -35,7 +35,7 @@
         "answer": "Berkshire Hathaway's total revenue in 2021 was $89,795 million.",
         "expected": "$227,974 million",
         "passed": false,
-        "latency": 0.9052331447601318,
+        "latency": 1.45359206199646,
         "cost": 0.000835,
         "input_tokens": 1613,
         "output_tokens": 19
@@ -47,7 +47,7 @@
         "answer": "Berkshire Hathaway's total revenue in 2022 was not explicitly mentioned in the provided context.",
         "expected": "$311,184 million",
         "passed": false,
-        "latency": 1.0675556659698486,
+        "latency": 1.1463799476623535,
         "cost": 0.0009065,
         "input_tokens": 1750,
         "output_tokens": 21
@@ -59,7 +59,7 @@
         "answer": "Berkshire Hathaway's total revenue in 2023 was $263,067 million.",
         "expected": "$263,067 million",
         "passed": true,
-        "latency": 1.3009767532348633,
+        "latency": 0.9809229373931885,
         "cost": 0.0008625,
         "input_tokens": 1668,
         "output_tokens": 19
@@ -68,13 +68,13 @@
         "id": 25,
         "category": "financial_figures",
         "question": "What was Berkshire Hathaway's total revenue in 2024?",
-        "answer": "Based on the provided context, there is no information available regarding Berkshire Hathaway's total revenue in 2024. The documents only mention financial data up to the year 2023.",
+        "answer": "Based on the provided context, Berkshire Hathaway's total revenue in 2024 is not explicitly mentioned. The information provided only includes data up to the year 2023.",
         "expected": "$321,643 million",
         "passed": false,
-        "latency": 1.9259281158447266,
-        "cost": 0.000907,
+        "latency": 1.1295979022979736,
+        "cost": 0.0009040000000000001,
         "input_tokens": 1703,
-        "output_tokens": 37
+        "output_tokens": 35
       },
       {
         "id": 26,
@@ -83,7 +83,7 @@
         "answer": "Berkshire's net earnings in 2020 were $42.5 billion.",
         "expected": "$42.5 billion",
         "passed": true,
-        "latency": 0.757706880569458,
+        "latency": 0.830712080001831,
         "cost": 0.000815,
         "input_tokens": 1579,
         "output_tokens": 17
@@ -95,7 +95,7 @@
         "answer": "Berkshire's net earnings in 2021 were $89.8 billion.",
         "expected": "$89,795 billion",
         "passed": true,
-        "latency": 0.9013328552246094,
+        "latency": 1.008091926574707,
         "cost": 0.0008560000000000001,
         "input_tokens": 1661,
         "output_tokens": 17
@@ -107,7 +107,7 @@
         "answer": "Berkshire's net earnings in 2022 were $30.9 billion.",
         "expected": "Net earnings: $ (22,819)",
         "passed": false,
-        "latency": 0.8039979934692383,
+        "latency": 0.765477180480957,
         "cost": 0.0007905000000000001,
         "input_tokens": 1530,
         "output_tokens": 17
@@ -119,7 +119,7 @@
         "answer": "Berkshire's net earnings in 2023 were $96.2 billion.",
         "expected": "$96.2 billion",
         "passed": true,
-        "latency": 0.8332958221435547,
+        "latency": 0.7691009044647217,
         "cost": 0.000806,
         "input_tokens": 1561,
         "output_tokens": 17
@@ -131,7 +131,7 @@
         "answer": "Berkshire's net earnings in 2024 were $21.1 billion.",
         "expected": "$89.0 billion",
         "passed": false,
-        "latency": 0.810142993927002,
+        "latency": 1.4361729621887207,
         "cost": 0.000815,
         "input_tokens": 1579,
         "output_tokens": 17
@@ -143,7 +143,7 @@
         "answer": "Berkshire's cash position in 2020 was $135.0 billion, which included $112.8 billion in U.S. Treasury Bills.",
         "expected": "$44.7 billion",
         "passed": false,
-        "latency": 1.2366070747375488,
+        "latency": 1.536545991897583,
         "cost": 0.0008535000000000001,
         "input_tokens": 1614,
         "output_tokens": 31
@@ -152,25 +152,25 @@
         "id": 32,
         "category": "financial_figures",
         "question": "What was Berkshire's cash position in 2021?",
-        "answer": "Berkshire's cash, cash equivalents, and U.S. Treasury Bill holdings were below $30 billion in 2021.",
+        "answer": "Berkshire's cash position in 2021 was below $30 billion, with cash, cash equivalents, and U.S. Treasury Bill holdings totaling $143.9 billion at the end of the year.",
         "expected": "$143.9 billion",
-        "passed": false,
-        "latency": 0.9544098377227783,
-        "cost": 0.000848,
+        "passed": true,
+        "latency": 1.1254918575286865,
+        "cost": 0.000872,
         "input_tokens": 1618,
-        "output_tokens": 26
+        "output_tokens": 42
       },
       {
         "id": 33,
         "category": "financial_figures",
         "question": "What was Berkshire's cash position in 2022?",
-        "answer": "Berkshire's cash position in 2022 was $125.0 billion, which included $94.7 billion in U.S. Treasury Bills.",
+        "answer": "At December 31, 2022, Berkshire's insurance and other businesses held cash, cash equivalents, and U.S. Treasury Bills of $125.0 billion.",
         "expected": "$125.0 billion",
         "passed": true,
-        "latency": 1.2988202571868896,
-        "cost": 0.0008415,
+        "latency": 1.2279880046844482,
+        "cost": 0.0008460000000000001,
         "input_tokens": 1590,
-        "output_tokens": 31
+        "output_tokens": 34
       },
       {
         "id": 34,
@@ -179,7 +179,7 @@
         "answer": "At December 31, 2023, Berkshire's insurance and other businesses held cash, cash equivalents, and U.S. Treasury Bills of $143.9 billion.",
         "expected": "$30 billion",
         "passed": false,
-        "latency": 0.9000520706176758,
+        "latency": 1.0255310535430908,
         "cost": 0.000882,
         "input_tokens": 1662,
         "output_tokens": 34
@@ -191,7 +191,7 @@
         "answer": "Berkshire's cash position in 2024 was below $30 billion, as mentioned in the document.",
         "expected": "$27.2 billion",
         "passed": false,
-        "latency": 0.8413939476013184,
+        "latency": 3.4086241722106934,
         "cost": 0.000864,
         "input_tokens": 1662,
         "output_tokens": 22
@@ -203,7 +203,7 @@
         "answer": "Berkshire's total assets in 2020 were $467,372 billion.",
         "expected": "$467.372 billion",
         "passed": false,
-        "latency": 1.0551927089691162,
+        "latency": 0.9929537773132324,
         "cost": 0.0008690000000000001,
         "input_tokens": 1687,
         "output_tokens": 17
@@ -215,7 +215,7 @@
         "answer": "Berkshire's total assets in 2021 were $467,372 billion.",
         "expected": "$817 billion",
         "passed": false,
-        "latency": 0.6858770847320557,
+        "latency": 0.6679670810699463,
         "cost": 0.0008445,
         "input_tokens": 1638,
         "output_tokens": 17
@@ -227,7 +227,7 @@
         "answer": "Berkshire's total assets in 2022 were $35.59 billion.",
         "expected": "$35,590 billion",
         "passed": true,
-        "latency": 0.6047849655151367,
+        "latency": 0.6670920848846436,
         "cost": 0.0008235000000000001,
         "input_tokens": 1596,
         "output_tokens": 17
@@ -236,13 +236,13 @@
         "id": 39,
         "category": "financial_figures",
         "question": "What was Berkshire's total assets in 2023?",
-        "answer": "Based on the provided context, Berkshire's total assets in 2023 were not explicitly mentioned. The information provided mainly focuses on shareholders' equity, net earnings, and debt outstanding. Total assets would require additional information or a different document to determine.",
+        "answer": "Based on the provided context, Berkshire's total assets in 2023 were not explicitly mentioned. The information provided mainly focuses on Berkshire's shareholders' equity, net earnings, and debt outstanding in 2023.",
         "expected": "$561.3 billion",
         "passed": false,
-        "latency": 1.1354148387908936,
-        "cost": 0.0008825,
+        "latency": 0.8191728591918945,
+        "cost": 0.000872,
         "input_tokens": 1618,
-        "output_tokens": 49
+        "output_tokens": 42
       },
       {
         "id": 40,
@@ -251,7 +251,7 @@
         "answer": "Berkshire's total assets in 2024 were $649.4 billion.",
         "expected": "$649.4 billion",
         "passed": true,
-        "latency": 0.8180568218231201,
+        "latency": 2.0430920124053955,
         "cost": 0.0008555,
         "input_tokens": 1660,
         "output_tokens": 17
@@ -263,7 +263,7 @@
         "answer": "GEICO's revenue in 2020 was not explicitly mentioned in the provided context. The information mainly focuses on premiums written, premiums earned, underwriting earnings, and the impact of the GEICO Giveback program on earned premiums.",
         "expected": "$35,093 million",
         "passed": false,
-        "latency": 0.9771261215209961,
+        "latency": 1.0243358612060547,
         "cost": 0.0009385000000000001,
         "input_tokens": 1739,
         "output_tokens": 46
@@ -272,10 +272,10 @@
         "id": 42,
         "category": "financial_figures",
         "question": "What was GEICO's revenue in 2021?",
-        "answer": "GEICO's revenue in 2021 was $2.6 billion.",
+        "answer": "GEICO's revenue in 2021 was $3.5 billion.",
         "expected": "$3.5 billion",
-        "passed": false,
-        "latency": 0.6610260009765625,
+        "passed": true,
+        "latency": 0.7176439762115479,
         "cost": 0.0008309999999999999,
         "input_tokens": 1617,
         "output_tokens": 15
@@ -287,7 +287,7 @@
         "answer": "GEICO's revenue in 2022 was $1.3 billion.",
         "expected": "$33.7 billion",
         "passed": false,
-        "latency": 0.7171919345855713,
+        "latency": 1.1521410942077637,
         "cost": 0.0008625,
         "input_tokens": 1680,
         "output_tokens": 15
@@ -299,7 +299,7 @@
         "answer": "GEICO's revenue in 2023 was $39,264 million.",
         "expected": "$39,264 million",
         "passed": true,
-        "latency": 0.6137371063232422,
+        "latency": 0.793677806854248,
         "cost": 0.0008845,
         "input_tokens": 1724,
         "output_tokens": 15
@@ -308,13 +308,13 @@
         "id": 45,
         "category": "financial_figures",
         "question": "What was GEICO's revenue in 2024?",
-        "answer": "In 2024, GEICO's revenue was $42,252 million.",
+        "answer": "GEICO's revenue in 2024 was $42,252 million.",
         "expected": "$42,916 million",
         "passed": true,
-        "latency": 0.8210968971252441,
-        "cost": 0.0009005,
+        "latency": 0.7181849479675293,
+        "cost": 0.000899,
         "input_tokens": 1753,
-        "output_tokens": 16
+        "output_tokens": 15
       },
       {
         "id": 46,
@@ -323,7 +323,7 @@
         "answer": "BNSF's revenue in 2020 was $20,181 million.",
         "expected": "$20,181 million",
         "passed": true,
-        "latency": 0.6242470741271973,
+        "latency": 0.8187768459320068,
         "cost": 0.0009545,
         "input_tokens": 1861,
         "output_tokens": 16
@@ -335,7 +335,7 @@
         "answer": "BNSF's revenue in 2021 was $25,203 million.",
         "expected": "$7.9 billion",
         "passed": false,
-        "latency": 0.6692030429840088,
+        "latency": 0.8193531036376953,
         "cost": 0.0009545,
         "input_tokens": 1861,
         "output_tokens": 16
@@ -347,7 +347,7 @@
         "answer": "BNSF's revenue in 2022 was $25,203 million.",
         "expected": "11.9% increase",
         "passed": false,
-        "latency": 0.7543067932128906,
+        "latency": 0.8173677921295166,
         "cost": 0.0009550000000000001,
         "input_tokens": 1862,
         "output_tokens": 16
@@ -359,7 +359,7 @@
         "answer": "BNSF's revenue in 2023 was $23,474 million.",
         "expected": "$9.2 billion",
         "passed": false,
-        "latency": 1.4513871669769287,
+        "latency": 0.7188611030578613,
         "cost": 0.0009535,
         "input_tokens": 1859,
         "output_tokens": 16
@@ -368,13 +368,13 @@
         "id": 50,
         "category": "financial_figures",
         "question": "What was BNSF's revenue in 2024?",
-        "answer": "In 2024, BNSF's railroad operating revenues were $23,355 million.",
+        "answer": "BNSF's revenue in 2024 was $23,355 million.",
         "expected": "$23,355 million",
         "passed": true,
-        "latency": 0.6984410285949707,
-        "cost": 0.000871,
+        "latency": 0.8203721046447754,
+        "cost": 0.0008665000000000001,
         "input_tokens": 1685,
-        "output_tokens": 19
+        "output_tokens": 16
       },
       {
         "id": 51,
@@ -383,7 +383,7 @@
         "answer": "Berkshire's insurance float in 2020 was approximately $138 billion.",
         "expected": "$138 billion",
         "passed": true,
-        "latency": 1.0242500305175781,
+        "latency": 0.8146300315856934,
         "cost": 0.0008365000000000001,
         "input_tokens": 1625,
         "output_tokens": 16
@@ -395,7 +395,7 @@
         "answer": "Berkshire's insurance float in 2021 was $147 billion.",
         "expected": "$147 billion",
         "passed": true,
-        "latency": 0.8844687938690186,
+        "latency": 0.9227199554443359,
         "cost": 0.000838,
         "input_tokens": 1631,
         "output_tokens": 15
@@ -407,7 +407,7 @@
         "answer": "Berkshire's insurance float in 2022 was $164 billion.",
         "expected": "$164 billion",
         "passed": true,
-        "latency": 1.0072882175445557,
+        "latency": 0.6130640506744385,
         "cost": 0.0008285,
         "input_tokens": 1612,
         "output_tokens": 15
@@ -419,7 +419,7 @@
         "answer": "Berkshire's insurance float in 2023 was $164 billion.",
         "expected": "$303 billion",
         "passed": false,
-        "latency": 0.9863979816436768,
+        "latency": 0.698861837387085,
         "cost": 0.0008734999999999999,
         "input_tokens": 1702,
         "output_tokens": 15
@@ -431,7 +431,7 @@
         "answer": "Berkshire's insurance float in 2024 was $164 billion.",
         "expected": "$21.1 billion",
         "passed": false,
-        "latency": 0.6026151180267334,
+        "latency": 0.7962570190429688,
         "cost": 0.0008734999999999999,
         "input_tokens": 1702,
         "output_tokens": 15
@@ -443,7 +443,7 @@
         "answer": "Berkshire's operating earnings in 2020 were $21.9 billion.",
         "expected": "$21.9 billion",
         "passed": true,
-        "latency": 0.8188290596008301,
+        "latency": 0.8619508743286133,
         "cost": 0.000862,
         "input_tokens": 1673,
         "output_tokens": 17
@@ -455,7 +455,7 @@
         "answer": "Berkshire's operating earnings in 2021 were $27.6 billion.",
         "expected": "$4,807 million",
         "passed": false,
-        "latency": 0.8427290916442871,
+        "latency": 2.0477230548858643,
         "cost": 0.0008645,
         "input_tokens": 1678,
         "output_tokens": 17
@@ -467,7 +467,7 @@
         "answer": "Berkshire's operating earnings in 2022 were $30.9 billion.",
         "expected": "Operating earnings: $2.4 billion",
         "passed": false,
-        "latency": 0.7023899555206299,
+        "latency": 0.8168950080871582,
         "cost": 0.0008255000000000001,
         "input_tokens": 1600,
         "output_tokens": 17
@@ -479,7 +479,7 @@
         "answer": "Berkshire's operating earnings in 2023 were $37.4 billion.",
         "expected": "$37.4 billion",
         "passed": true,
-        "latency": 2.313201904296875,
+        "latency": 0.923799991607666,
         "cost": 0.000812,
         "input_tokens": 1573,
         "output_tokens": 17
@@ -491,7 +491,7 @@
         "answer": "Berkshire's operating earnings in 2024 were $47.4 billion.",
         "expected": "$47.4 billion",
         "passed": true,
-        "latency": 0.5998880863189697,
+        "latency": 0.8451430797576904,
         "cost": 0.0008345000000000001,
         "input_tokens": 1618,
         "output_tokens": 17
@@ -503,7 +503,7 @@
         "answer": "Berkshire Hathaway's book value per share in 2020 was $287,031.",
         "expected": "$287,031",
         "passed": true,
-        "latency": 1.174536943435669,
+        "latency": 0.690720796585083,
         "cost": 0.0008735,
         "input_tokens": 1687,
         "output_tokens": 20
@@ -515,7 +515,7 @@
         "answer": "Berkshire's book value per share in 2021 was $287,031.",
         "expected": "Book value per share: $281,208",
         "passed": false,
-        "latency": 0.9329929351806641,
+        "latency": 0.9859440326690674,
         "cost": 0.0008950000000000001,
         "input_tokens": 1736,
         "output_tokens": 18
@@ -527,7 +527,7 @@
         "answer": "Berkshire's book value per share in 2022 was not explicitly mentioned in the provided context.",
         "expected": "Minor gain",
         "passed": false,
-        "latency": 0.6993222236633301,
+        "latency": 0.743912935256958,
         "cost": 0.000861,
         "input_tokens": 1659,
         "output_tokens": 21
@@ -539,7 +539,7 @@
         "answer": "Berkshire's book value per share in 2023 was $287,031.",
         "expected": "$561.3 billion",
         "passed": false,
-        "latency": 0.8261969089508057,
+        "latency": 0.8302187919616699,
         "cost": 0.00087,
         "input_tokens": 1686,
         "output_tokens": 18
@@ -551,7 +551,7 @@
         "answer": "Berkshire's book value per share in 2024 was $649.4 billion.",
         "expected": "$649.4 billion",
         "passed": true,
-        "latency": 0.6917088031768799,
+        "latency": 1.0770249366760254,
         "cost": 0.000871,
         "input_tokens": 1685,
         "output_tokens": 19
@@ -563,7 +563,7 @@
         "answer": "Berkshire's investment portfolio value in 2020 was $301.6 billion.",
         "expected": "$301.6 billion",
         "passed": true,
-        "latency": 0.7109460830688477,
+        "latency": 0.7774908542633057,
         "cost": 0.0008335,
         "input_tokens": 1613,
         "output_tokens": 18
@@ -575,7 +575,7 @@
         "answer": "Berkshire's investment portfolio value in 2021 was $367.2 billion.",
         "expected": "$367.2 billion",
         "passed": true,
-        "latency": 0.8508033752441406,
+        "latency": 2.1389360427856445,
         "cost": 0.0008205,
         "input_tokens": 1587,
         "output_tokens": 18
@@ -587,7 +587,7 @@
         "answer": "Berkshire's investment portfolio value in 2022 was $367.2 billion.",
         "expected": "$22 billion",
         "passed": false,
-        "latency": 0.8182828426361084,
+        "latency": 0.7900009155273438,
         "cost": 0.0007934999999999999,
         "input_tokens": 1533,
         "output_tokens": 18
@@ -599,7 +599,7 @@
         "answer": "Berkshire's investment portfolio value in 2023 was $561.3 billion.",
         "expected": "$561 billion",
         "passed": false,
-        "latency": 1.1493711471557617,
+        "latency": 0.6415832042694092,
         "cost": 0.0008215,
         "input_tokens": 1589,
         "output_tokens": 18
@@ -611,7 +611,7 @@
         "answer": "Berkshire's investment portfolio value in 2024 was $649.4 billion.",
         "expected": "Publicly traded equity securities",
         "passed": false,
-        "latency": 0.6600949764251709,
+        "latency": 0.8211908340454102,
         "cost": 0.0008145,
         "input_tokens": 1575,
         "output_tokens": 18
@@ -620,17 +620,17 @@
   },
   "strategy2": {
     "strategy": "Strategy 2 \u2014 Metadata Filter",
-    "accuracy": 14.000000000000002,
-    "avg_latency": 0.9394563198089599,
-    "avg_cost": 0.0006190400000000001,
-    "total_cost": 0.030952000000000004,
+    "accuracy": 12.0,
+    "avg_latency": 0.9986106634140015,
+    "avg_cost": 0.0006213500000000001,
+    "total_cost": 0.031067500000000005,
     "avg_input_tokens": 1162.84,
-    "avg_output_tokens": 25.08,
-    "correct": 7,
+    "avg_output_tokens": 26.62,
+    "correct": 6,
     "total": 50,
     "categories": {
       "financial_figures": {
-        "correct": 7,
+        "correct": 6,
         "total": 50
       }
     },
@@ -642,7 +642,7 @@
         "answer": "Berkshire Hathaway's total revenue in 2020 was $249,871 million.",
         "expected": "$245,510 million",
         "passed": false,
-        "latency": 1.0981109142303467,
+        "latency": 1.700300931930542,
         "cost": 0.000205,
         "input_tokens": 353,
         "output_tokens": 19
@@ -651,13 +651,13 @@
         "id": 22,
         "category": "financial_figures",
         "question": "What was Berkshire Hathaway's total revenue in 2021?",
-        "answer": "Based on the provided context, Berkshire Hathaway's total revenue in 2021 was not explicitly mentioned. The document only provides revenue figures for the years 2024, 2023, and 2022.",
+        "answer": "Based on the provided context, Berkshire Hathaway's total revenue in 2021 was not explicitly mentioned. The document only provides information on revenues for the years 2024, 2023, and 2022.",
         "expected": "$227,974 million",
         "passed": false,
-        "latency": 0.9195079803466797,
-        "cost": 0.00024099999999999998,
+        "latency": 1.1258840560913086,
+        "cost": 0.00024249999999999999,
         "input_tokens": 353,
-        "output_tokens": 43
+        "output_tokens": 44
       },
       {
         "id": 23,
@@ -666,7 +666,7 @@
         "answer": "Berkshire Hathaway's total revenue in 2022 was $249,871 million.",
         "expected": "$311,184 million",
         "passed": false,
-        "latency": 1.1199300289154053,
+        "latency": 1.2694339752197266,
         "cost": 0.000205,
         "input_tokens": 353,
         "output_tokens": 19
@@ -678,7 +678,7 @@
         "answer": "Berkshire Hathaway's total revenue in 2023 was $314,731 million.",
         "expected": "$263,067 million",
         "passed": false,
-        "latency": 0.7567179203033447,
+        "latency": 1.08949613571167,
         "cost": 0.000205,
         "input_tokens": 353,
         "output_tokens": 19
@@ -690,7 +690,7 @@
         "answer": "Berkshire Hathaway's total revenue in 2024 was $321,643 million.",
         "expected": "$321,643 million",
         "passed": true,
-        "latency": 0.6064651012420654,
+        "latency": 0.8153901100158691,
         "cost": 0.000581,
         "input_tokens": 1105,
         "output_tokens": 19
@@ -702,7 +702,7 @@
         "answer": "Berkshire's net earnings in 2020 were $88,995 million.",
         "expected": "$42.5 billion",
         "passed": false,
-        "latency": 0.747478723526001,
+        "latency": 0.8212080001831055,
         "cost": 0.0006290000000000001,
         "input_tokens": 1207,
         "output_tokens": 17
@@ -714,7 +714,7 @@
         "answer": "Based on the provided context, there is no information available about Berkshire's net earnings in 2021. The data only includes information for the years 2022, 2023, and 2024.",
         "expected": "$89,795 billion",
         "passed": false,
-        "latency": 0.9556620121002197,
+        "latency": 0.8115079402923584,
         "cost": 0.0006665000000000001,
         "input_tokens": 1207,
         "output_tokens": 42
@@ -726,7 +726,7 @@
         "answer": "Berkshire's net earnings in 2022 were a loss of $22,759 million.",
         "expected": "Net earnings: $ (22,819)",
         "passed": false,
-        "latency": 1.2411179542541504,
+        "latency": 1.2883460521697998,
         "cost": 0.000899,
         "input_tokens": 1738,
         "output_tokens": 20
@@ -738,7 +738,7 @@
         "answer": "Berkshire's net earnings in 2023 were $5.428 billion.",
         "expected": "$96.2 billion",
         "passed": false,
-        "latency": 0.687608003616333,
+        "latency": 0.6340880393981934,
         "cost": 0.0008475,
         "input_tokens": 1644,
         "output_tokens": 17
@@ -750,7 +750,7 @@
         "answer": "Berkshire's net earnings in 2024 were $89.0 billion.",
         "expected": "$89.0 billion",
         "passed": true,
-        "latency": 0.8482921123504639,
+        "latency": 0.9543361663818359,
         "cost": 0.000862,
         "input_tokens": 1673,
         "output_tokens": 17
@@ -759,13 +759,13 @@
         "id": 31,
         "category": "financial_figures",
         "question": "What was Berkshire's cash position in 2020?",
-        "answer": "Based on the provided context, Berkshire Hathaway's cash position in 2020 was not explicitly mentioned. The information provided only includes financial data for the years 2022, 2023, and 2024.",
+        "answer": "Based on the provided context, Berkshire Hathaway's cash position in 2020 was not explicitly mentioned. The information provided only covers the financial data for the years 2022, 2023, and 2024.",
         "expected": "$44.7 billion",
         "passed": false,
-        "latency": 0.8213760852813721,
-        "cost": 0.0005095,
+        "latency": 0.991447925567627,
+        "cost": 0.000511,
         "input_tokens": 887,
-        "output_tokens": 44
+        "output_tokens": 45
       },
       {
         "id": 32,
@@ -774,7 +774,7 @@
         "answer": "Berkshire's cash position in 2021 was not explicitly mentioned in the provided context.",
         "expected": "$143.9 billion",
         "passed": false,
-        "latency": 0.8201360702514648,
+        "latency": 1.0544919967651367,
         "cost": 0.000479,
         "input_tokens": 901,
         "output_tokens": 19
@@ -783,13 +783,13 @@
         "id": 33,
         "category": "financial_figures",
         "question": "What was Berkshire's cash position in 2022?",
-        "answer": "Based on the provided context, Berkshire's cash position in 2022 is not explicitly mentioned. The information provided only includes data for the years 2023 and 2024.",
+        "answer": "Based on the provided context, Berkshire's cash position in 2022 is not explicitly mentioned. The information provided only includes details about Berkshire's financial condition, shareholders' equity, net earnings, debt issuances, and other financial activities for the years 2023 and 2024.",
         "expected": "$125.0 billion",
         "passed": false,
-        "latency": 1.0226318836212158,
-        "cost": 0.0006255000000000001,
+        "latency": 1.022770881652832,
+        "cost": 0.000657,
         "input_tokens": 1143,
-        "output_tokens": 36
+        "output_tokens": 57
       },
       {
         "id": 34,
@@ -798,7 +798,7 @@
         "answer": "Berkshire's cash position in 2023 was not explicitly mentioned in the provided context.",
         "expected": "$30 billion",
         "passed": false,
-        "latency": 0.6602919101715088,
+        "latency": 0.8202769756317139,
         "cost": 0.0007375,
         "input_tokens": 1418,
         "output_tokens": 19
@@ -810,7 +810,7 @@
         "answer": "Berkshire's cash position in 2024 was not explicitly mentioned in the provided context.",
         "expected": "$27.2 billion",
         "passed": false,
-        "latency": 1.080754041671753,
+        "latency": 0.7263650894165039,
         "cost": 0.0008705,
         "input_tokens": 1684,
         "output_tokens": 19
@@ -819,49 +819,49 @@
         "id": 36,
         "category": "financial_figures",
         "question": "What was Berkshire's total assets in 2020?",
-        "answer": "Based on the provided context, the total assets of Berkshire in 2020 are not explicitly mentioned. The document only mentions Berkshire's shareholders' equity, net earnings, and after-tax investment gains for the year 2024.",
+        "answer": "Based on the provided context, the total assets of Berkshire in 2020 are not explicitly mentioned. The information provided only states the shareholders' equity and net earnings for the year 2024.",
         "expected": "$467.372 billion",
         "passed": false,
-        "latency": 0.8170228004455566,
-        "cost": 0.00021250000000000002,
+        "latency": 0.8920106887817383,
+        "cost": 0.0002035,
         "input_tokens": 290,
-        "output_tokens": 45
+        "output_tokens": 39
       },
       {
         "id": 37,
         "category": "financial_figures",
         "question": "What was Berkshire's total assets in 2021?",
-        "answer": "Based on the provided context, the total assets of Berkshire in 2021 were not explicitly mentioned. The information provided only includes Berkshire's shareholders' equity, which was $510.299 billion at the end of December 31, 2021. Total assets would require additional information or a different document to determine.",
+        "answer": "Based on the provided context, Berkshire's total assets in 2021 were not explicitly mentioned. The information provided only includes Berkshire's shareholders' equity at the end of 2021, which was $510.299 billion. Total assets would require additional information or a different document to determine.",
         "expected": "$817 billion",
         "passed": false,
-        "latency": 1.4359979629516602,
-        "cost": 0.0003975,
+        "latency": 1.4533910751342773,
+        "cost": 0.00039,
         "input_tokens": 606,
-        "output_tokens": 63
+        "output_tokens": 58
       },
       {
         "id": 38,
         "category": "financial_figures",
         "question": "What was Berkshire's total assets in 2022?",
-        "answer": "Based on the provided context, the total assets of Berkshire in 2022 are not explicitly mentioned. The information provided only includes data for the years 2023 and 2024.",
+        "answer": "Based on the provided context, the total assets of Berkshire in 2022 are not explicitly mentioned. The information provided only includes details about Berkshire's shareholders' equity, net earnings, defined contribution plan expenses, and other comprehensive income for the years 2023 and 2024.",
         "expected": "$35,590 billion",
         "passed": false,
-        "latency": 1.030825138092041,
-        "cost": 0.0004885,
+        "latency": 1.128692865371704,
+        "cost": 0.000517,
         "input_tokens": 866,
-        "output_tokens": 37
+        "output_tokens": 56
       },
       {
         "id": 39,
         "category": "financial_figures",
         "question": "What was Berkshire's total assets in 2023?",
-        "answer": "Based on the provided context, Berkshire's total assets in 2023 are not explicitly mentioned. The information provided only includes details about Berkshire's shareholders' equity, net earnings, and defined contribution plan expenses for the years 2022, 2023, and 2024.",
+        "answer": "Based on the provided context, Berkshire's total assets in 2023 are not explicitly mentioned. The document only states that Berkshire's shareholders' equity at December 31, 2024 was $649.4 billion, an increase of $88.1 billion since December 31, 2023.",
         "expected": "$561.3 billion",
         "passed": false,
-        "latency": 1.3860409259796143,
-        "cost": 0.000517,
+        "latency": 1.226304054260254,
+        "cost": 0.0005245,
         "input_tokens": 866,
-        "output_tokens": 56
+        "output_tokens": 61
       },
       {
         "id": 40,
@@ -870,7 +870,7 @@
         "answer": "Berkshire's total assets in 2024 were not explicitly mentioned in the provided context.",
         "expected": "$649.4 billion",
         "passed": false,
-        "latency": 0.7705659866333008,
+        "latency": 0.7151820659637451,
         "cost": 0.0007620000000000001,
         "input_tokens": 1467,
         "output_tokens": 19
@@ -882,7 +882,7 @@
         "answer": "Based on the provided context, there is no information about GEICO's revenue in 2020. The document only provides information about GEICO's premiums written and earned, losses, and expenses for the years 2022, 2023, and 2024.",
         "expected": "$35,093 million",
         "passed": false,
-        "latency": 1.4189610481262207,
+        "latency": 1.4819352626800537,
         "cost": 0.00040850000000000006,
         "input_tokens": 655,
         "output_tokens": 54
@@ -891,13 +891,13 @@
         "id": 42,
         "category": "financial_figures",
         "question": "What was GEICO's revenue in 2021?",
-        "answer": "Based on the provided context, there is no information about GEICO's revenue in 2021. The document only provides information about GEICO's premiums written and earned in 2022 and 2023.",
+        "answer": "Based on the provided context, there is no information about GEICO's revenue in 2021. The document only provides information about GEICO's premiums written and earned, losses, and expenses for the years 2022, 2023, and 2024.",
         "expected": "$3.5 billion",
         "passed": false,
-        "latency": 1.025019884109497,
-        "cost": 0.00039050000000000006,
+        "latency": 1.3452746868133545,
+        "cost": 0.00040850000000000006,
         "input_tokens": 655,
-        "output_tokens": 42
+        "output_tokens": 54
       },
       {
         "id": 43,
@@ -906,7 +906,7 @@
         "answer": "GEICO's revenue in 2022 was $39,107 million.",
         "expected": "$33.7 billion",
         "passed": false,
-        "latency": 1.024003028869629,
+        "latency": 0.7329227924346924,
         "cost": 0.0007394999999999999,
         "input_tokens": 1434,
         "output_tokens": 15
@@ -915,10 +915,10 @@
         "id": 44,
         "category": "financial_figures",
         "question": "What was GEICO's revenue in 2023?",
-        "answer": "GEICO's revenue in 2023 was $39,264 million.",
+        "answer": "GEICO's revenue in 2023 was $42,252 million.",
         "expected": "$39,264 million",
-        "passed": true,
-        "latency": 0.818850040435791,
+        "passed": false,
+        "latency": 1.151299238204956,
         "cost": 0.0008644999999999999,
         "input_tokens": 1684,
         "output_tokens": 15
@@ -930,7 +930,7 @@
         "answer": "GEICO's revenue in 2024 was $42,252 million.",
         "expected": "$42,916 million",
         "passed": true,
-        "latency": 0.7167339324951172,
+        "latency": 1.126452922821045,
         "cost": 0.0008795,
         "input_tokens": 1714,
         "output_tokens": 15
@@ -939,13 +939,13 @@
         "id": 46,
         "category": "financial_figures",
         "question": "What was BNSF's revenue in 2020?",
-        "answer": "Based on the provided context, BNSF's revenue in 2020 was $25,203 million.",
+        "answer": "Based on the provided context, there is no information about BNSF's revenue in 2020. The data only includes information about BNSF's earnings in 2022, 2023, and 2024.",
         "expected": "$20,181 million",
         "passed": false,
-        "latency": 1.048570156097412,
-        "cost": 0.0006015,
+        "latency": 1.1344633102416992,
+        "cost": 0.0006375,
         "input_tokens": 1137,
-        "output_tokens": 22
+        "output_tokens": 46
       },
       {
         "id": 47,
@@ -954,7 +954,7 @@
         "answer": "Based on the provided context, there is no information available about BNSF's revenue in 2021. The data only includes information about BNSF's earnings in 2022, 2023, and 2024.",
         "expected": "$7.9 billion",
         "passed": false,
-        "latency": 1.2043709754943848,
+        "latency": 1.4243977069854736,
         "cost": 0.0008215000000000001,
         "input_tokens": 1502,
         "output_tokens": 47
@@ -966,7 +966,7 @@
         "answer": "BNSF's revenue in 2022 was $25,203 million.",
         "expected": "11.9% increase",
         "passed": false,
-        "latency": 0.7161910533905029,
+        "latency": 0.9258630275726318,
         "cost": 0.000912,
         "input_tokens": 1776,
         "output_tokens": 16
@@ -978,7 +978,7 @@
         "answer": "BNSF's revenue in 2023 was $23,474 million.",
         "expected": "$9.2 billion",
         "passed": false,
-        "latency": 0.7176098823547363,
+        "latency": 0.5427279472351074,
         "cost": 0.000912,
         "input_tokens": 1776,
         "output_tokens": 16
@@ -990,7 +990,7 @@
         "answer": "BNSF's revenue in 2024 was $23,355 million.",
         "expected": "$23,355 million",
         "passed": true,
-        "latency": 0.9204370975494385,
+        "latency": 0.7852988243103027,
         "cost": 0.0008925000000000001,
         "input_tokens": 1737,
         "output_tokens": 16
@@ -1002,7 +1002,7 @@
         "answer": "Based on the provided context, there is no information about Berkshire's insurance float in 2020.",
         "expected": "$138 billion",
         "passed": false,
-        "latency": 0.6752939224243164,
+        "latency": 0.8194408416748047,
         "cost": 0.000313,
         "input_tokens": 566,
         "output_tokens": 20
@@ -1014,7 +1014,7 @@
         "answer": "Based on the provided context, there is no specific information about Berkshire's insurance float in 2021.",
         "expected": "$147 billion",
         "passed": false,
-        "latency": 1.0665338039398193,
+        "latency": 0.7147221565246582,
         "cost": 0.0003255,
         "input_tokens": 588,
         "output_tokens": 21
@@ -1026,7 +1026,7 @@
         "answer": "Based on the provided context, the document does not contain information about Berkshire's insurance float in 2022.",
         "expected": "$164 billion",
         "passed": false,
-        "latency": 0.7977280616760254,
+        "latency": 0.8211991786956787,
         "cost": 0.000327,
         "input_tokens": 588,
         "output_tokens": 22
@@ -1035,10 +1035,10 @@
         "id": 54,
         "category": "financial_figures",
         "question": "What was Berkshire's insurance float in 2023?",
-        "answer": "Berkshire's insurance float in 2023 was not explicitly mentioned in the provided context.",
+        "answer": "Based on the provided context, Berkshire's insurance float in 2023 was not explicitly mentioned.",
         "expected": "$303 billion",
         "passed": false,
-        "latency": 0.7972002029418945,
+        "latency": 1.0637879371643066,
         "cost": 0.0003115,
         "input_tokens": 566,
         "output_tokens": 19
@@ -1050,7 +1050,7 @@
         "answer": "Berkshire's insurance float in 2024 was $21.1 billion.",
         "expected": "$21.1 billion",
         "passed": true,
-        "latency": 0.715259313583374,
+        "latency": 0.5683057308197021,
         "cost": 0.0007275,
         "input_tokens": 1404,
         "output_tokens": 17
@@ -1062,7 +1062,7 @@
         "answer": "Berkshire's operating earnings in 2020 were $47,437 million.",
         "expected": "$21.9 billion",
         "passed": false,
-        "latency": 0.8346171379089355,
+        "latency": 0.7221481800079346,
         "cost": 0.0006015,
         "input_tokens": 1152,
         "output_tokens": 17
@@ -1074,7 +1074,7 @@
         "answer": "Based on the provided context, Berkshire's operating earnings in 2021 were $37,350 million.",
         "expected": "$4,807 million",
         "passed": false,
-        "latency": 0.7471668720245361,
+        "latency": 1.1269261837005615,
         "cost": 0.000755,
         "input_tokens": 1447,
         "output_tokens": 21
@@ -1086,7 +1086,7 @@
         "answer": "Berkshire's operating earnings in 2022 were $37,350 million.",
         "expected": "Operating earnings: $2.4 billion",
         "passed": false,
-        "latency": 0.8183200359344482,
+        "latency": 0.8369359970092773,
         "cost": 0.0007390000000000001,
         "input_tokens": 1427,
         "output_tokens": 17
@@ -1098,7 +1098,7 @@
         "answer": "Berkshire's operating earnings in 2023 were $37,350 million.",
         "expected": "$37.4 billion",
         "passed": false,
-        "latency": 1.0240440368652344,
+        "latency": 1.007220983505249,
         "cost": 0.0008745000000000001,
         "input_tokens": 1698,
         "output_tokens": 17
@@ -1110,7 +1110,7 @@
         "answer": "Berkshire's operating earnings in 2024 were $47.4 billion.",
         "expected": "$47.4 billion",
         "passed": true,
-        "latency": 0.919780969619751,
+        "latency": 0.9207937717437744,
         "cost": 0.0008790000000000001,
         "input_tokens": 1707,
         "output_tokens": 17
@@ -1122,7 +1122,7 @@
         "answer": "Based on the provided context, the book value per share for Berkshire in 2020 is not explicitly mentioned. The information provided only pertains to the year 2024.",
         "expected": "$287,031",
         "passed": false,
-        "latency": 0.9237329959869385,
+        "latency": 0.8197219371795654,
         "cost": 0.0006550000000000001,
         "input_tokens": 1205,
         "output_tokens": 35
@@ -1134,7 +1134,7 @@
         "answer": "Berkshire's book value per share in 2021 was $510,299 million.",
         "expected": "Book value per share: $281,208",
         "passed": false,
-        "latency": 2.355668067932129,
+        "latency": 0.8192000389099121,
         "cost": 0.0007645,
         "input_tokens": 1472,
         "output_tokens": 19
@@ -1146,7 +1146,7 @@
         "answer": "Berkshire's book value per share in 2022 was $16,303.",
         "expected": "Minor gain",
         "passed": false,
-        "latency": 0.6962699890136719,
+        "latency": 1.1457531452178955,
         "cost": 0.000763,
         "input_tokens": 1472,
         "output_tokens": 18
@@ -1158,7 +1158,7 @@
         "answer": "Berkshire's book value per share in 2023 was $533,886 million.",
         "expected": "$561.3 billion",
         "passed": false,
-        "latency": 0.9884710311889648,
+        "latency": 1.9295470714569092,
         "cost": 0.000902,
         "input_tokens": 1747,
         "output_tokens": 19
@@ -1170,7 +1170,7 @@
         "answer": "Berkshire's book value per share in 2024 was $451,000.",
         "expected": "$649.4 billion",
         "passed": false,
-        "latency": 0.8042511940002441,
+        "latency": 0.8172881603240967,
         "cost": 0.0009005,
         "input_tokens": 1747,
         "output_tokens": 18
@@ -1179,13 +1179,13 @@
         "id": 66,
         "category": "financial_figures",
         "question": "What was Berkshire's investment portfolio value in 2020?",
-        "answer": "In 2020, Berkshire's investment portfolio value was $272 billion.",
+        "answer": "Berkshire's investment portfolio value in 2020 was $354 billion.",
         "expected": "$301.6 billion",
         "passed": false,
-        "latency": 1.1339771747589111,
-        "cost": 0.0002865,
+        "latency": 0.8186831474304199,
+        "cost": 0.000288,
         "input_tokens": 528,
-        "output_tokens": 15
+        "output_tokens": 16
       },
       {
         "id": 67,
@@ -1194,7 +1194,7 @@
         "answer": "Berkshire's investment portfolio value in 2021 was $510.299 billion.",
         "expected": "$367.2 billion",
         "passed": false,
-        "latency": 0.665064811706543,
+        "latency": 1.126777172088623,
         "cost": 0.0004445,
         "input_tokens": 835,
         "output_tokens": 18
@@ -1203,13 +1203,13 @@
         "id": 68,
         "category": "financial_figures",
         "question": "What was Berkshire's investment portfolio value in 2022?",
-        "answer": "Based on the provided context, there is no information about Berkshire's investment portfolio value in 2022. The information provided only pertains to the years 2023 and 2024.",
+        "answer": "Based on the provided context, there is no information about Berkshire's investment portfolio value in 2022. The context only mentions information about Berkshire's investment portfolios, debt, and financial condition in 2024.",
         "expected": "$22 billion",
         "passed": false,
-        "latency": 0.9317789077758789,
-        "cost": 0.00046449999999999996,
+        "latency": 0.9180598258972168,
+        "cost": 0.0004705,
         "input_tokens": 815,
-        "output_tokens": 38
+        "output_tokens": 42
       },
       {
         "id": 69,
@@ -1218,7 +1218,7 @@
         "answer": "Based on the provided context, Berkshire's investment portfolio value in 2023 was $354 billion.",
         "expected": "$561 billion",
         "passed": false,
-        "latency": 0.6911468505859375,
+        "latency": 0.821984052658081,
         "cost": 0.000711,
         "input_tokens": 1362,
         "output_tokens": 20
@@ -1230,7 +1230,7 @@
         "answer": "Berkshire's investment portfolio value in 2024 was approximately $27.2 billion.",
         "expected": "Publicly traded equity securities",
         "passed": false,
-        "latency": 0.9492299556732178,
+        "latency": 0.9204769134521484,
         "cost": 0.0008445,
         "input_tokens": 1632,
         "output_tokens": 19
@@ -1240,11 +1240,11 @@
   "strategy3": {
     "strategy": "Strategy 3 \u2014 Hybrid BM25",
     "accuracy": 46.0,
-    "avg_latency": 1.0510077953338623,
-    "avg_cost": 0.0014800800000000004,
-    "total_cost": 0.07400400000000001,
+    "avg_latency": 1.0017292594909668,
+    "avg_cost": 0.0014812500000000001,
+    "total_cost": 0.0740625,
     "avg_input_tokens": 2902.02,
-    "avg_output_tokens": 19.38,
+    "avg_output_tokens": 20.16,
     "correct": 23,
     "total": 50,
     "categories": {
@@ -1261,7 +1261,7 @@
         "answer": "Berkshire Hathaway's total revenue in 2020 was $245,510.",
         "expected": "$245,510 million",
         "passed": true,
-        "latency": 0.8930079936981201,
+        "latency": 0.9858479499816895,
         "cost": 0.0015249999999999999,
         "input_tokens": 2996,
         "output_tokens": 18
@@ -1273,7 +1273,7 @@
         "answer": "Berkshire Hathaway's total revenue in 2021 was $89,795 million.",
         "expected": "$227,974 million",
         "passed": false,
-        "latency": 0.7157649993896484,
+        "latency": 1.0737659931182861,
         "cost": 0.001475,
         "input_tokens": 2893,
         "output_tokens": 19
@@ -1282,13 +1282,13 @@
         "id": 23,
         "category": "financial_figures",
         "question": "What was Berkshire Hathaway's total revenue in 2022?",
-        "answer": "Berkshire Hathaway's total revenue in 2022 was not provided in the given context.",
+        "answer": "Berkshire Hathaway's total revenue in 2022 was $254,616.",
         "expected": "$311,184 million",
         "passed": false,
-        "latency": 0.6176559925079346,
-        "cost": 0.001545,
+        "latency": 1.024266004562378,
+        "cost": 0.0015419999999999998,
         "input_tokens": 3030,
-        "output_tokens": 20
+        "output_tokens": 18
       },
       {
         "id": 24,
@@ -1297,7 +1297,7 @@
         "answer": "Berkshire Hathaway's total revenue in 2023 was $263,067 million.",
         "expected": "$263,067 million",
         "passed": true,
-        "latency": 0.7152159214019775,
+        "latency": 0.7190830707550049,
         "cost": 0.0015025000000000001,
         "input_tokens": 2948,
         "output_tokens": 19
@@ -1309,7 +1309,7 @@
         "answer": "Berkshire Hathaway's total revenue in 2024 was not explicitly mentioned in the provided context.",
         "expected": "$321,643 million",
         "passed": false,
-        "latency": 0.7168571949005127,
+        "latency": 1.230799913406372,
         "cost": 0.001523,
         "input_tokens": 2983,
         "output_tokens": 21
@@ -1321,7 +1321,7 @@
         "answer": "Berkshire's net earnings in 2020 were $42.5 billion.",
         "expected": "$42.5 billion",
         "passed": true,
-        "latency": 0.7159140110015869,
+        "latency": 1.019347906112671,
         "cost": 0.0013729999999999999,
         "input_tokens": 2695,
         "output_tokens": 17
@@ -1333,7 +1333,7 @@
         "answer": "Berkshire's net earnings in 2021 were $89.8 billion.",
         "expected": "$89,795 billion",
         "passed": true,
-        "latency": 0.6866669654846191,
+        "latency": 0.715001106262207,
         "cost": 0.0015565,
         "input_tokens": 3062,
         "output_tokens": 17
@@ -1345,7 +1345,7 @@
         "answer": "Berkshire's net earnings in 2022 were $96.2 billion.",
         "expected": "Net earnings: $ (22,819)",
         "passed": false,
-        "latency": 0.8502559661865234,
+        "latency": 0.8202168941497803,
         "cost": 0.001491,
         "input_tokens": 2931,
         "output_tokens": 17
@@ -1357,7 +1357,7 @@
         "answer": "Berkshire's net earnings in 2023 were $96.2 billion.",
         "expected": "$96.2 billion",
         "passed": true,
-        "latency": 0.7142860889434814,
+        "latency": 0.7182888984680176,
         "cost": 0.001372,
         "input_tokens": 2693,
         "output_tokens": 17
@@ -1369,7 +1369,7 @@
         "answer": "Berkshire's net earnings in 2024 were $21.1 billion.",
         "expected": "$89.0 billion",
         "passed": false,
-        "latency": 1.2326200008392334,
+        "latency": 0.7286388874053955,
         "cost": 0.0015155,
         "input_tokens": 2980,
         "output_tokens": 17
@@ -1381,7 +1381,7 @@
         "answer": "Berkshire's cash position in 2020 was $135.0 billion, which included $112.8 billion in U.S. Treasury Bills.",
         "expected": "$44.7 billion",
         "passed": false,
-        "latency": 0.8311240673065186,
+        "latency": 0.9089252948760986,
         "cost": 0.001297,
         "input_tokens": 2501,
         "output_tokens": 31
@@ -1393,7 +1393,7 @@
         "answer": "Berkshire's cash position in 2021 was $143.9 billion, which included $119.6 billion in U.S. Treasury Bills.",
         "expected": "$143.9 billion",
         "passed": true,
-        "latency": 0.9539005756378174,
+        "latency": 1.126453161239624,
         "cost": 0.001299,
         "input_tokens": 2505,
         "output_tokens": 31
@@ -1402,13 +1402,13 @@
         "id": 33,
         "category": "financial_figures",
         "question": "What was Berkshire's cash position in 2022?",
-        "answer": "Berkshire's cash position in 2022 was $125.0 billion, which included $94.7 billion in U.S. Treasury Bills.",
+        "answer": "At December 31, 2022, Berkshire's insurance and other businesses held cash, cash equivalents, and U.S. Treasury Bills of $125.0 billion, which included $94.7 billion in U.S. Treasury Bills.",
         "expected": "$125.0 billion",
         "passed": true,
-        "latency": 1.4886448383331299,
-        "cost": 0.0012850000000000001,
+        "latency": 1.2569470405578613,
+        "cost": 0.0013105,
         "input_tokens": 2477,
-        "output_tokens": 31
+        "output_tokens": 48
       },
       {
         "id": 34,
@@ -1417,7 +1417,7 @@
         "answer": "Berkshire's cash position in 2023 was $143.9 billion, which included $119.6 billion in U.S. Treasury Bills.",
         "expected": "$30 billion",
         "passed": false,
-        "latency": 1.0230529308319092,
+        "latency": 1.4002461433410645,
         "cost": 0.0013210000000000001,
         "input_tokens": 2549,
         "output_tokens": 31
@@ -1426,13 +1426,13 @@
         "id": 35,
         "category": "financial_figures",
         "question": "What was Berkshire's cash position in 2024?",
-        "answer": "Berkshire's cash position in 2024 was below $30 billion, as mentioned in the document.",
+        "answer": "Berkshire's cash position in 2024 was below $30 billion, with cash, cash equivalents, and U.S. Treasury Bill holdings totaling $21.1 billion.",
         "expected": "$27.2 billion",
         "passed": false,
-        "latency": 2.3569910526275635,
-        "cost": 0.0013075,
+        "latency": 0.9258301258087158,
+        "cost": 0.0013285,
         "input_tokens": 2549,
-        "output_tokens": 22
+        "output_tokens": 36
       },
       {
         "id": 36,
@@ -1441,7 +1441,7 @@
         "answer": "Berkshire's total assets in 2020 were $467,372 million.",
         "expected": "$467.372 billion",
         "passed": false,
-        "latency": 1.1550371646881104,
+        "latency": 0.6880941390991211,
         "cost": 0.0015575,
         "input_tokens": 3064,
         "output_tokens": 17
@@ -1453,7 +1453,7 @@
         "answer": "Berkshire's total assets in 2021 were $467,372 million.",
         "expected": "$817 billion",
         "passed": false,
-        "latency": 0.6869289875030518,
+        "latency": 0.8492231369018555,
         "cost": 0.001533,
         "input_tokens": 3015,
         "output_tokens": 17
@@ -1465,7 +1465,7 @@
         "answer": "Berkshire's total assets in 2022 were $35,590 million.",
         "expected": "$35,590 billion",
         "passed": true,
-        "latency": 1.2842729091644287,
+        "latency": 1.0233800411224365,
         "cost": 0.0015119999999999999,
         "input_tokens": 2973,
         "output_tokens": 17
@@ -1477,7 +1477,7 @@
         "answer": "Berkshire's total assets in 2023 were $561.3 billion.",
         "expected": "$561.3 billion",
         "passed": true,
-        "latency": 0.5854039192199707,
+        "latency": 1.431746006011963,
         "cost": 0.001523,
         "input_tokens": 2995,
         "output_tokens": 17
@@ -1489,7 +1489,7 @@
         "answer": "Berkshire's total assets in 2024 were $649.4 billion.",
         "expected": "$649.4 billion",
         "passed": true,
-        "latency": 1.2034149169921875,
+        "latency": 1.4350519180297852,
         "cost": 0.0015439999999999998,
         "input_tokens": 3037,
         "output_tokens": 17
@@ -1498,13 +1498,13 @@
         "id": 41,
         "category": "financial_figures",
         "question": "What was GEICO's revenue in 2020?",
-        "answer": "In 2020, GEICO's revenue was reduced due to the effects of the pandemic, including premium reductions from the GEICO Giveback program, reduced claims frequencies, and increased loss estimates for certain commercial insurance and property and casualty reinsurance business.",
+        "answer": "In 2020, GEICO's revenue was reduced due to the effects of the pandemic, including premium reductions from the GEICO Giveback program, reduced claims frequencies for private passenger automobile insurance, and increased loss estimates for certain commercial insurance and property and casualty reinsurance business.",
         "expected": "$35,093 million",
         "passed": false,
-        "latency": 1.591352939605713,
-        "cost": 0.0016335,
+        "latency": 1.1248970031738281,
+        "cost": 0.001641,
         "input_tokens": 3117,
-        "output_tokens": 50
+        "output_tokens": 55
       },
       {
         "id": 42,
@@ -1513,7 +1513,7 @@
         "answer": "GEICO's revenue in 2021 increased by $3.5 billion (9.9%) compared to 2020.",
         "expected": "$3.5 billion",
         "passed": true,
-        "latency": 0.8661661148071289,
+        "latency": 0.8194339275360107,
         "cost": 0.0015365,
         "input_tokens": 2995,
         "output_tokens": 26
@@ -1522,13 +1522,13 @@
         "id": 43,
         "category": "financial_figures",
         "question": "What was GEICO's revenue in 2022?",
-        "answer": "GEICO's revenue in 2022 was not explicitly mentioned in the provided context.",
+        "answer": "In 2022, GEICO's revenue was $1.3 billion.",
         "expected": "$33.7 billion",
         "passed": false,
-        "latency": 2.152524948120117,
-        "cost": 0.0015545,
+        "latency": 1.027393102645874,
+        "cost": 0.001553,
         "input_tokens": 3058,
-        "output_tokens": 17
+        "output_tokens": 16
       },
       {
         "id": 44,
@@ -1537,7 +1537,7 @@
         "answer": "In 2023, GEICO's revenue was $39,264 million.",
         "expected": "$39,264 million",
         "passed": true,
-        "latency": 0.7148270606994629,
+        "latency": 2.045193910598755,
         "cost": 0.0015749999999999998,
         "input_tokens": 3102,
         "output_tokens": 16
@@ -1546,13 +1546,13 @@
         "id": 45,
         "category": "financial_figures",
         "question": "What was GEICO's revenue in 2024?",
-        "answer": "In 2024, GEICO's revenue was $42,252 million.",
+        "answer": "GEICO's revenue in 2024 was $42,252 million.",
         "expected": "$42,916 million",
         "passed": true,
-        "latency": 1.2570161819458008,
-        "cost": 0.0015894999999999998,
+        "latency": 0.6392390727996826,
+        "cost": 0.0015879999999999998,
         "input_tokens": 3131,
-        "output_tokens": 16
+        "output_tokens": 15
       },
       {
         "id": 46,
@@ -1561,7 +1561,7 @@
         "answer": "BNSF's revenue in 2020 was $20,181 million.",
         "expected": "$20,181 million",
         "passed": true,
-        "latency": 0.7901928424835205,
+        "latency": 0.8971831798553467,
         "cost": 0.001636,
         "input_tokens": 3224,
         "output_tokens": 16
@@ -1573,7 +1573,7 @@
         "answer": "BNSF's revenue in 2021 was $25,203 million.",
         "expected": "$7.9 billion",
         "passed": false,
-        "latency": 0.9926409721374512,
+        "latency": 0.6162667274475098,
         "cost": 0.001636,
         "input_tokens": 3224,
         "output_tokens": 16
@@ -1585,7 +1585,7 @@
         "answer": "BNSF's revenue in 2022 was $23,355 million.",
         "expected": "11.9% increase",
         "passed": false,
-        "latency": 0.6146252155303955,
+        "latency": 0.7505450248718262,
         "cost": 0.0016365,
         "input_tokens": 3225,
         "output_tokens": 16
@@ -1597,7 +1597,7 @@
         "answer": "BNSF's revenue in 2023 was $23,474 million.",
         "expected": "$9.2 billion",
         "passed": false,
-        "latency": 0.7492537498474121,
+        "latency": 0.7529470920562744,
         "cost": 0.001635,
         "input_tokens": 3222,
         "output_tokens": 16
@@ -1609,7 +1609,7 @@
         "answer": "BNSF's revenue in 2024 was $23,355 million.",
         "expected": "$23,355 million",
         "passed": true,
-        "latency": 0.6718511581420898,
+        "latency": 1.0545930862426758,
         "cost": 0.001548,
         "input_tokens": 3048,
         "output_tokens": 16
@@ -1621,7 +1621,7 @@
         "answer": "Berkshire's insurance float in 2020 was $138 billion.",
         "expected": "$138 billion",
         "passed": true,
-        "latency": 0.9641599655151367,
+        "latency": 1.24481201171875,
         "cost": 0.001289,
         "input_tokens": 2533,
         "output_tokens": 15
@@ -1633,7 +1633,7 @@
         "answer": "Berkshire's insurance float in 2021 was $147 billion.",
         "expected": "$147 billion",
         "passed": true,
-        "latency": 0.7178218364715576,
+        "latency": 1.008821964263916,
         "cost": 0.001292,
         "input_tokens": 2539,
         "output_tokens": 15
@@ -1645,7 +1645,7 @@
         "answer": "Berkshire's insurance float in 2022 was $164 billion.",
         "expected": "$164 billion",
         "passed": true,
-        "latency": 0.7744548320770264,
+        "latency": 0.8513121604919434,
         "cost": 0.0012825,
         "input_tokens": 2520,
         "output_tokens": 15
@@ -1657,7 +1657,7 @@
         "answer": "Berkshire's insurance float in 2023 was $164 billion.",
         "expected": "$303 billion",
         "passed": false,
-        "latency": 0.661484956741333,
+        "latency": 1.0461697578430176,
         "cost": 0.0013275,
         "input_tokens": 2610,
         "output_tokens": 15
@@ -1669,7 +1669,7 @@
         "answer": "Berkshire's insurance float in 2024 was approximately $171 billion.",
         "expected": "$21.1 billion",
         "passed": false,
-        "latency": 2.5560669898986816,
+        "latency": 1.1640291213989258,
         "cost": 0.0013289999999999999,
         "input_tokens": 2610,
         "output_tokens": 16
@@ -1681,7 +1681,7 @@
         "answer": "Berkshire's operating earnings in 2020 were $21.9 billion.",
         "expected": "$21.9 billion",
         "passed": true,
-        "latency": 0.9233899116516113,
+        "latency": 1.137495994567871,
         "cost": 0.0015015,
         "input_tokens": 2952,
         "output_tokens": 17
@@ -1693,7 +1693,7 @@
         "answer": "Berkshire's operating earnings in 2021 were $27.6 billion.",
         "expected": "$4,807 million",
         "passed": false,
-        "latency": 0.715045690536499,
+        "latency": 2.1498465538024902,
         "cost": 0.001344,
         "input_tokens": 2637,
         "output_tokens": 17
@@ -1705,7 +1705,7 @@
         "answer": "Berkshire's operating earnings in 2022 were $30.9 billion.",
         "expected": "Operating earnings: $2.4 billion",
         "passed": false,
-        "latency": 1.3337297439575195,
+        "latency": 0.7895350456237793,
         "cost": 0.001465,
         "input_tokens": 2879,
         "output_tokens": 17
@@ -1717,7 +1717,7 @@
         "answer": "Berkshire's operating earnings in 2023 were $30.9 billion.",
         "expected": "$37.4 billion",
         "passed": false,
-        "latency": 0.817363977432251,
+        "latency": 0.7453339099884033,
         "cost": 0.0014514999999999999,
         "input_tokens": 2852,
         "output_tokens": 17
@@ -1729,7 +1729,7 @@
         "answer": "Berkshire's operating earnings in 2024 were $47.4 billion.",
         "expected": "$47.4 billion",
         "passed": true,
-        "latency": 0.7176330089569092,
+        "latency": 0.9216408729553223,
         "cost": 0.0014739999999999998,
         "input_tokens": 2897,
         "output_tokens": 17
@@ -1741,7 +1741,7 @@
         "answer": "Berkshire's book value per share in 2020 was $287,031.",
         "expected": "$287,031",
         "passed": true,
-        "latency": 0.8068780899047852,
+        "latency": 0.8179161548614502,
         "cost": 0.0015385,
         "input_tokens": 3023,
         "output_tokens": 18
@@ -1753,7 +1753,7 @@
         "answer": "Berkshire's book value per share in 2021 was $287,031.",
         "expected": "Book value per share: $281,208",
         "passed": false,
-        "latency": 0.9360508918762207,
+        "latency": 0.921942949295044,
         "cost": 0.001563,
         "input_tokens": 3072,
         "output_tokens": 18
@@ -1765,7 +1765,7 @@
         "answer": "Berkshire's book value per share in 2022 was $30,909.",
         "expected": "Minor gain",
         "passed": false,
-        "latency": 0.8356349468231201,
+        "latency": 0.8201708793640137,
         "cost": 0.0015245,
         "input_tokens": 2995,
         "output_tokens": 18
@@ -1777,7 +1777,7 @@
         "answer": "Berkshire's book value per share in 2023 was $287,031.",
         "expected": "$561.3 billion",
         "passed": false,
-        "latency": 0.94252610206604,
+        "latency": 0.8194949626922607,
         "cost": 0.0015379999999999999,
         "input_tokens": 3022,
         "output_tokens": 18
@@ -1789,7 +1789,7 @@
         "answer": "Berkshire's book value per share in 2024 was $99,497.",
         "expected": "$649.4 billion",
         "passed": false,
-        "latency": 0.8839049339294434,
+        "latency": 1.3308396339416504,
         "cost": 0.0015374999999999998,
         "input_tokens": 3021,
         "output_tokens": 18
@@ -1801,7 +1801,7 @@
         "answer": "Berkshire's investment portfolio value in 2020 was $301.6 billion, excluding their investment in Kraft Heinz.",
         "expected": "$301.6 billion",
         "passed": true,
-        "latency": 2.149003028869629,
+        "latency": 1.0235369205474854,
         "cost": 0.0015275,
         "input_tokens": 2977,
         "output_tokens": 26
@@ -1810,13 +1810,13 @@
         "id": 67,
         "category": "financial_figures",
         "question": "What was Berkshire's investment portfolio value in 2021?",
-        "answer": "Berkshire's investment portfolio value in 2021 was approximately $367.2 billion.",
+        "answer": "Berkshire's investment portfolio value in 2021 was approximately $367.2 billion, excluding their investment in Kraft Heinz.",
         "expected": "$367.2 billion",
         "passed": true,
-        "latency": 2.3552169799804688,
-        "cost": 0.0015040000000000001,
+        "latency": 0.996243953704834,
+        "cost": 0.001516,
         "input_tokens": 2951,
-        "output_tokens": 19
+        "output_tokens": 27
       },
       {
         "id": 68,
@@ -1825,7 +1825,7 @@
         "answer": "Berkshire's investment portfolio value in 2022 was $367.2 billion.",
         "expected": "$22 billion",
         "passed": false,
-        "latency": 2.15073299407959,
+        "latency": 0.7449758052825928,
         "cost": 0.0014754999999999998,
         "input_tokens": 2897,
         "output_tokens": 18
@@ -1834,13 +1834,13 @@
         "id": 69,
         "category": "financial_figures",
         "question": "What was Berkshire's investment portfolio value in 2023?",
-        "answer": "Berkshire's investment portfolio value in 2023 was approximately $37.4 billion.",
+        "answer": "Berkshire's investment portfolio value in 2023 was $37.4 billion.",
         "expected": "$561 billion",
         "passed": false,
-        "latency": 0.7149410247802734,
-        "cost": 0.001505,
+        "latency": 0.9248917102813721,
+        "cost": 0.0015034999999999998,
         "input_tokens": 2953,
-        "output_tokens": 19
+        "output_tokens": 18
       },
       {
         "id": 70,
@@ -1849,10 +1849,629 @@
         "answer": "Berkshire's investment portfolio value in 2024 was $649.4 billion.",
         "expected": "Publicly traded equity securities",
         "passed": false,
-        "latency": 0.7668821811676025,
+        "latency": 0.8186068534851074,
         "cost": 0.0014965,
         "input_tokens": 2939,
         "output_tokens": 18
+      }
+    ]
+  },
+  "strategy4": {
+    "strategy": "Strategy 4 \u2014 Year-Aware",
+    "accuracy": 56.00000000000001,
+    "avg_latency": 1.0518626356124878,
+    "avg_cost": 0.0007574100000000001,
+    "total_cost": 0.03787050000000001,
+    "avg_input_tokens": 1449.12,
+    "avg_output_tokens": 21.9,
+    "correct": 28,
+    "total": 50,
+    "categories": {
+      "financial_figures": {
+        "correct": 28,
+        "total": 50
+      }
+    },
+    "results": [
+      {
+        "id": 21,
+        "category": "financial_figures",
+        "question": "What was Berkshire Hathaway's total revenue in 2020?",
+        "answer": "Berkshire Hathaway's total revenue in 2020 was $245,510 million.",
+        "expected": "$245,510 million",
+        "passed": true,
+        "latency": 1.26786470413208,
+        "cost": 0.0009155,
+        "input_tokens": 1774,
+        "output_tokens": 19
+      },
+      {
+        "id": 22,
+        "category": "financial_figures",
+        "question": "What was Berkshire Hathaway's total revenue in 2021?",
+        "answer": "Berkshire Hathaway's total revenue in 2021 was $227,974 million.",
+        "expected": "$227,974 million",
+        "passed": true,
+        "latency": 1.4020700454711914,
+        "cost": 0.0007995,
+        "input_tokens": 1542,
+        "output_tokens": 19
+      },
+      {
+        "id": 23,
+        "category": "financial_figures",
+        "question": "What was Berkshire Hathaway's total revenue in 2022?",
+        "answer": "Berkshire Hathaway's total revenue in 2022 was $311,184 million.",
+        "expected": "$311,184 million",
+        "passed": true,
+        "latency": 1.0198609828948975,
+        "cost": 0.000845,
+        "input_tokens": 1633,
+        "output_tokens": 19
+      },
+      {
+        "id": 24,
+        "category": "financial_figures",
+        "question": "What was Berkshire Hathaway's total revenue in 2023?",
+        "answer": "Berkshire Hathaway's total revenue in 2023 was $263,067 million.",
+        "expected": "$263,067 million",
+        "passed": true,
+        "latency": 1.3068931102752686,
+        "cost": 0.00084,
+        "input_tokens": 1623,
+        "output_tokens": 19
+      },
+      {
+        "id": 25,
+        "category": "financial_figures",
+        "question": "What was Berkshire Hathaway's total revenue in 2024?",
+        "answer": "Berkshire Hathaway's total revenue in 2024 was $321,643 million.",
+        "expected": "$321,643 million",
+        "passed": true,
+        "latency": 1.001020908355713,
+        "cost": 0.000581,
+        "input_tokens": 1105,
+        "output_tokens": 19
+      },
+      {
+        "id": 26,
+        "category": "financial_figures",
+        "question": "What was Berkshire's net earnings in 2020?",
+        "answer": "Berkshire's net earnings in 2020 were $42.5 billion.",
+        "expected": "$42.5 billion",
+        "passed": true,
+        "latency": 0.7904162406921387,
+        "cost": 0.000782,
+        "input_tokens": 1513,
+        "output_tokens": 17
+      },
+      {
+        "id": 27,
+        "category": "financial_figures",
+        "question": "What was Berkshire's net earnings in 2021?",
+        "answer": "Berkshire's net earnings in 2021 were $89.8 billion.",
+        "expected": "$89,795 billion",
+        "passed": true,
+        "latency": 0.6592998504638672,
+        "cost": 0.000741,
+        "input_tokens": 1431,
+        "output_tokens": 17
+      },
+      {
+        "id": 28,
+        "category": "financial_figures",
+        "question": "What was Berkshire's net earnings in 2022?",
+        "answer": "Berkshire's net earnings in 2022 were $22,819 million.",
+        "expected": "Net earnings: $ (22,819)",
+        "passed": false,
+        "latency": 1.3128540515899658,
+        "cost": 0.0007170000000000001,
+        "input_tokens": 1383,
+        "output_tokens": 17
+      },
+      {
+        "id": 29,
+        "category": "financial_figures",
+        "question": "What was Berkshire's net earnings in 2023?",
+        "answer": "Berkshire's net earnings in 2023 were $96.2 billion.",
+        "expected": "$96.2 billion",
+        "passed": true,
+        "latency": 0.7558419704437256,
+        "cost": 0.0008185000000000001,
+        "input_tokens": 1586,
+        "output_tokens": 17
+      },
+      {
+        "id": 30,
+        "category": "financial_figures",
+        "question": "What was Berkshire's net earnings in 2024?",
+        "answer": "Berkshire's net earnings in 2024 were $89.0 billion.",
+        "expected": "$89.0 billion",
+        "passed": true,
+        "latency": 0.9010560512542725,
+        "cost": 0.000862,
+        "input_tokens": 1673,
+        "output_tokens": 17
+      },
+      {
+        "id": 31,
+        "category": "financial_figures",
+        "question": "What was Berkshire's cash position in 2020?",
+        "answer": "Berkshire's cash position in 2020 was $44.714 billion.",
+        "expected": "$44.7 billion",
+        "passed": false,
+        "latency": 1.1165950298309326,
+        "cost": 0.000785,
+        "input_tokens": 1519,
+        "output_tokens": 17
+      },
+      {
+        "id": 32,
+        "category": "financial_figures",
+        "question": "What was Berkshire's cash position in 2021?",
+        "answer": "Berkshire's cash position in 2021 was $143.9 billion, which included $119.6 billion in U.S. Treasury Bills.",
+        "expected": "$143.9 billion",
+        "passed": true,
+        "latency": 0.9880709648132324,
+        "cost": 0.0004795,
+        "input_tokens": 866,
+        "output_tokens": 31
+      },
+      {
+        "id": 33,
+        "category": "financial_figures",
+        "question": "What was Berkshire's cash position in 2022?",
+        "answer": "Berkshire's cash position in 2022 was $125.0 billion, which included $94.7 billion in U.S. Treasury Bills.",
+        "expected": "$125.0 billion",
+        "passed": true,
+        "latency": 1.0051839351654053,
+        "cost": 0.000901,
+        "input_tokens": 1709,
+        "output_tokens": 31
+      },
+      {
+        "id": 34,
+        "category": "financial_figures",
+        "question": "What was Berkshire's cash position in 2023?",
+        "answer": "Berkshire's cash position in 2023 was not explicitly mentioned in the provided context.",
+        "expected": "$30 billion",
+        "passed": false,
+        "latency": 0.7927742004394531,
+        "cost": 0.0008065,
+        "input_tokens": 1556,
+        "output_tokens": 19
+      },
+      {
+        "id": 35,
+        "category": "financial_figures",
+        "question": "What was Berkshire's cash position in 2024?",
+        "answer": "Berkshire's cash position in 2024 was not explicitly mentioned in the provided context.",
+        "expected": "$27.2 billion",
+        "passed": false,
+        "latency": 1.8220288753509521,
+        "cost": 0.0008705,
+        "input_tokens": 1684,
+        "output_tokens": 19
+      },
+      {
+        "id": 36,
+        "category": "financial_figures",
+        "question": "What was Berkshire's total assets in 2020?",
+        "answer": "Berkshire's total assets in 2020 were $467,372 million.",
+        "expected": "$467.372 billion",
+        "passed": false,
+        "latency": 0.9002091884613037,
+        "cost": 0.0006470000000000001,
+        "input_tokens": 1243,
+        "output_tokens": 17
+      },
+      {
+        "id": 37,
+        "category": "financial_figures",
+        "question": "What was Berkshire's total assets in 2021?",
+        "answer": "Berkshire's total assets in 2021 were $367.2 billion.",
+        "expected": "$817 billion",
+        "passed": false,
+        "latency": 0.8303709030151367,
+        "cost": 0.0006195,
+        "input_tokens": 1188,
+        "output_tokens": 17
+      },
+      {
+        "id": 38,
+        "category": "financial_figures",
+        "question": "What was Berkshire's total assets in 2022?",
+        "answer": "Berkshire's total assets in 2022 were $472.4 billion.",
+        "expected": "$35,590 billion",
+        "passed": false,
+        "latency": 0.87654709815979,
+        "cost": 0.0008645,
+        "input_tokens": 1678,
+        "output_tokens": 17
+      },
+      {
+        "id": 39,
+        "category": "financial_figures",
+        "question": "What was Berkshire's total assets in 2023?",
+        "answer": "Berkshire's total assets in 2023 were not explicitly mentioned in the provided context.",
+        "expected": "$561.3 billion",
+        "passed": false,
+        "latency": 0.7946579456329346,
+        "cost": 0.000861,
+        "input_tokens": 1665,
+        "output_tokens": 19
+      },
+      {
+        "id": 40,
+        "category": "financial_figures",
+        "question": "What was Berkshire's total assets in 2024?",
+        "answer": "Berkshire's total assets in 2024 were not explicitly mentioned in the provided context.",
+        "expected": "$649.4 billion",
+        "passed": false,
+        "latency": 1.0424790382385254,
+        "cost": 0.0007620000000000001,
+        "input_tokens": 1467,
+        "output_tokens": 19
+      },
+      {
+        "id": 41,
+        "category": "financial_figures",
+        "question": "What was GEICO's revenue in 2020?",
+        "answer": "GEICO's revenue in 2020 was $35,093 million.",
+        "expected": "$35,093 million",
+        "passed": true,
+        "latency": 0.7540011405944824,
+        "cost": 0.0006044999999999999,
+        "input_tokens": 1164,
+        "output_tokens": 15
+      },
+      {
+        "id": 42,
+        "category": "financial_figures",
+        "question": "What was GEICO's revenue in 2021?",
+        "answer": "GEICO's revenue in 2021 was $2.6 billion.",
+        "expected": "$3.5 billion",
+        "passed": false,
+        "latency": 0.998035192489624,
+        "cost": 0.00047500000000000005,
+        "input_tokens": 905,
+        "output_tokens": 15
+      },
+      {
+        "id": 43,
+        "category": "financial_figures",
+        "question": "What was GEICO's revenue in 2022?",
+        "answer": "GEICO's revenue in 2022 was not explicitly mentioned in the provided context. The information mainly focuses on premiums written, earned premiums, losses, and underwriting results, but the exact revenue figure for GEICO in 2022 is not provided.",
+        "expected": "$33.7 billion",
+        "passed": false,
+        "latency": 1.0169107913970947,
+        "cost": 0.000925,
+        "input_tokens": 1697,
+        "output_tokens": 51
+      },
+      {
+        "id": 44,
+        "category": "financial_figures",
+        "question": "What was GEICO's revenue in 2023?",
+        "answer": "GEICO's revenue in 2023 was $39,264 million.",
+        "expected": "$39,264 million",
+        "passed": true,
+        "latency": 0.6844387054443359,
+        "cost": 0.000869,
+        "input_tokens": 1693,
+        "output_tokens": 15
+      },
+      {
+        "id": 45,
+        "category": "financial_figures",
+        "question": "What was GEICO's revenue in 2024?",
+        "answer": "GEICO's revenue in 2024 was $42,252 million.",
+        "expected": "$42,916 million",
+        "passed": true,
+        "latency": 0.9787750244140625,
+        "cost": 0.0008795,
+        "input_tokens": 1714,
+        "output_tokens": 15
+      },
+      {
+        "id": 46,
+        "category": "financial_figures",
+        "question": "What was BNSF's revenue in 2020?",
+        "answer": "BNSF's revenue in 2020 was $20,181 million.",
+        "expected": "$20,181 million",
+        "passed": true,
+        "latency": 0.7938747406005859,
+        "cost": 0.0009100000000000001,
+        "input_tokens": 1772,
+        "output_tokens": 16
+      },
+      {
+        "id": 47,
+        "category": "financial_figures",
+        "question": "What was BNSF's revenue in 2021?",
+        "answer": "BNSF's revenue in 2021 was $7.9 billion.",
+        "expected": "$7.9 billion",
+        "passed": true,
+        "latency": 0.7963461875915527,
+        "cost": 0.0005145000000000001,
+        "input_tokens": 981,
+        "output_tokens": 16
+      },
+      {
+        "id": 48,
+        "category": "financial_figures",
+        "question": "What was BNSF's revenue in 2022?",
+        "answer": "BNSF's revenue in 2022 increased by 11.9% compared to 2021.",
+        "expected": "11.9% increase",
+        "passed": false,
+        "latency": 1.6056337356567383,
+        "cost": 0.0008725000000000001,
+        "input_tokens": 1679,
+        "output_tokens": 22
+      },
+      {
+        "id": 49,
+        "category": "financial_figures",
+        "question": "What was BNSF's revenue in 2023?",
+        "answer": "In 2023, BNSF's revenue was $5.087 billion.",
+        "expected": "$9.2 billion",
+        "passed": false,
+        "latency": 0.93562912940979,
+        "cost": 0.0007345,
+        "input_tokens": 1418,
+        "output_tokens": 17
+      },
+      {
+        "id": 50,
+        "category": "financial_figures",
+        "question": "What was BNSF's revenue in 2024?",
+        "answer": "BNSF's revenue in 2024 was $23,355 million.",
+        "expected": "$23,355 million",
+        "passed": true,
+        "latency": 0.7103607654571533,
+        "cost": 0.0008925000000000001,
+        "input_tokens": 1737,
+        "output_tokens": 16
+      },
+      {
+        "id": 51,
+        "category": "financial_figures",
+        "question": "What was Berkshire's insurance float in 2020?",
+        "answer": "Berkshire's insurance float in 2020 was approximately $138 billion.",
+        "expected": "$138 billion",
+        "passed": true,
+        "latency": 1.1940510272979736,
+        "cost": 0.0007010000000000001,
+        "input_tokens": 1354,
+        "output_tokens": 16
+      },
+      {
+        "id": 52,
+        "category": "financial_figures",
+        "question": "What was Berkshire's insurance float in 2021?",
+        "answer": "Berkshire's insurance float in 2021 was $147 billion.",
+        "expected": "$147 billion",
+        "passed": true,
+        "latency": 1.1839947700500488,
+        "cost": 0.0008615,
+        "input_tokens": 1678,
+        "output_tokens": 15
+      },
+      {
+        "id": 53,
+        "category": "financial_figures",
+        "question": "What was Berkshire's insurance float in 2022?",
+        "answer": "Berkshire's insurance float in 2022 increased from $147 billion to $164 billion.",
+        "expected": "$164 billion",
+        "passed": true,
+        "latency": 1.0015008449554443,
+        "cost": 0.0005665,
+        "input_tokens": 1073,
+        "output_tokens": 20
+      },
+      {
+        "id": 54,
+        "category": "financial_figures",
+        "question": "What was Berkshire's insurance float in 2023?",
+        "answer": "Based on the provided context, Berkshire's insurance float in 2023 was not explicitly mentioned. The information provided mainly focuses on the capital strength and surplus of Berkshire's insurance companies, but does not specify the exact insurance float for that year.",
+        "expected": "$303 billion",
+        "passed": false,
+        "latency": 1.131058931350708,
+        "cost": 0.0006265,
+        "input_tokens": 1109,
+        "output_tokens": 48
+      },
+      {
+        "id": 55,
+        "category": "financial_figures",
+        "question": "What was Berkshire's insurance float in 2024?",
+        "answer": "Berkshire's insurance float in 2024 was $21.1 billion.",
+        "expected": "$21.1 billion",
+        "passed": true,
+        "latency": 1.1018540859222412,
+        "cost": 0.0007275,
+        "input_tokens": 1404,
+        "output_tokens": 17
+      },
+      {
+        "id": 56,
+        "category": "financial_figures",
+        "question": "What was Berkshire's operating earnings in 2020?",
+        "answer": "Berkshire's operating earnings in 2020 were $21.9 billion.",
+        "expected": "$21.9 billion",
+        "passed": true,
+        "latency": 1.2075188159942627,
+        "cost": 0.0006165,
+        "input_tokens": 1182,
+        "output_tokens": 17
+      },
+      {
+        "id": 57,
+        "category": "financial_figures",
+        "question": "What was Berkshire's operating earnings in 2021?",
+        "answer": "Berkshire's operating earnings in 2021 were $5,535 million.",
+        "expected": "$4,807 million",
+        "passed": false,
+        "latency": 0.7654299736022949,
+        "cost": 0.000612,
+        "input_tokens": 1173,
+        "output_tokens": 17
+      },
+      {
+        "id": 58,
+        "category": "financial_figures",
+        "question": "What was Berkshire's operating earnings in 2022?",
+        "answer": "Berkshire's operating earnings in 2022 were $2.4 billion.",
+        "expected": "Operating earnings: $2.4 billion",
+        "passed": false,
+        "latency": 0.7267670631408691,
+        "cost": 0.0007335,
+        "input_tokens": 1416,
+        "output_tokens": 17
+      },
+      {
+        "id": 59,
+        "category": "financial_figures",
+        "question": "What was Berkshire's operating earnings in 2023?",
+        "answer": "Berkshire's operating earnings in 2023 were $37.4 billion.",
+        "expected": "$37.4 billion",
+        "passed": true,
+        "latency": 0.7924869060516357,
+        "cost": 0.0008495,
+        "input_tokens": 1648,
+        "output_tokens": 17
+      },
+      {
+        "id": 60,
+        "category": "financial_figures",
+        "question": "What was Berkshire's operating earnings in 2024?",
+        "answer": "Berkshire's operating earnings in 2024 were $47.4 billion.",
+        "expected": "$47.4 billion",
+        "passed": true,
+        "latency": 0.6964142322540283,
+        "cost": 0.0008790000000000001,
+        "input_tokens": 1707,
+        "output_tokens": 17
+      },
+      {
+        "id": 61,
+        "category": "financial_figures",
+        "question": "What was Berkshire's book value per share in 2020?",
+        "answer": "Berkshire Hathaway's book value per share in 2020 was $287,031.",
+        "expected": "$287,031",
+        "passed": true,
+        "latency": 0.8060431480407715,
+        "cost": 0.0007915,
+        "input_tokens": 1523,
+        "output_tokens": 20
+      },
+      {
+        "id": 62,
+        "category": "financial_figures",
+        "question": "What was Berkshire's book value per share in 2021?",
+        "answer": "Berkshire's book value per share in 2021 was $59,460 for Class A shares and $39.64 for Class B shares.",
+        "expected": "Book value per share: $281,208",
+        "passed": false,
+        "latency": 0.9136669635772705,
+        "cost": 0.0004835,
+        "input_tokens": 874,
+        "output_tokens": 31
+      },
+      {
+        "id": 63,
+        "category": "financial_figures",
+        "question": "What was Berkshire's book value per share in 2022?",
+        "answer": "Based on the provided context, Berkshire's book value per share in 2022 is not explicitly mentioned. The information provided mainly discusses share repurchases, cash holdings, borrowings, net earnings, and earnings per share. The book value per share would typically be calculated using Berkshire's total shareholder equity and the number of outstanding shares, which is not directly provided in the context.",
+        "expected": "Minor gain",
+        "passed": false,
+        "latency": 1.2939839363098145,
+        "cost": 0.0006825,
+        "input_tokens": 1140,
+        "output_tokens": 75
+      },
+      {
+        "id": 64,
+        "category": "financial_figures",
+        "question": "What was Berkshire's book value per share in 2023?",
+        "answer": "To determine Berkshire's book value per share in 2023, we need to divide the shareholders' equity ($561.3 billion) by the total number of outstanding shares. Unfortunately, the total number of outstanding shares is not provided in the context, so we cannot calculate the book value per share.",
+        "expected": "$561.3 billion",
+        "passed": true,
+        "latency": 1.4024460315704346,
+        "cost": 0.000494,
+        "input_tokens": 808,
+        "output_tokens": 60
+      },
+      {
+        "id": 65,
+        "category": "financial_figures",
+        "question": "What was Berkshire's book value per share in 2024?",
+        "answer": "Berkshire's book value per share in 2024 was $451,000.",
+        "expected": "$649.4 billion",
+        "passed": false,
+        "latency": 2.2542572021484375,
+        "cost": 0.0009005,
+        "input_tokens": 1747,
+        "output_tokens": 18
+      },
+      {
+        "id": 66,
+        "category": "financial_figures",
+        "question": "What was Berkshire's investment portfolio value in 2020?",
+        "answer": "Berkshire's investment portfolio value in 2020 was $301.6 billion.",
+        "expected": "$301.6 billion",
+        "passed": true,
+        "latency": 1.24961519241333,
+        "cost": 0.0008629999999999999,
+        "input_tokens": 1672,
+        "output_tokens": 18
+      },
+      {
+        "id": 67,
+        "category": "financial_figures",
+        "question": "What was Berkshire's investment portfolio value in 2021?",
+        "answer": "Berkshire's investment portfolio value in 2021 was $367.2 billion.",
+        "expected": "$367.2 billion",
+        "passed": true,
+        "latency": 0.9585590362548828,
+        "cost": 0.0008845000000000001,
+        "input_tokens": 1715,
+        "output_tokens": 18
+      },
+      {
+        "id": 68,
+        "category": "financial_figures",
+        "question": "What was Berkshire's investment portfolio value in 2022?",
+        "answer": "Berkshire's investment portfolio value in 2022 was $125.0 billion, which included $94.7 billion in U.S. Treasury Bills.",
+        "expected": "$22 billion",
+        "passed": false,
+        "latency": 2.3311500549316406,
+        "cost": 0.0007535,
+        "input_tokens": 1411,
+        "output_tokens": 32
+      },
+      {
+        "id": 69,
+        "category": "financial_figures",
+        "question": "What was Berkshire's investment portfolio value in 2023?",
+        "answer": "Berkshire's investment portfolio value in 2023 was approximately $96.2 billion.",
+        "expected": "$561 billion",
+        "passed": false,
+        "latency": 0.7968649864196777,
+        "cost": 0.0008245,
+        "input_tokens": 1592,
+        "output_tokens": 19
+      },
+      {
+        "id": 70,
+        "category": "financial_figures",
+        "question": "What was Berkshire's investment portfolio value in 2024?",
+        "answer": "Berkshire's investment portfolio value in 2024 was approximately $27.2 billion.",
+        "expected": "Publicly traded equity securities",
+        "passed": false,
+        "latency": 0.925368070602417,
+        "cost": 0.0008445,
+        "input_tokens": 1632,
+        "output_tokens": 19
       }
     ]
   }
