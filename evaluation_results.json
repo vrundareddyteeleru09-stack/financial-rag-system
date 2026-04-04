@@ -1,6 +1,6 @@
 {
-  "accuracy": 90.0,
-  "correct": 18,
+  "accuracy": 95.0,
+  "correct": 19,
   "total": 20,
   "results": [
     {
@@ -15,7 +15,7 @@
       "id": 2,
       "category": "business_overview",
       "question": "What are Berkshire Hathaway's main business segments?",
-      "answer": "Berkshire Hathaway's main business segments are insurance, freight rail transportation, utility, and energy generation and distribution.",
+      "answer": "Berkshire Hathaway's main business segments are insurance, manufacturing, and energy generation and distribution.",
       "expected_keywords": "insurance, freight rail, utility, energy",
       "passed": true
     },
@@ -39,7 +39,7 @@
       "id": 5,
       "category": "business_overview",
       "question": "What is BNSF?",
-      "answer": "BNSF is Burlington Northern Santa Fe, LLC, which operates one of the largest railroad systems in North America.",
+      "answer": "BNSF stands for Burlington Northern Santa Fe, which operates one of the largest railroad systems in North America with over 32,500 route miles of track in 28 states and three Canadian provinces.",
       "expected_keywords": "freight rail, railroad, railway",
       "passed": true
     },
@@ -47,7 +47,7 @@
       "id": 6,
       "category": "financial_figures",
       "question": "What was Berkshire Hathaway's net earnings in 2024?",
-      "answer": "Berkshire Hathaway's net earnings in 2024 were $1.1 billion.",
+      "answer": "Berkshire Hathaway's net earnings in 2024 were $47.4 billion.",
       "expected_keywords": "billion",
       "passed": true
     },
@@ -55,7 +55,7 @@
       "id": 7,
       "category": "business_overview",
       "question": "What insurance companies does Berkshire own?",
-      "answer": "Berkshire Hathaway owns GEICO, Berkshire Hathaway Reinsurance Group, General Re, Berkshire Hathaway Direct, Berkshire Hathaway Homestate Companies, Berkshire Hathaway Specialty, GUARD Insurance Companies, and MedPro Group.",
+      "answer": "Berkshire owns GEICO, Berkshire Hathaway Reinsurance Group, General Re, Berkshire Hathaway Direct, Berkshire Hathaway Homestate Companies, Berkshire Hathaway Specialty, GUARD Insurance Companies, and MedPro Group.",
       "expected_keywords": "GEICO",
       "passed": true
     },
@@ -63,7 +63,7 @@
       "id": 8,
       "category": "business_overview",
       "question": "What is Berkshire Hathaway Energy?",
-      "answer": "Berkshire Hathaway Energy is a holding company with subsidiaries that primarily operate within the energy industry.",
+      "answer": "Berkshire Hathaway Energy is a holding company with subsidiaries primarily operating within the energy industry, including domestic regulated utility interests and natural gas pipelines.",
       "expected_keywords": "energy, utility, electricity",
       "passed": true
     },
@@ -71,7 +71,7 @@
       "id": 9,
       "category": "risk_factors",
       "question": "What cybersecurity risks does Berkshire mention?",
-      "answer": "Berkshire mentions cybersecurity risks related to third-party service providers and the potential impact of cyber-attacks on these providers on their financial, operational, and reputational aspects. They also highlight the importance of maintaining processes for identifying, assessing, and managing cybersecurity threats to deal with significant business risks.",
+      "answer": "Berkshire mentions cybersecurity risks related to third-party service providers, cyber-attacks on service providers, financial, operational, and reputational impacts, and the need to continuously monitor risks associated with service providers.",
       "expected_keywords": "cyber, security, data breach",
       "passed": true
     },
@@ -79,7 +79,7 @@
       "id": 10,
       "category": "risk_factors",
       "question": "What climate risks does Berkshire mention?",
-      "answer": "Berkshire mentions risks related to GHG and climate-related policies that could influence the transition to a lower GHG-emitting economy and potentially impact costs for their businesses like BNSF and BHE.",
+      "answer": "Berkshire mentions risks related to GHG and climate-related policies that could influence the transition to a lower GHG-emitting economy and potentially impact costs for their businesses to comply with those policies.",
       "expected_keywords": "climate, weather, catastrophe, flood, hurricane",
       "passed": true
     },
@@ -103,7 +103,7 @@
       "id": 13,
       "category": "financial_figures",
       "question": "What was GEICO's performance in 2024?",
-      "answer": "GEICO's performance in 2024 was described as delivering a major increase in earnings, led by Todd Combs reshaping the company in a major way, increasing efficiency, and bringing underwriting practices up to date. The improvement in 2024 was considered spectacular.",
+      "answer": "GEICO's performance in 2024 was strong, with a major increase in earnings and a significant improvement in underwriting results. Todd Combs played a key role in reshaping GEICO, leading to a spectacular improvement in 2024. Losses and loss adjustment expenses decreased, the loss ratio improved, and underwriting expenses remained stable. Premiums written and earned also increased compared to previous years.",
       "expected_keywords": "GEICO",
       "passed": true
     },
@@ -111,15 +111,15 @@
       "id": 14,
       "category": "risk_factors",
       "question": "What are the main risks Berkshire faces in its energy business?",
-      "answer": "The main risks Berkshire faces in its energy business include physical assets necessary to support electricity and natural gas businesses, such as electric generation, transmission, distribution facilities, coal mining assets, and natural gas businesses.",
+      "answer": "The main risks Berkshire faces in its energy business include cyber-attacks on third-party service providers, which could have significant financial, operational, or reputational impacts, as well as potential impacts from greenhouse gas and climate-related policies that could influence compliance costs for businesses like BHE.",
       "expected_keywords": "regulatory, climate, utility",
-      "passed": false
+      "passed": true
     },
     {
       "id": 15,
       "category": "strategy",
       "question": "What is Berkshire's approach to acquisitions?",
-      "answer": "Berkshire's approach to acquisitions involves making purchases based on financial records and being impressed by the low prices of stocks. They admire the companies' capital deployment, managements, and attitude towards investors. They also focus on long-term holdings and supporting the boards of directors of the companies they invest in.",
+      "answer": "Berkshire's approach to acquisitions involves making purchases based on low stock prices, admiring the companies' capital deployment, managements, and attitude towards investors. They also focus on long-term investments, increasing dividends when appropriate, repurchasing shares sensibly, and keeping holdings below 10%.",
       "expected_keywords": "acquisition, purchase, buy",
       "passed": true
     },
@@ -135,7 +135,7 @@
       "id": 17,
       "category": "financial_figures",
       "question": "What is Berkshire's cash position?",
-      "answer": "Based on the provided context, Berkshire's cash position is described as having an extraordinary amount of cash, with the majority of the money remaining in equities.",
+      "answer": "Based on the provided context, Berkshire's cash position includes cash and cash equivalents of $6,337 million and short-term investments in U.S. Treasury Bills of $89,705 million as of December 31, 2024.",
       "expected_keywords": "billion, cash",
       "passed": true
     },
@@ -143,7 +143,7 @@
       "id": 18,
       "category": "company_info",
       "question": "What stock exchanges is Berkshire listed on?",
-      "answer": "Berkshire's Class A and Class B common stock are listed for trading on the New York Stock Exchange, trading symbols BRK.A and BRK.B, respectively.",
+      "answer": "Berkshire's Class A and Class B common stock are listed for trading on the New York Stock Exchange.",
       "expected_keywords": "NYSE, New York Stock Exchange",
       "passed": true
     },
@@ -151,7 +151,7 @@
       "id": 19,
       "category": "risk_factors",
       "question": "What are the main competitive risks Berkshire faces?",
-      "answer": "The main competitive risks Berkshire faces include labor disruptions or strikes at their subsidiaries, customers, or within their supply chains, which could reduce sales, increase costs, and negatively impact periodic operating results. Additionally, the inability to recruit, train, and retain qualified and competent managers and personnel could also negatively affect the operating results, financial condition, and liquidity of Berkshire and its subsidiaries.",
+      "answer": "The main competitive risks Berkshire faces include labor disruptions or strikes at subsidiaries, customers, or within supply chains, as well as the potential impact of cyber-attacks on third-party service providers.",
       "expected_keywords": "competition, competitive",
       "passed": true
     },
@@ -159,7 +159,7 @@
       "id": 20,
       "category": "financial_figures",
       "question": "What is Berkshire's book value per share?",
-      "answer": "Berkshire's book value per share is $449,000.",
+      "answer": "Based on the provided context, Berkshire's book value per share is $449,000.",
       "expected_keywords": "book value",
       "passed": true
     }

@@ -19,7 +19,7 @@ def load_vector_store():
 
 def ask_question(question: str):
     vector_store = load_vector_store()
-    retriever = vector_store.as_retriever(search_kwargs={"k": 3})
+    retriever = vector_store.as_retriever(search_kwargs={"k": 6})
     
     llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
     
